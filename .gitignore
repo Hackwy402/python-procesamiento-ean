@@ -1,0 +1,15 @@
+# Material solo docente (nunca al repo)
+*solucion*
+*Solucion*
+*SOLUCION*
+*Chuleta*
+*chuleta*
+# Salidas generadas al ejecutar los labs
+*.xlsx
+!datos/*.xlsx
+salidas/
+*.png
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+datos.zip

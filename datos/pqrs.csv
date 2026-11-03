@@ -1,0 +1,1501 @@
+radicado,id_afiliado,tipo,tema,canal,fecha_radicacion,fecha_respuesta,estado
+PQRS-2026-000001,AF101316,Petición,Devolución de aportes,Correo electrónico,2026-09-01,2026-09-10,Cerrado
+PQRS-2026-000002,AF101871,Petición,Pensión de vejez,Telefónico,2026-02-11,2026-02-16,Cerrado
+PQRS-2026-000003,AF101559,Petición,Pensión de vejez,Presencial,2026-07-23,2026-09-11,Cerrado
+PQRS-2026-000004,AF101677,Petición,Pensión de vejez,Presencial,2026-02-09,2026-02-16,Cerrado
+PQRS-2026-000005,AF102163,Reclamo,Devolución de aportes,Telefónico,2026-08-19,2026-09-13,Cerrado
+PQRS-2026-000006,AF101682,Reclamo,Devolución de aportes,Web,2026-09-07,2026-09-23,Cerrado
+PQRS-2026-000007,AF100505,Petición,Pensión de vejez,Web,2026-07-13,2026-07-14,Cerrado
+PQRS-2026-000008,AF100629,Reclamo,Historia laboral,Presencial,2026-08-10,2026-08-26,Cerrado
+PQRS-2026-000009,AF101469,Reclamo,Devolución de aportes,Presencial,2026-01-31,,Abierto
+PQRS-2026-000010,AF100301,Reclamo,Pensión de vejez,Web,2026-09-07,2026-09-14,Cerrado
+PQRS-2026-000011,AF100885,Reclamo,Pensión de vejez,Web,2026-03-09,2026-03-29,Cerrado
+PQRS-2026-000012,AF101092,Petición,Devolución de aportes,Correo electrónico,2026-04-01,2026-04-16,Cerrado
+PQRS-2026-000013,AF101881,Sugerencia,Devolución de aportes,Presencial,2026-10-17,2026-10-31,Cerrado
+PQRS-2026-000014,AF101285,Petición,Devolución de aportes,Telefónico,2026-10-03,2026-10-09,Cerrado
+PQRS-2026-000015,AF101169,Petición,Corrección de datos,Web,2026-08-08,2026-08-12,Cerrado
+PQRS-2026-000016,AF101188,Queja,Certificados,Web,2026-03-24,2026-04-07,Cerrado
+PQRS-2026-000017,AF101671,Reclamo,Corrección de datos,Presencial,2026-02-12,2026-02-23,Cerrado
+PQRS-2026-000018,AF102407,Queja,Devolución de aportes,Correo electrónico,2026-05-29,2026-06-02,Cerrado
+PQRS-2026-000019,AF101547,Petición,Pensión de vejez,Web,2026-07-27,2026-08-10,Cerrado
+PQRS-2026-000020,AF101958,Reclamo,Devolución de aportes,Correo electrónico,2026-01-16,2026-01-31,Cerrado
+PQRS-2026-000021,AF101361,Queja,Devolución de aportes,Telefónico,2026-08-17,2026-09-14,Cerrado
+PQRS-2026-000022,AF100847,Petición,Corrección de datos,Web,2026-02-08,2026-02-09,Cerrado
+PQRS-2026-000023,AF100729,Petición,Historia laboral,Presencial,2026-02-01,2026-02-08,Cerrado
+PQRS-2026-000024,AF101887,Petición,Atención al usuario,Telefónico,2026-05-05,2026-05-24,Cerrado
+PQRS-2026-000025,AF100963,Queja,Pensión de vejez,Correo electrónico,2026-06-11,2026-06-22,Cerrado
+PQRS-2026-000026,AF101259,Petición,Corrección de datos,Correo electrónico,2026-07-19,,En trámite
+PQRS-2026-000027,AF102867,Reclamo,Pensión de vejez,Telefónico,2026-02-03,2026-02-09,Cerrado
+PQRS-2026-000028,AF102614,Petición,Atención al usuario,Web,2026-06-07,2026-06-09,Cerrado
+PQRS-2026-000029,AF100031,Petición,Pensión de vejez,Presencial,2026-04-17,,Abierto
+PQRS-2026-000030,AF100696,Petición,Certificados,Telefónico,2026-08-09,2026-08-26,Cerrado
+PQRS-2026-000031,AF100258,Petición,Corrección de datos,Web,2026-08-30,,Abierto
+PQRS-2026-000032,AF100643,Felicitación,Corrección de datos,Telefónico,2026-06-11,2026-06-17,Cerrado
+PQRS-2026-000033,AF102765,Reclamo,Certificados,Correo electrónico,2026-04-04,2026-04-15,Cerrado
+PQRS-2026-000034,AF101012,Petición,Certificados,Web,2026-08-19,2026-08-23,Cerrado
+PQRS-2026-000035,AF102257,Petición,Certificados,Presencial,2026-05-28,2026-05-30,Cerrado
+PQRS-2026-000036,AF101508,Petición,Devolución de aportes,Web,2026-06-13,2026-06-19,Cerrado
+PQRS-2026-000037,AF100774,Petición,Historia laboral,Telefónico,2026-08-16,2026-08-20,Cerrado
+PQRS-2026-000038,AF101491,Petición,Devolución de aportes,Telefónico,2026-04-30,2026-05-05,Cerrado
+PQRS-2026-000039,AF102418,Petición,Corrección de datos,Correo electrónico,2026-05-17,2026-06-03,Cerrado
+PQRS-2026-000040,AF100040,Reclamo,Certificados,Telefónico,2026-03-28,2026-04-01,Cerrado
+PQRS-2026-000041,AF101804,Reclamo,Certificados,Web,2026-06-15,2026-06-22,Cerrado
+PQRS-2026-000042,AF102177,Reclamo,Devolución de aportes,Correo electrónico,2026-07-28,2026-08-02,Cerrado
+PQRS-2026-000043,AF102255,Reclamo,Corrección de datos,Correo electrónico,2026-03-26,2026-04-04,Cerrado
+PQRS-2026-000044,AF102368,Reclamo,Corrección de datos,Presencial,2026-06-27,2026-06-30,Cerrado
+PQRS-2026-000045,AF101802,Petición,Corrección de datos,Web,2026-07-21,2026-08-01,Cerrado
+PQRS-2026-000046,AF102650,Reclamo,Atención al usuario,Web,2026-05-17,2026-06-08,Cerrado
+PQRS-2026-000047,AF102545,Reclamo,Historia laboral,Telefónico,2026-02-25,,Abierto
+PQRS-2026-000048,AF100511,Petición,Devolución de aportes,Presencial,2026-05-11,2026-06-04,Cerrado
+PQRS-2026-000049,AF102215,Petición,Corrección de datos,Telefónico,2026-05-19,2026-06-05,Cerrado
+PQRS-2026-000050,AF101711,Petición,Pensión de vejez,Telefónico,2026-08-02,2026-08-05,Cerrado
+PQRS-2026-000051,AF101044,Petición,Corrección de datos,Correo electrónico,2026-02-03,,En trámite
+PQRS-2026-000052,AF101579,Reclamo,Historia laboral,Web,2026-08-01,2026-08-10,Cerrado
+PQRS-2026-000053,AF100084,Felicitación,Devolución de aportes,Presencial,2026-10-01,2026-10-21,Cerrado
+PQRS-2026-000054,AF102571,Petición,Devolución de aportes,Telefónico,2026-01-25,2026-01-31,Cerrado
+PQRS-2026-000055,AF100604,Petición,Pensión de vejez,Web,2026-05-16,2026-05-18,Cerrado
+PQRS-2026-000056,AF102959,Petición,Corrección de datos,Presencial,2026-06-27,2026-07-10,Cerrado
+PQRS-2026-000057,AF102527,Petición,Historia laboral,Correo electrónico,2026-04-18,2026-04-18,Cerrado
+PQRS-2026-000058,AF102167,Reclamo,Certificados,Web,2026-03-13,2026-03-23,Cerrado
+PQRS-2026-000059,AF100506,Petición,Atención al usuario,Correo electrónico,2026-04-29,2026-05-01,Cerrado
+PQRS-2026-000060,AF100962,Queja,Devolución de aportes,Web,2026-02-06,2026-02-28,Cerrado
+PQRS-2026-000061,AF100960,Petición,Corrección de datos,Telefónico,2026-09-21,2026-10-08,Cerrado
+PQRS-2026-000062,AF100284,Petición,Corrección de datos,Telefónico,2026-06-17,,Abierto
+PQRS-2026-000063,AF100335,Reclamo,Pensión de vejez,Presencial,2026-02-21,2026-03-12,Cerrado
+PQRS-2026-000064,AF100182,Petición,Corrección de datos,Web,2026-04-21,2026-05-10,Cerrado
+PQRS-2026-000065,AF102544,Reclamo,Devolución de aportes,Presencial,2026-02-26,2026-03-01,Cerrado
+PQRS-2026-000066,AF101765,Queja,Pensión de vejez,Telefónico,2026-04-13,,Abierto
+PQRS-2026-000067,AF100201,Reclamo,Historia laboral,Telefónico,2026-07-23,2026-07-30,Cerrado
+PQRS-2026-000068,AF101584,Petición,Atención al usuario,Correo electrónico,2026-06-21,,Abierto
+PQRS-2026-000069,AF100195,Reclamo,Devolución de aportes,Presencial,2026-05-07,2026-06-04,Cerrado
+PQRS-2026-000070,AF100448,Sugerencia,Atención al usuario,Correo electrónico,2026-10-06,2026-10-13,Cerrado
+PQRS-2026-000071,AF102151,Reclamo,Pensión de vejez,Correo electrónico,2026-05-04,2026-05-19,Cerrado
+PQRS-2026-000072,AF102353,Petición,Pensión de vejez,Correo electrónico,2026-09-03,2026-09-22,Cerrado
+PQRS-2026-000073,AF101350,Petición,Devolución de aportes,Presencial,2026-05-16,2026-06-13,Cerrado
+PQRS-2026-000074,AF102304,Petición,Corrección de datos,Presencial,2026-05-03,2026-05-12,Cerrado
+PQRS-2026-000075,AF102448,Petición,Historia laboral,Correo electrónico,2026-08-26,2026-09-17,Cerrado
+PQRS-2026-000076,AF101416,Petición,Certificados,Correo electrónico,2026-03-29,2026-04-21,Cerrado
+PQRS-2026-000077,AF900029,Queja,Corrección de datos,Telefónico,2026-03-20,2026-04-10,Cerrado
+PQRS-2026-000078,AF100711,Sugerencia,Certificados,Telefónico,2026-09-06,2026-09-25,Cerrado
+PQRS-2026-000079,AF100366,Petición,Historia laboral,Presencial,2026-06-09,2026-06-12,Cerrado
+PQRS-2026-000080,AF101309,Queja,Atención al usuario,Presencial,2026-09-03,2026-09-08,Cerrado
+PQRS-2026-000081,AF100880,Reclamo,Pensión de vejez,Telefónico,2026-03-20,2026-04-04,Cerrado
+PQRS-2026-000082,AF101718,Petición,Corrección de datos,Presencial,2026-05-01,2026-05-19,Cerrado
+PQRS-2026-000083,AF101755,Petición,Devolución de aportes,Presencial,2026-02-14,2026-03-15,Cerrado
+PQRS-2026-000084,AF100063,Reclamo,Atención al usuario,Correo electrónico,2026-02-26,2026-03-15,Cerrado
+PQRS-2026-000085,AF102191,Petición,Atención al usuario,Web,2026-02-17,2026-03-06,Cerrado
+PQRS-2026-000086,AF101937,Queja,Devolución de aportes,Telefónico,2026-06-02,,En trámite
+PQRS-2026-000087,AF101881,Reclamo,Devolución de aportes,Web,2026-10-23,2026-10-30,Cerrado
+PQRS-2026-000088,AF102490,Sugerencia,Pensión de vejez,Correo electrónico,2026-04-03,2026-04-24,Cerrado
+PQRS-2026-000089,AF101602,Petición,Corrección de datos,Web,2026-03-15,2026-04-10,Cerrado
+PQRS-2026-000090,AF102891,Petición,Pensión de vejez,Presencial,2026-08-09,2026-09-03,Cerrado
+PQRS-2026-000091,AF102103,Reclamo,Pensión de vejez,Web,2026-10-06,2026-10-12,Cerrado
+PQRS-2026-000092,AF101125,Petición,Certificados,Web,2026-07-10,2026-08-01,Cerrado
+PQRS-2026-000093,AF102026,Petición,Corrección de datos,Presencial,2026-04-13,2026-04-21,Cerrado
+PQRS-2026-000094,AF102244,Queja,Devolución de aportes,Presencial,2026-07-24,2026-09-12,Cerrado
+PQRS-2026-000095,AF900008,Reclamo,Pensión de vejez,Telefónico,2026-09-01,2026-09-03,Cerrado
+PQRS-2026-000096,AF101606,Petición,Atención al usuario,Telefónico,2026-01-17,2026-01-27,Cerrado
+PQRS-2026-000097,AF101365,Petición,Corrección de datos,Telefónico,2026-03-21,2026-03-26,Cerrado
+PQRS-2026-000098,AF102871,Petición,Certificados,Correo electrónico,2026-06-07,2026-07-11,Cerrado
+PQRS-2026-000099,AF101859,Queja,Historia laboral,Presencial,2026-03-14,2026-03-22,Cerrado
+PQRS-2026-000100,AF101157,Reclamo,Devolución de aportes,Presencial,2026-05-06,2026-05-24,Cerrado
+PQRS-2026-000101,AF102783,Queja,Atención al usuario,Correo electrónico,2026-07-08,2026-08-14,Cerrado
+PQRS-2026-000102,AF100777,Sugerencia,Atención al usuario,Presencial,2026-06-03,2026-06-10,Cerrado
+PQRS-2026-000103,AF101214,Petición,Corrección de datos,Correo electrónico,2026-05-30,2026-05-30,Cerrado
+PQRS-2026-000104,AF101054,Sugerencia,Atención al usuario,Correo electrónico,2026-03-25,2026-04-20,Cerrado
+PQRS-2026-000105,AF100071,Reclamo,Certificados,Correo electrónico,2026-01-05,2026-01-05,Cerrado
+PQRS-2026-000106,AF100460,Sugerencia,Pensión de vejez,Presencial,2026-08-19,2026-08-21,Cerrado
+PQRS-2026-000107,AF100735,Petición,Atención al usuario,Telefónico,2026-02-13,2026-03-06,Cerrado
+PQRS-2026-000108,AF100482,Petición,Atención al usuario,Telefónico,2026-03-14,2026-03-08,Abierto
+PQRS-2026-000109,AF101259,Petición,Pensión de vejez,Telefónico,2026-01-17,2026-01-18,Cerrado
+PQRS-2026-000110,AF101079,Queja,Devolución de aportes,Presencial,2026-09-29,2026-10-24,Cerrado
+PQRS-2026-000111,AF102356,Petición,Devolución de aportes,Presencial,2026-07-15,2026-07-29,Cerrado
+PQRS-2026-000112,AF101006,Queja,Corrección de datos,Correo electrónico,2026-03-30,,Cerrado
+PQRS-2026-000113,AF100097,Petición,Corrección de datos,Correo electrónico,2026-10-13,,Abierto
+PQRS-2026-000114,AF101508,Reclamo,Certificados,Presencial,2026-01-20,2026-01-27,Cerrado
+PQRS-2026-000115,AF102710,Queja,Corrección de datos,Presencial,2026-01-20,2026-01-27,Cerrado
+PQRS-2026-000116,AF102502,Reclamo,Certificados,Web,2026-04-02,2026-04-08,Cerrado
+PQRS-2026-000117,AF101872,Reclamo,Atención al usuario,Correo electrónico,2026-10-20,,En trámite
+PQRS-2026-000118,AF102713,Petición,Pensión de vejez,Telefónico,2026-06-27,2026-07-07,Cerrado
+PQRS-2026-000119,AF101684,Reclamo,Certificados,Presencial,2026-01-10,2026-01-21,Cerrado
+PQRS-2026-000120,AF101955,Reclamo,Certificados,Web,2026-06-02,2026-06-17,Cerrado
+PQRS-2026-000121,AF100737,Petición,Certificados,Presencial,2026-06-13,2026-07-03,Cerrado
+PQRS-2026-000122,AF102106,Reclamo,Certificados,Telefónico,2026-02-06,2026-02-16,Cerrado
+PQRS-2026-000123,AF101768,Petición,Pensión de vejez,Web,2026-05-09,2026-05-22,Cerrado
+PQRS-2026-000124,AF102322,Petición,Devolución de aportes,Telefónico,2026-01-17,2026-01-20,Cerrado
+PQRS-2026-000125,AF100499,Petición,Devolución de aportes,Correo electrónico,2026-09-12,2026-09-13,Cerrado
+PQRS-2026-000126,AF100268,Queja,Devolución de aportes,Correo electrónico,2026-10-12,,Abierto
+PQRS-2026-000127,AF100075,Petición,Historia laboral,Telefónico,2026-05-03,2026-05-16,Cerrado
+PQRS-2026-000128,AF102013,Petición,Devolución de aportes,Presencial,2026-08-06,2026-08-09,Cerrado
+PQRS-2026-000129,AF100194,Queja,Atención al usuario,Presencial,2026-05-15,2026-07-09,Cerrado
+PQRS-2026-000130,AF100671,Queja,Historia laboral,Telefónico,2026-06-07,2026-06-08,Cerrado
+PQRS-2026-000131,AF100451,Petición,Pensión de vejez,Correo electrónico,2026-01-12,2026-01-29,Cerrado
+PQRS-2026-000132,AF100691,Petición,Certificados,Web,2026-08-18,2026-08-23,Cerrado
+PQRS-2026-000133,AF101673,Reclamo,Certificados,Web,2026-05-07,2026-06-04,Cerrado
+PQRS-2026-000134,AF101755,Queja,Devolución de aportes,Correo electrónico,2026-10-04,2026-10-07,Cerrado
+PQRS-2026-000135,AF100830,Queja,Devolución de aportes,Telefónico,2026-01-26,2026-02-01,Cerrado
+PQRS-2026-000136,AF101356,Petición,Devolución de aportes,Correo electrónico,2026-05-14,2026-05-27,Cerrado
+PQRS-2026-000137,AF101492,Petición,Corrección de datos,Correo electrónico,2026-01-02,2026-01-05,Cerrado
+PQRS-2026-000138,AF101317,Sugerencia,Historia laboral,Presencial,2026-02-14,2026-02-20,Cerrado
+PQRS-2026-000139,AF101322,Reclamo,Atención al usuario,Correo electrónico,2026-03-02,2026-03-13,Cerrado
+PQRS-2026-000140,AF101815,Petición,Historia laboral,Correo electrónico,2026-05-18,,En trámite
+PQRS-2026-000141,AF101736,Petición,Pensión de vejez,Presencial,2026-01-19,2026-01-19,Cerrado
+PQRS-2026-000142,AF100309,Petición,Corrección de datos,Web,2026-02-01,2026-02-21,Cerrado
+PQRS-2026-000143,AF100256,Queja,Devolución de aportes,Correo electrónico,2026-07-13,2026-08-04,Cerrado
+PQRS-2026-000144,AF102912,Petición,Certificados,Presencial,2026-01-12,2026-01-17,Cerrado
+PQRS-2026-000145,AF100839,Queja,Certificados,Correo electrónico,2026-05-09,2026-05-29,Cerrado
+PQRS-2026-000146,AF102025,Petición,Historia laboral,Presencial,2026-03-21,,En trámite
+PQRS-2026-000147,AF101639,Reclamo,Certificados,Presencial,2026-08-05,2026-08-21,Cerrado
+PQRS-2026-000148,AF101039,Reclamo,Pensión de vejez,Correo electrónico,2026-02-06,2026-02-25,Cerrado
+PQRS-2026-000149,AF101394,Reclamo,Corrección de datos,Presencial,2026-09-26,2026-10-11,Cerrado
+PQRS-2026-000150,AF102132,Queja,Corrección de datos,Telefónico,2026-05-01,2026-05-15,Cerrado
+PQRS-2026-000151,AF100572,Petición,Certificados,Web,2026-03-28,2026-04-15,Cerrado
+PQRS-2026-000152,AF100858,Petición,Pensión de vejez,Web,2026-04-21,2026-05-08,Cerrado
+PQRS-2026-000153,AF101436,Petición,Atención al usuario,Presencial,2026-06-12,2026-07-29,Cerrado
+PQRS-2026-000154,AF101335,Petición,Pensión de vejez,Telefónico,2026-10-28,,Abierto
+PQRS-2026-000155,AF101916,Petición,Corrección de datos,Presencial,2026-05-21,2026-05-14,Cerrado
+PQRS-2026-000156,AF102310,Petición,Corrección de datos,Presencial,2026-07-21,2026-08-03,Cerrado
+PQRS-2026-000157,AF100439,Petición,Pensión de vejez,Web,2026-03-31,2026-04-10,Cerrado
+PQRS-2026-000158,AF101741,Petición,Historia laboral,Presencial,2026-09-25,2026-10-16,Cerrado
+PQRS-2026-000159,AF102178,Queja,Devolución de aportes,Presencial,2026-05-16,,En trámite
+PQRS-2026-000160,AF101863,Petición,Historia laboral,Presencial,2026-05-14,2026-05-25,Cerrado
+PQRS-2026-000161,AF100998,Petición,Corrección de datos,Telefónico,2026-03-10,2026-03-19,Cerrado
+PQRS-2026-000162,AF101821,Petición,Historia laboral,Correo electrónico,2026-05-04,2026-05-20,Cerrado
+PQRS-2026-000163,AF100878,Reclamo,Pensión de vejez,Web,2026-07-24,2026-08-14,Cerrado
+PQRS-2026-000164,AF101135,Reclamo,Devolución de aportes,Web,2026-09-25,2026-09-28,Cerrado
+PQRS-2026-000165,AF101770,Petición,Historia laboral,Telefónico,2026-02-11,2026-02-24,Cerrado
+PQRS-2026-000166,AF101964,Sugerencia,Devolución de aportes,Web,2026-06-04,,Abierto
+PQRS-2026-000167,AF101019,Reclamo,Historia laboral,Presencial,2026-05-11,2026-05-22,Cerrado
+PQRS-2026-000168,AF102917,Petición,Pensión de vejez,Presencial,2026-06-12,,Cerrado
+PQRS-2026-000169,AF100686,Queja,Pensión de vejez,Correo electrónico,2026-01-24,,Abierto
+PQRS-2026-000170,AF101265,Reclamo,Corrección de datos,Correo electrónico,2026-04-17,,En trámite
+PQRS-2026-000171,AF101294,Reclamo,Corrección de datos,Web,2026-04-27,2026-05-02,Cerrado
+PQRS-2026-000172,AF100655,Petición,Devolución de aportes,Telefónico,2026-01-09,2026-01-14,Cerrado
+PQRS-2026-000173,AF102596,Felicitación,Pensión de vejez,Presencial,2026-06-01,2026-06-05,Cerrado
+PQRS-2026-000174,AF102362,Reclamo,Pensión de vejez,Correo electrónico,2026-02-21,2026-02-28,Cerrado
+PQRS-2026-000175,AF102601,Queja,Historia laboral,Telefónico,2026-04-03,2026-04-21,Cerrado
+PQRS-2026-000176,AF102544,Reclamo,Historia laboral,Telefónico,2026-03-05,2026-04-09,Cerrado
+PQRS-2026-000177,AF101821,Petición,Corrección de datos,Presencial,2026-07-21,,Abierto
+PQRS-2026-000178,AF102262,Reclamo,Corrección de datos,Web,2026-03-29,2026-04-07,Cerrado
+PQRS-2026-000179,AF101042,Reclamo,Devolución de aportes,Telefónico,2026-02-17,2026-02-25,Cerrado
+PQRS-2026-000180,AF100170,Queja,Devolución de aportes,Telefónico,2026-09-25,2026-10-17,Cerrado
+PQRS-2026-000181,AF100034,Petición,Pensión de vejez,Correo electrónico,2026-03-12,2026-03-21,Cerrado
+PQRS-2026-000182,AF101759,Petición,Atención al usuario,Correo electrónico,2026-07-01,,En trámite
+PQRS-2026-000183,AF101960,Felicitación,Historia laboral,Telefónico,2026-02-14,2026-02-21,Cerrado
+PQRS-2026-000184,AF101880,Reclamo,Historia laboral,Telefónico,2026-09-07,2026-09-10,Cerrado
+PQRS-2026-000185,AF101421,Queja,Devolución de aportes,Presencial,2026-05-08,2026-05-17,Cerrado
+PQRS-2026-000186,AF101520,Felicitación,Pensión de vejez,Correo electrónico,2026-08-13,2026-08-28,Cerrado
+PQRS-2026-000187,AF100719,Petición,Corrección de datos,Correo electrónico,2026-09-15,2026-09-21,Cerrado
+PQRS-2026-000188,AF101039,Petición,Devolución de aportes,Presencial,2026-06-09,2026-06-13,Cerrado
+PQRS-2026-000189,AF100144,Petición,Certificados,Web,2026-09-16,2026-09-22,Cerrado
+PQRS-2026-000190,AF101217,Queja,Corrección de datos,Correo electrónico,2026-08-31,2026-09-10,Cerrado
+PQRS-2026-000191,AF100581,Queja,Pensión de vejez,Web,2026-06-16,2026-06-23,Cerrado
+PQRS-2026-000192,AF102067,Reclamo,Pensión de vejez,Telefónico,2026-08-01,2026-08-03,Cerrado
+PQRS-2026-000193,AF100836,Petición,Atención al usuario,Presencial,2026-10-27,,Abierto
+PQRS-2026-000194,AF101553,Queja,Devolución de aportes,Correo electrónico,2026-02-25,2026-03-12,Cerrado
+PQRS-2026-000195,AF101417,Reclamo,Atención al usuario,Presencial,2026-06-08,2026-06-13,Cerrado
+PQRS-2026-000196,AF100876,Petición,Pensión de vejez,Web,2026-01-31,2026-02-10,Cerrado
+PQRS-2026-000197,AF102743,Petición,Atención al usuario,Telefónico,2026-03-21,2026-04-10,Cerrado
+PQRS-2026-000198,AF101439,Petición,Historia laboral,Correo electrónico,2026-03-06,2026-03-29,Cerrado
+PQRS-2026-000199,AF100469,Reclamo,Historia laboral,Presencial,2026-10-23,,Abierto
+PQRS-2026-000200,AF102113,Queja,Atención al usuario,Presencial,2026-08-23,2026-09-01,Cerrado
+PQRS-2026-000201,AF102647,Petición,Devolución de aportes,Presencial,2026-02-01,,En trámite
+PQRS-2026-000202,AF101730,Reclamo,Pensión de vejez,Web,2026-05-01,2026-05-22,Cerrado
+PQRS-2026-000203,AF101521,Reclamo,Devolución de aportes,Telefónico,2026-06-08,2026-06-21,Cerrado
+PQRS-2026-000204,AF101340,Queja,Pensión de vejez,Presencial,2026-03-14,,Abierto
+PQRS-2026-000205,AF102564,Petición,Historia laboral,Correo electrónico,2026-04-08,2026-04-23,Cerrado
+PQRS-2026-000206,AF100902,Queja,Certificados,Telefónico,2026-10-09,2026-10-15,Cerrado
+PQRS-2026-000207,AF100632,Queja,Certificados,Telefónico,2026-01-02,2026-01-08,Cerrado
+PQRS-2026-000208,AF100185,Petición,Corrección de datos,Telefónico,2026-05-14,2026-05-10,Cerrado
+PQRS-2026-000209,AF101579,Petición,Historia laboral,Presencial,2026-02-12,2026-02-23,Cerrado
+PQRS-2026-000210,AF100884,Petición,Atención al usuario,Correo electrónico,2026-09-07,2026-09-07,Cerrado
+PQRS-2026-000211,AF102270,Petición,Corrección de datos,Correo electrónico,2026-09-23,2026-10-11,Cerrado
+PQRS-2026-000212,AF102008,Petición,Devolución de aportes,Telefónico,2026-09-16,,En trámite
+PQRS-2026-000213,AF101318,Queja,Devolución de aportes,Web,2026-01-27,2026-02-01,Cerrado
+PQRS-2026-000214,AF100362,Reclamo,Pensión de vejez,Correo electrónico,2026-03-11,2026-03-27,Cerrado
+PQRS-2026-000215,AF100228,Petición,Corrección de datos,Web,2026-03-07,,En trámite
+PQRS-2026-000216,AF100002,Queja,Devolución de aportes,Telefónico,2026-01-29,2026-02-12,Cerrado
+PQRS-2026-000217,AF100724,Petición,Corrección de datos,Web,2026-01-13,2026-01-14,Cerrado
+PQRS-2026-000218,AF101727,Petición,Devolución de aportes,Presencial,2026-08-11,2026-08-19,Cerrado
+PQRS-2026-000219,AF101377,Reclamo,Historia laboral,Presencial,2026-04-26,2026-05-19,Cerrado
+PQRS-2026-000220,AF101379,Reclamo,Certificados,Web,2026-07-10,2026-07-13,Cerrado
+PQRS-2026-000221,AF101456,Petición,Historia laboral,Telefónico,2026-02-12,2026-02-24,Cerrado
+PQRS-2026-000222,AF102080,Petición,Historia laboral,Telefónico,2026-01-12,2026-01-18,Cerrado
+PQRS-2026-000223,AF100488,Petición,Corrección de datos,Telefónico,2026-07-14,2026-07-16,Cerrado
+PQRS-2026-000224,AF100720,Petición,Atención al usuario,Telefónico,2026-08-20,2026-09-02,Cerrado
+PQRS-2026-000225,AF101130,Sugerencia,Corrección de datos,Correo electrónico,2026-01-19,2026-03-13,Cerrado
+PQRS-2026-000226,AF101212,Petición,Corrección de datos,Presencial,2026-04-30,2026-05-04,Cerrado
+PQRS-2026-000227,AF102304,Petición,Corrección de datos,Web,2026-08-23,,Cerrado
+PQRS-2026-000228,AF100108,Petición,Atención al usuario,Telefónico,2026-06-13,2026-07-06,Cerrado
+PQRS-2026-000229,AF101475,Petición,Devolución de aportes,Web,2026-03-21,2026-04-18,Cerrado
+PQRS-2026-000230,AF102977,Petición,Devolución de aportes,Web,2026-02-14,2026-02-16,Cerrado
+PQRS-2026-000231,AF100972,Reclamo,Historia laboral,Presencial,2026-07-03,,Abierto
+PQRS-2026-000232,AF101534,Felicitación,Devolución de aportes,Web,2026-09-18,2026-10-03,Cerrado
+PQRS-2026-000233,AF100993,Reclamo,Atención al usuario,Correo electrónico,2026-09-02,2026-09-05,Cerrado
+PQRS-2026-000234,AF100785,Petición,Historia laboral,Correo electrónico,2026-04-30,2026-05-14,Cerrado
+PQRS-2026-000235,AF101480,Reclamo,Corrección de datos,Telefónico,2026-01-25,2026-02-15,Cerrado
+PQRS-2026-000236,AF100972,Petición,Certificados,Web,2026-02-06,2026-02-12,Cerrado
+PQRS-2026-000237,AF102729,Felicitación,Historia laboral,Telefónico,2026-05-28,2026-06-13,Cerrado
+PQRS-2026-000238,AF101851,Queja,Corrección de datos,Telefónico,2026-08-10,2026-08-19,Cerrado
+PQRS-2026-000239,AF101084,Felicitación,Pensión de vejez,Presencial,2026-03-23,2026-04-05,Cerrado
+PQRS-2026-000240,AF100536,Queja,Corrección de datos,Correo electrónico,2026-10-28,,En trámite
+PQRS-2026-000241,AF101898,Petición,Devolución de aportes,Correo electrónico,2026-10-06,,En trámite
+PQRS-2026-000242,AF102633,Sugerencia,Corrección de datos,Correo electrónico,2026-08-23,2026-08-26,Cerrado
+PQRS-2026-000243,AF100005,Reclamo,Corrección de datos,Telefónico,2026-03-25,2026-04-05,Cerrado
+PQRS-2026-000244,AF100375,Reclamo,Certificados,Correo electrónico,2026-04-16,2026-05-24,Cerrado
+PQRS-2026-000245,AF100801,Petición,Certificados,Web,2026-10-25,,En trámite
+PQRS-2026-000246,AF101187,Reclamo,Historia laboral,Presencial,2026-07-10,2026-07-17,Cerrado
+PQRS-2026-000247,AF101837,Petición,Devolución de aportes,Correo electrónico,2026-10-23,,Abierto
+PQRS-2026-000248,AF101423,Petición,Historia laboral,Correo electrónico,2026-07-04,2026-07-11,Cerrado
+PQRS-2026-000249,AF101678,Reclamo,Corrección de datos,Web,2026-10-16,2026-10-25,Cerrado
+PQRS-2026-000250,AF102230,Reclamo,Certificados,Correo electrónico,2026-02-19,2026-03-10,Cerrado
+PQRS-2026-000251,AF102620,Petición,Pensión de vejez,Telefónico,2026-02-22,2026-02-24,Cerrado
+PQRS-2026-000252,AF102901,Reclamo,Atención al usuario,Presencial,2026-02-05,2026-03-02,Cerrado
+PQRS-2026-000253,AF101415,Felicitación,Devolución de aportes,Telefónico,2026-04-20,2026-05-02,Cerrado
+PQRS-2026-000254,AF100219,Petición,Corrección de datos,Presencial,2026-02-09,,En trámite
+PQRS-2026-000255,AF102836,Petición,Atención al usuario,Presencial,2026-03-19,2026-04-01,Cerrado
+PQRS-2026-000256,AF101546,Petición,Atención al usuario,Presencial,2026-04-25,,Cerrado
+PQRS-2026-000257,AF101017,Petición,Pensión de vejez,Correo electrónico,2026-04-18,2026-04-29,Cerrado
+PQRS-2026-000258,AF101607,Sugerencia,Corrección de datos,Telefónico,2026-08-09,2026-08-22,Cerrado
+PQRS-2026-000259,AF101016,Petición,Atención al usuario,Presencial,2026-10-19,,Abierto
+PQRS-2026-000260,AF101829,Petición,Pensión de vejez,Presencial,2026-03-29,,En trámite
+PQRS-2026-000261,AF102903,Petición,Devolución de aportes,Presencial,2026-05-19,2026-05-29,Cerrado
+PQRS-2026-000262,AF101889,Petición,Corrección de datos,Web,2026-03-16,2026-03-22,Cerrado
+PQRS-2026-000263,AF101416,Petición,Corrección de datos,Telefónico,2026-05-14,2026-06-07,Cerrado
+PQRS-2026-000264,AF100304,Petición,Historia laboral,Web,2026-07-09,2026-07-28,Cerrado
+PQRS-2026-000265,AF102071,Petición,Atención al usuario,Correo electrónico,2026-06-15,2026-06-22,Cerrado
+PQRS-2026-000266,AF102741,Petición,Corrección de datos,Web,2026-06-07,,Cerrado
+PQRS-2026-000267,AF101292,Queja,Historia laboral,Telefónico,2026-04-30,2026-05-06,Cerrado
+PQRS-2026-000268,AF100342,Queja,Corrección de datos,Web,2026-10-22,,En trámite
+PQRS-2026-000269,AF102535,Queja,Atención al usuario,Telefónico,2026-08-09,2026-08-26,Cerrado
+PQRS-2026-000270,AF100061,Petición,Historia laboral,Telefónico,2026-06-25,2026-07-04,Cerrado
+PQRS-2026-000271,AF101464,Queja,Atención al usuario,Web,2026-07-21,2026-08-12,Cerrado
+PQRS-2026-000272,AF100754,Petición,Pensión de vejez,Telefónico,2026-08-06,2026-08-14,Cerrado
+PQRS-2026-000273,AF100599,Petición,Certificados,Correo electrónico,2026-09-18,2026-09-21,Cerrado
+PQRS-2026-000274,AF101826,Reclamo,Devolución de aportes,Correo electrónico,2026-07-15,2026-08-03,Cerrado
+PQRS-2026-000275,AF100995,Petición,Certificados,Correo electrónico,2026-05-14,2026-05-18,Cerrado
+PQRS-2026-000276,AF102954,Petición,Historia laboral,Web,2026-07-24,2026-07-30,Cerrado
+PQRS-2026-000277,AF100295,Petición,Devolución de aportes,Web,2026-04-02,2026-04-14,Cerrado
+PQRS-2026-000278,AF102925,Petición,Pensión de vejez,Web,2026-01-24,2026-01-31,Cerrado
+PQRS-2026-000279,AF100316,Reclamo,Corrección de datos,Telefónico,2026-07-12,2026-07-21,Cerrado
+PQRS-2026-000280,AF102708,Petición,Pensión de vejez,Telefónico,2026-01-19,2026-01-31,Cerrado
+PQRS-2026-000281,AF100219,Felicitación,Historia laboral,Correo electrónico,2026-03-23,2026-04-12,Cerrado
+PQRS-2026-000282,AF100833,Queja,Corrección de datos,Web,2026-04-14,2026-04-28,Cerrado
+PQRS-2026-000283,AF101854,Reclamo,Certificados,Correo electrónico,2026-05-01,2026-05-10,Cerrado
+PQRS-2026-000284,AF100425,Queja,Devolución de aportes,Telefónico,2026-08-19,2026-08-24,Cerrado
+PQRS-2026-000285,AF102228,Reclamo,Corrección de datos,Web,2026-06-10,2026-06-15,Cerrado
+PQRS-2026-000286,AF101176,Queja,Historia laboral,Web,2026-10-24,,Abierto
+PQRS-2026-000287,AF100546,Reclamo,Corrección de datos,Telefónico,2026-03-16,2026-03-21,Cerrado
+PQRS-2026-000288,AF100254,Petición,Corrección de datos,Web,2026-09-12,2026-09-17,Cerrado
+PQRS-2026-000289,AF101697,Queja,Historia laboral,Telefónico,2026-10-27,,Abierto
+PQRS-2026-000290,AF100217,Reclamo,Historia laboral,Web,2026-03-13,2026-04-10,Cerrado
+PQRS-2026-000291,AF100696,Petición,Devolución de aportes,Web,2026-01-13,2026-01-24,Cerrado
+PQRS-2026-000292,AF100637,Petición,Pensión de vejez,Presencial,2026-03-17,2026-03-28,Cerrado
+PQRS-2026-000293,AF102340,Petición,Historia laboral,Web,2026-10-08,2026-10-22,Cerrado
+PQRS-2026-000294,AF102122,Reclamo,Certificados,Correo electrónico,2026-10-25,,En trámite
+PQRS-2026-000295,AF102634,Reclamo,Atención al usuario,Web,2026-10-25,,En trámite
+PQRS-2026-000296,AF102739,Petición,Certificados,Web,2026-05-11,2026-05-17,Cerrado
+PQRS-2026-000297,AF100398,Reclamo,Pensión de vejez,Correo electrónico,2026-04-19,2026-05-02,Cerrado
+PQRS-2026-000298,AF100364,Petición,Historia laboral,Presencial,2026-10-21,,En trámite
+PQRS-2026-000299,AF101253,Reclamo,Pensión de vejez,Correo electrónico,2026-10-08,2026-10-21,Cerrado
+PQRS-2026-000300,AF101954,Queja,Atención al usuario,Correo electrónico,2026-09-03,2026-10-06,Cerrado
+PQRS-2026-000301,AF100969,Petición,Pensión de vejez,Presencial,2026-10-13,2026-10-16,Cerrado
+PQRS-2026-000302,AF100944,Reclamo,Certificados,Web,2026-03-31,2026-04-24,Cerrado
+PQRS-2026-000303,AF100724,Reclamo,Certificados,Presencial,2026-01-13,2026-01-16,Cerrado
+PQRS-2026-000304,AF102140,Petición,Devolución de aportes,Correo electrónico,2026-05-31,2026-06-17,Cerrado
+PQRS-2026-000305,AF101360,Petición,Pensión de vejez,Web,2026-06-15,2026-06-08,Cerrado
+PQRS-2026-000306,AF102012,Petición,Pensión de vejez,Correo electrónico,2026-05-01,2026-05-15,Cerrado
+PQRS-2026-000307,AF101791,Queja,Devolución de aportes,Web,2026-07-13,2026-08-23,Cerrado
+PQRS-2026-000308,AF100597,Petición,Devolución de aportes,Presencial,2026-08-17,2026-08-20,Cerrado
+PQRS-2026-000309,AF102476,Felicitación,Pensión de vejez,Telefónico,2026-10-25,2026-10-30,Cerrado
+PQRS-2026-000310,AF100019,Queja,Corrección de datos,Telefónico,2026-07-25,2026-08-03,Cerrado
+PQRS-2026-000311,AF101853,Petición,Historia laboral,Web,2026-07-14,2026-08-01,Cerrado
+PQRS-2026-000312,AF101803,Petición,Certificados,Presencial,2026-07-17,2026-08-07,Cerrado
+PQRS-2026-000313,AF101426,Petición,Pensión de vejez,Presencial,2026-10-18,2026-10-24,Cerrado
+PQRS-2026-000314,AF100660,Reclamo,Pensión de vejez,Telefónico,2026-08-21,2026-09-02,Cerrado
+PQRS-2026-000315,AF100843,Reclamo,Atención al usuario,Telefónico,2026-08-22,2026-09-10,Cerrado
+PQRS-2026-000316,AF101089,Petición,Devolución de aportes,Telefónico,2026-02-20,2026-02-26,Cerrado
+PQRS-2026-000317,AF102965,Petición,Atención al usuario,Presencial,2026-03-17,2026-04-20,Cerrado
+PQRS-2026-000318,AF100907,Petición,Certificados,Web,2026-07-12,2026-07-18,Cerrado
+PQRS-2026-000319,AF102756,Petición,Corrección de datos,Web,2026-10-01,2026-10-09,Cerrado
+PQRS-2026-000320,AF101642,Reclamo,Devolución de aportes,Telefónico,2026-02-23,2026-03-02,Cerrado
+PQRS-2026-000321,AF100320,Queja,Pensión de vejez,Correo electrónico,2026-05-03,2026-05-09,Cerrado
+PQRS-2026-000322,AF100164,Reclamo,Historia laboral,Presencial,2026-08-18,2026-08-24,Cerrado
+PQRS-2026-000323,AF101307,Felicitación,Historia laboral,Correo electrónico,2026-02-26,2026-03-04,Cerrado
+PQRS-2026-000324,AF101548,Felicitación,Devolución de aportes,Correo electrónico,2026-01-16,2026-01-27,Cerrado
+PQRS-2026-000325,AF100716,Petición,Pensión de vejez,Correo electrónico,2026-10-18,2026-10-22,Cerrado
+PQRS-2026-000326,AF102478,Petición,Certificados,Presencial,2026-03-03,2026-03-05,Cerrado
+PQRS-2026-000327,AF100232,Petición,Historia laboral,Presencial,2026-04-28,,En trámite
+PQRS-2026-000328,AF102798,Petición,Atención al usuario,Presencial,2026-02-06,2026-02-26,Cerrado
+PQRS-2026-000329,AF100971,Petición,Certificados,Web,2026-05-20,2026-05-23,Cerrado
+PQRS-2026-000330,AF102365,Sugerencia,Historia laboral,Web,2026-04-14,2026-04-19,Cerrado
+PQRS-2026-000331,AF100198,Petición,Devolución de aportes,Web,2026-01-25,2026-02-28,Cerrado
+PQRS-2026-000332,AF102781,Petición,Devolución de aportes,Web,2026-04-11,2026-04-12,Cerrado
+PQRS-2026-000333,AF101323,Petición,Historia laboral,Web,2026-06-04,2026-06-10,Cerrado
+PQRS-2026-000334,AF101735,Petición,Atención al usuario,Presencial,2026-09-06,,En trámite
+PQRS-2026-000335,AF102861,Petición,Historia laboral,Correo electrónico,2026-02-04,2026-03-12,Cerrado
+PQRS-2026-000336,AF100350,Queja,Atención al usuario,Correo electrónico,2026-07-16,2026-07-31,Cerrado
+PQRS-2026-000337,AF102429,Petición,Historia laboral,Correo electrónico,2026-08-22,2026-08-28,Cerrado
+PQRS-2026-000338,AF102645,Petición,Certificados,Telefónico,2026-04-17,2026-04-26,Cerrado
+PQRS-2026-000339,AF102480,Petición,Corrección de datos,Telefónico,2026-01-16,,En trámite
+PQRS-2026-000340,AF101386,Petición,Corrección de datos,Presencial,2026-04-26,2026-05-21,Cerrado
+PQRS-2026-000341,AF102273,Petición,Atención al usuario,Web,2026-10-16,2026-10-24,Cerrado
+PQRS-2026-000342,AF101073,Petición,Historia laboral,Correo electrónico,2026-08-18,2026-08-22,Cerrado
+PQRS-2026-000343,AF100138,Petición,Pensión de vejez,Telefónico,2026-06-29,2026-07-01,Cerrado
+PQRS-2026-000344,AF101069,Reclamo,Certificados,Web,2026-06-04,2026-06-08,Cerrado
+PQRS-2026-000345,AF101709,Petición,Corrección de datos,Web,2026-02-26,2026-03-25,Cerrado
+PQRS-2026-000346,AF102659,Petición,Corrección de datos,Presencial,2026-06-15,2026-06-26,Cerrado
+PQRS-2026-000347,AF101167,Petición,Historia laboral,Presencial,2026-04-18,2026-05-10,Cerrado
+PQRS-2026-000348,AF102417,Petición,Pensión de vejez,Correo electrónico,2026-03-10,2026-03-26,Cerrado
+PQRS-2026-000349,AF102862,Queja,Devolución de aportes,Presencial,2026-10-22,2026-10-24,Cerrado
+PQRS-2026-000350,AF100642,Reclamo,Certificados,Web,2026-09-03,2026-09-06,Cerrado
+PQRS-2026-000351,AF101909,Reclamo,Certificados,Web,2026-05-04,2026-06-04,Cerrado
+PQRS-2026-000352,AF100312,Petición,Pensión de vejez,Presencial,2026-03-02,2026-03-29,Cerrado
+PQRS-2026-000353,AF100795,Petición,Atención al usuario,Correo electrónico,2026-03-12,2026-03-18,Cerrado
+PQRS-2026-000354,AF100472,Petición,Certificados,Correo electrónico,2026-05-28,2026-06-11,Cerrado
+PQRS-2026-000355,AF100162,Queja,Certificados,Presencial,2026-04-29,2026-05-10,Cerrado
+PQRS-2026-000356,AF102022,Petición,Atención al usuario,Correo electrónico,2026-10-04,2026-10-14,Cerrado
+PQRS-2026-000357,AF100160,Reclamo,Historia laboral,Presencial,2026-07-24,2026-08-12,Cerrado
+PQRS-2026-000358,AF102807,Queja,Certificados,Correo electrónico,2026-10-19,,Abierto
+PQRS-2026-000359,AF102685,Felicitación,Certificados,Presencial,2026-05-09,2026-05-12,Cerrado
+PQRS-2026-000360,AF100312,Petición,Historia laboral,Presencial,2026-08-15,2026-08-28,Cerrado
+PQRS-2026-000361,AF101173,Petición,Certificados,Correo electrónico,2026-08-06,2026-08-26,Cerrado
+PQRS-2026-000362,AF100287,Reclamo,Corrección de datos,Telefónico,2026-01-16,,En trámite
+PQRS-2026-000363,AF102266,Sugerencia,Historia laboral,Correo electrónico,2026-09-12,2026-09-25,Cerrado
+PQRS-2026-000364,AF100592,Sugerencia,Atención al usuario,Presencial,2026-04-12,2026-04-21,Cerrado
+PQRS-2026-000365,AF100926,Reclamo,Pensión de vejez,Web,2026-04-24,2026-04-28,Cerrado
+PQRS-2026-000366,AF102602,Queja,Historia laboral,Presencial,2026-06-24,2026-06-17,Cerrado
+PQRS-2026-000367,AF101952,Petición,Pensión de vejez,Telefónico,2026-04-12,2026-04-17,Cerrado
+PQRS-2026-000368,AF100042,Reclamo,Corrección de datos,Web,2026-09-18,2026-09-25,Cerrado
+PQRS-2026-000369,AF102503,Petición,Devolución de aportes,Presencial,2026-07-05,2026-07-07,Cerrado
+PQRS-2026-000370,AF101982,Reclamo,Historia laboral,Telefónico,2026-04-01,2026-04-07,Cerrado
+PQRS-2026-000371,AF102098,Petición,Certificados,Correo electrónico,2026-10-21,,Abierto
+PQRS-2026-000372,AF101128,Queja,Atención al usuario,Correo electrónico,2026-08-06,2026-08-15,Cerrado
+PQRS-2026-000373,AF101445,Petición,Corrección de datos,Telefónico,2026-02-17,2026-02-24,Cerrado
+PQRS-2026-000374,AF102910,Petición,Historia laboral,Correo electrónico,2026-05-21,2026-05-26,Cerrado
+PQRS-2026-000375,AF101458,Petición,Devolución de aportes,Telefónico,2026-08-31,2026-09-03,Cerrado
+PQRS-2026-000376,AF100925,Petición,Certificados,Correo electrónico,2026-05-15,2026-06-03,Cerrado
+PQRS-2026-000377,AF100107,Queja,Historia laboral,Web,2026-01-16,2026-01-30,Cerrado
+PQRS-2026-000378,AF102830,Petición,Pensión de vejez,Presencial,2026-07-16,2026-07-30,Cerrado
+PQRS-2026-000379,AF101735,Queja,Historia laboral,Presencial,2026-02-23,2026-03-01,Cerrado
+PQRS-2026-000380,AF101972,Petición,Certificados,Web,2026-10-14,2026-10-21,Cerrado
+PQRS-2026-000381,AF102703,Sugerencia,Historia laboral,Telefónico,2026-09-15,2026-10-19,Cerrado
+PQRS-2026-000382,AF100732,Reclamo,Corrección de datos,Presencial,2026-08-23,2026-09-05,Cerrado
+PQRS-2026-000383,AF101982,Queja,Corrección de datos,Web,2026-02-08,2026-02-21,Cerrado
+PQRS-2026-000384,AF100707,Felicitación,Historia laboral,Web,2026-05-31,2026-06-06,Cerrado
+PQRS-2026-000385,AF101492,Petición,Devolución de aportes,Presencial,2026-05-24,2026-06-03,Cerrado
+PQRS-2026-000386,AF102613,Reclamo,Devolución de aportes,Telefónico,2026-10-19,,Abierto
+PQRS-2026-000387,AF101046,Petición,Devolución de aportes,Web,2026-09-03,2026-09-19,Cerrado
+PQRS-2026-000388,AF101471,Petición,Corrección de datos,Correo electrónico,2026-06-09,2026-06-23,Cerrado
+PQRS-2026-000389,AF102602,Petición,Pensión de vejez,Telefónico,2026-08-19,2026-09-07,Cerrado
+PQRS-2026-000390,AF100478,Reclamo,Historia laboral,Web,2026-08-25,2026-09-06,Cerrado
+PQRS-2026-000391,AF102278,Petición,Corrección de datos,Correo electrónico,2026-04-06,2026-04-09,Cerrado
+PQRS-2026-000392,AF101916,Queja,Atención al usuario,Telefónico,2026-06-05,2026-06-26,Cerrado
+PQRS-2026-000393,AF100445,Petición,Pensión de vejez,Web,2026-02-04,2026-02-18,Cerrado
+PQRS-2026-000394,AF100194,Queja,Devolución de aportes,Web,2026-08-11,2026-09-03,Cerrado
+PQRS-2026-000395,AF100979,Petición,Certificados,Telefónico,2026-01-24,2026-02-08,Cerrado
+PQRS-2026-000396,AF100214,Reclamo,Atención al usuario,Telefónico,2026-08-15,2026-08-20,Cerrado
+PQRS-2026-000397,AF102745,Reclamo,Historia laboral,Telefónico,2026-04-07,2026-04-12,Cerrado
+PQRS-2026-000398,AF101781,Petición,Historia laboral,Web,2026-01-10,2026-01-21,Cerrado
+PQRS-2026-000399,AF101440,Reclamo,Corrección de datos,Correo electrónico,2026-01-02,2026-01-14,Cerrado
+PQRS-2026-000400,AF100648,Petición,Atención al usuario,Web,2026-04-30,2026-05-09,Cerrado
+PQRS-2026-000401,AF102963,Petición,Certificados,Telefónico,2026-08-01,2026-09-01,Cerrado
+PQRS-2026-000402,AF102706,Petición,Pensión de vejez,Correo electrónico,2026-05-31,2026-06-04,Cerrado
+PQRS-2026-000403,AF100125,Petición,Corrección de datos,Telefónico,2026-03-01,,Abierto
+PQRS-2026-000404,AF102173,Petición,Devolución de aportes,Telefónico,2026-01-02,2026-01-07,Cerrado
+PQRS-2026-000405,AF101316,Petición,Pensión de vejez,Telefónico,2026-06-09,2026-06-11,Cerrado
+PQRS-2026-000406,AF101179,Queja,Pensión de vejez,Web,2026-09-10,2026-09-22,Cerrado
+PQRS-2026-000407,AF100012,Queja,Corrección de datos,Presencial,2026-07-07,2026-07-10,Cerrado
+PQRS-2026-000408,AF101288,Petición,Historia laboral,Presencial,2026-04-24,,Cerrado
+PQRS-2026-000409,AF100706,Petición,Pensión de vejez,Web,2026-06-11,2026-07-18,Cerrado
+PQRS-2026-000410,AF100833,Petición,Certificados,Web,2026-07-27,,Abierto
+PQRS-2026-000411,AF101446,Queja,Devolución de aportes,Presencial,2026-07-17,2026-07-27,Cerrado
+PQRS-2026-000412,AF101552,Reclamo,Devolución de aportes,Web,2026-01-05,2026-01-29,Cerrado
+PQRS-2026-000413,AF101277,Reclamo,Certificados,Presencial,2026-02-22,,Abierto
+PQRS-2026-000414,AF100549,Petición,Atención al usuario,Correo electrónico,2026-05-21,2026-05-26,Cerrado
+PQRS-2026-000415,AF101609,Petición,Devolución de aportes,Presencial,2026-10-20,2026-10-31,Cerrado
+PQRS-2026-000416,AF101812,Reclamo,Certificados,Presencial,2026-01-06,2026-01-28,Cerrado
+PQRS-2026-000417,AF100871,Reclamo,Corrección de datos,Correo electrónico,2026-02-11,2026-02-15,Cerrado
+PQRS-2026-000418,AF101526,Queja,Historia laboral,Correo electrónico,2026-08-02,2026-08-07,Cerrado
+PQRS-2026-000419,AF100143,Petición,Certificados,Correo electrónico,2026-05-16,,En trámite
+PQRS-2026-000420,AF100970,Petición,Certificados,Correo electrónico,2026-05-10,2026-05-23,Cerrado
+PQRS-2026-000421,AF102348,Reclamo,Historia laboral,Presencial,2026-01-20,2026-02-04,Cerrado
+PQRS-2026-000422,AF102032,Reclamo,Certificados,Presencial,2026-08-17,2026-09-01,Cerrado
+PQRS-2026-000423,AF102019,Petición,Corrección de datos,Correo electrónico,2026-04-03,2026-04-10,Cerrado
+PQRS-2026-000424,AF102906,Petición,Historia laboral,Web,2026-10-02,2026-10-12,Cerrado
+PQRS-2026-000425,AF100637,Reclamo,Atención al usuario,Correo electrónico,2026-04-04,2026-05-11,Cerrado
+PQRS-2026-000426,AF101507,Queja,Historia laboral,Correo electrónico,2026-08-31,2026-09-04,Cerrado
+PQRS-2026-000427,AF100262,Reclamo,Devolución de aportes,Telefónico,2026-05-20,2026-05-28,Cerrado
+PQRS-2026-000428,AF101065,Felicitación,Corrección de datos,Correo electrónico,2026-04-29,,En trámite
+PQRS-2026-000429,AF102044,Petición,Historia laboral,Presencial,2026-10-12,2026-10-18,Cerrado
+PQRS-2026-000430,AF100589,Petición,Atención al usuario,Telefónico,2026-09-29,2026-09-29,Cerrado
+PQRS-2026-000431,AF102197,Reclamo,Historia laboral,Presencial,2026-07-31,2026-08-12,Cerrado
+PQRS-2026-000432,AF100170,Petición,Historia laboral,Web,2026-08-07,2026-08-09,Cerrado
+PQRS-2026-000433,AF100695,Petición,Corrección de datos,Telefónico,2026-01-02,2026-01-15,Cerrado
+PQRS-2026-000434,AF100336,Reclamo,Certificados,Presencial,2026-07-25,,Cerrado
+PQRS-2026-000435,AF100851,Petición,Certificados,Web,2026-02-11,2026-02-18,Cerrado
+PQRS-2026-000436,AF102012,Petición,Historia laboral,Web,2026-08-16,2026-08-21,Cerrado
+PQRS-2026-000437,AF100173,Petición,Atención al usuario,Correo electrónico,2026-03-27,2026-04-04,Cerrado
+PQRS-2026-000438,AF102891,Petición,Devolución de aportes,Telefónico,2026-02-21,2026-03-12,Cerrado
+PQRS-2026-000439,AF102619,Petición,Corrección de datos,Correo electrónico,2026-05-10,2026-05-16,Cerrado
+PQRS-2026-000440,AF102522,Queja,Certificados,Telefónico,2026-01-18,2026-01-29,Cerrado
+PQRS-2026-000441,AF101660,Petición,Atención al usuario,Web,2026-06-13,,Abierto
+PQRS-2026-000442,AF102630,Petición,Atención al usuario,Telefónico,2026-03-24,2026-04-09,Cerrado
+PQRS-2026-000443,AF100547,Petición,Atención al usuario,Web,2026-09-14,2026-09-25,Cerrado
+PQRS-2026-000444,AF101625,Petición,Historia laboral,Web,2026-01-23,2026-01-27,Cerrado
+PQRS-2026-000445,AF100585,Petición,Certificados,Telefónico,2026-10-14,2026-10-15,Cerrado
+PQRS-2026-000446,AF101238,Sugerencia,Historia laboral,Correo electrónico,2026-01-18,2026-01-23,Cerrado
+PQRS-2026-000447,AF101619,Queja,Historia laboral,Telefónico,2026-10-13,2026-10-25,Cerrado
+PQRS-2026-000448,AF101477,Reclamo,Certificados,Telefónico,2026-03-06,2026-03-12,Cerrado
+PQRS-2026-000449,AF101684,Petición,Historia laboral,Presencial,2026-06-01,2026-06-19,Cerrado
+PQRS-2026-000450,AF100171,Petición,Devolución de aportes,Web,2026-05-25,2026-07-01,Cerrado
+PQRS-2026-000451,AF100143,Petición,Certificados,Telefónico,2026-06-02,,En trámite
+PQRS-2026-000452,AF102952,Queja,Atención al usuario,Telefónico,2026-08-16,,En trámite
+PQRS-2026-000453,AF100996,Queja,Pensión de vejez,Presencial,2026-05-09,2026-05-30,Cerrado
+PQRS-2026-000454,AF101167,Petición,Certificados,Presencial,2026-08-15,2026-08-28,Cerrado
+PQRS-2026-000455,AF102288,Queja,Pensión de vejez,Presencial,2026-04-23,2026-04-28,Cerrado
+PQRS-2026-000456,AF100292,Petición,Corrección de datos,Presencial,2026-08-25,2026-10-08,Cerrado
+PQRS-2026-000457,AF102333,Sugerencia,Certificados,Correo electrónico,2026-03-16,2026-03-23,Cerrado
+PQRS-2026-000458,AF101789,Petición,Devolución de aportes,Web,2026-01-04,2026-01-15,Cerrado
+PQRS-2026-000459,AF100847,Petición,Historia laboral,Web,2026-06-11,2026-06-17,Cerrado
+PQRS-2026-000460,AF102392,Queja,Corrección de datos,Web,2026-06-19,2026-06-28,Cerrado
+PQRS-2026-000461,AF101143,Petición,Certificados,Correo electrónico,2026-04-27,2026-06-03,Cerrado
+PQRS-2026-000462,AF101137,Petición,Devolución de aportes,Presencial,2026-04-18,2026-04-30,Cerrado
+PQRS-2026-000463,AF100524,Reclamo,Corrección de datos,Presencial,2026-05-16,2026-05-19,Cerrado
+PQRS-2026-000464,AF900003,Petición,Historia laboral,Presencial,2026-04-22,2026-05-09,Cerrado
+PQRS-2026-000465,AF102338,Petición,Corrección de datos,Presencial,2026-05-09,2026-06-04,Cerrado
+PQRS-2026-000466,AF101566,Petición,Pensión de vejez,Correo electrónico,2026-03-06,2026-03-09,Cerrado
+PQRS-2026-000467,AF102053,Petición,Certificados,Presencial,2026-06-16,2026-06-25,Cerrado
+PQRS-2026-000468,AF101917,Queja,Historia laboral,Web,2026-01-05,2026-01-20,Cerrado
+PQRS-2026-000469,AF100373,Queja,Atención al usuario,Presencial,2026-03-26,2026-04-05,Cerrado
+PQRS-2026-000470,AF100014,Petición,Atención al usuario,Presencial,2026-05-03,2026-05-04,Cerrado
+PQRS-2026-000471,AF101714,Felicitación,Devolución de aportes,Web,2026-04-03,2026-04-19,Cerrado
+PQRS-2026-000472,AF101424,Queja,Historia laboral,Telefónico,2026-04-03,2026-04-03,Cerrado
+PQRS-2026-000473,AF101816,Reclamo,Corrección de datos,Telefónico,2026-07-22,,Abierto
+PQRS-2026-000474,AF101999,Petición,Pensión de vejez,Correo electrónico,2026-08-06,2026-09-02,Cerrado
+PQRS-2026-000475,AF100362,Reclamo,Certificados,Correo electrónico,2026-10-21,,En trámite
+PQRS-2026-000476,AF101580,Felicitación,Pensión de vejez,Correo electrónico,2026-04-17,2026-05-01,Cerrado
+PQRS-2026-000477,AF102449,Petición,Certificados,Web,2026-05-03,2026-05-21,Cerrado
+PQRS-2026-000478,AF100758,Reclamo,Devolución de aportes,Telefónico,2026-03-22,2026-04-18,Cerrado
+PQRS-2026-000479,AF101765,Petición,Corrección de datos,Presencial,2026-02-01,2026-02-14,Cerrado
+PQRS-2026-000480,AF101251,Queja,Devolución de aportes,Web,2026-01-04,2026-01-12,Cerrado
+PQRS-2026-000481,AF102943,Sugerencia,Historia laboral,Presencial,2026-07-30,2026-08-05,Cerrado
+PQRS-2026-000482,AF102860,Petición,Certificados,Presencial,2026-04-23,2026-04-29,Cerrado
+PQRS-2026-000483,AF100182,Sugerencia,Atención al usuario,Presencial,2026-09-12,2026-09-22,Cerrado
+PQRS-2026-000484,AF101259,Queja,Historia laboral,Web,2026-05-24,2026-05-27,Cerrado
+PQRS-2026-000485,AF101685,Petición,Atención al usuario,Correo electrónico,2026-07-09,,Cerrado
+PQRS-2026-000486,AF102944,Queja,Atención al usuario,Presencial,2026-09-18,2026-10-05,Cerrado
+PQRS-2026-000487,AF100564,Sugerencia,Devolución de aportes,Correo electrónico,2026-09-15,2026-09-26,Cerrado
+PQRS-2026-000488,AF101246,Reclamo,Certificados,Presencial,2026-01-09,2026-01-16,Cerrado
+PQRS-2026-000489,AF101849,Sugerencia,Devolución de aportes,Web,2026-06-24,2026-07-31,Cerrado
+PQRS-2026-000490,AF100059,Sugerencia,Certificados,Web,2026-02-21,2026-03-03,Cerrado
+PQRS-2026-000491,AF100538,Queja,Devolución de aportes,Web,2026-09-26,2026-10-13,Cerrado
+PQRS-2026-000492,AF101757,Reclamo,Certificados,Web,2026-05-11,2026-05-21,Cerrado
+PQRS-2026-000493,AF101832,Queja,Devolución de aportes,Telefónico,2026-07-11,2026-07-18,Cerrado
+PQRS-2026-000494,AF102974,Petición,Atención al usuario,Presencial,2026-04-16,2026-05-01,Cerrado
+PQRS-2026-000495,AF100983,Reclamo,Pensión de vejez,Telefónico,2026-06-29,2026-06-23,Cerrado
+PQRS-2026-000496,AF102353,Sugerencia,Certificados,Web,2026-06-02,2026-06-07,Cerrado
+PQRS-2026-000497,AF100706,Petición,Pensión de vejez,Correo electrónico,2026-09-03,2026-09-19,Cerrado
+PQRS-2026-000498,AF100693,Reclamo,Corrección de datos,Presencial,2026-03-20,2026-03-29,Cerrado
+PQRS-2026-000499,AF100526,Queja,Historia laboral,Correo electrónico,2026-06-06,2026-07-05,Cerrado
+PQRS-2026-000500,AF102954,Reclamo,Corrección de datos,Correo electrónico,2026-10-14,2026-10-17,Cerrado
+PQRS-2026-000501,AF102980,Petición,Corrección de datos,Telefónico,2026-02-03,2026-02-16,Cerrado
+PQRS-2026-000502,AF100418,Petición,Devolución de aportes,Web,2026-06-05,2026-06-08,Cerrado
+PQRS-2026-000503,AF101517,Sugerencia,Pensión de vejez,Web,2026-03-14,2026-03-17,Cerrado
+PQRS-2026-000504,AF101407,Petición,Pensión de vejez,Telefónico,2026-01-07,2026-02-01,Cerrado
+PQRS-2026-000505,AF101189,Reclamo,Corrección de datos,Correo electrónico,2026-06-20,2026-06-22,Cerrado
+PQRS-2026-000506,AF102853,Petición,Corrección de datos,Correo electrónico,2026-08-16,2026-08-27,Cerrado
+PQRS-2026-000507,AF102901,Felicitación,Certificados,Correo electrónico,2026-01-28,2026-02-17,Cerrado
+PQRS-2026-000508,AF102434,Sugerencia,Atención al usuario,Correo electrónico,2026-09-21,2026-09-30,Cerrado
+PQRS-2026-000509,AF100538,Reclamo,Certificados,Presencial,2026-05-18,2026-05-27,Cerrado
+PQRS-2026-000510,AF101520,Petición,Historia laboral,Web,2026-09-16,2026-10-06,Cerrado
+PQRS-2026-000511,AF101176,Reclamo,Corrección de datos,Web,2026-05-28,2026-06-03,Cerrado
+PQRS-2026-000512,AF102960,Queja,Devolución de aportes,Correo electrónico,2026-08-25,2026-08-28,Cerrado
+PQRS-2026-000513,AF101236,Petición,Certificados,Presencial,2026-09-04,2026-09-08,Cerrado
+PQRS-2026-000514,AF102122,Queja,Certificados,Telefónico,2026-09-30,2026-10-05,Cerrado
+PQRS-2026-000515,AF101459,Petición,Corrección de datos,Presencial,2026-01-09,2026-01-11,Cerrado
+PQRS-2026-000516,AF100452,Petición,Atención al usuario,Telefónico,2026-09-07,2026-09-16,Cerrado
+PQRS-2026-000517,AF101154,Reclamo,Pensión de vejez,Web,2026-03-01,2026-03-08,Cerrado
+PQRS-2026-000518,AF100993,Petición,Corrección de datos,Correo electrónico,2026-10-21,2026-10-17,Abierto
+PQRS-2026-000519,AF102695,Reclamo,Corrección de datos,Telefónico,2026-03-10,2026-03-25,Cerrado
+PQRS-2026-000520,AF101997,Petición,Historia laboral,Web,2026-05-15,2026-05-25,Cerrado
+PQRS-2026-000521,AF100617,Petición,Devolución de aportes,Web,2026-10-11,2026-10-24,Cerrado
+PQRS-2026-000522,AF101709,Reclamo,Devolución de aportes,Correo electrónico,2026-06-06,2026-06-19,Cerrado
+PQRS-2026-000523,AF100980,Queja,Pensión de vejez,Telefónico,2026-01-17,2026-01-18,Cerrado
+PQRS-2026-000524,AF102172,Petición,Certificados,Correo electrónico,2026-08-16,2026-08-24,Cerrado
+PQRS-2026-000525,AF101642,Petición,Devolución de aportes,Correo electrónico,2026-06-25,2026-06-29,Cerrado
+PQRS-2026-000526,AF101504,Queja,Devolución de aportes,Telefónico,2026-06-12,2026-06-18,Cerrado
+PQRS-2026-000527,AF101358,Petición,Devolución de aportes,Presencial,2026-03-06,2026-04-10,Cerrado
+PQRS-2026-000528,AF102378,Queja,Certificados,Web,2026-10-07,,En trámite
+PQRS-2026-000529,AF102875,Petición,Pensión de vejez,Web,2026-03-06,2026-03-27,Cerrado
+PQRS-2026-000530,AF100401,Petición,Historia laboral,Presencial,2026-02-27,2026-03-03,Cerrado
+PQRS-2026-000531,AF100980,Petición,Certificados,Telefónico,2026-08-18,2026-09-23,Cerrado
+PQRS-2026-000532,AF101815,Petición,Certificados,Presencial,2026-04-05,2026-04-25,Cerrado
+PQRS-2026-000533,AF101692,Petición,Devolución de aportes,Presencial,2026-04-03,2026-04-24,Cerrado
+PQRS-2026-000534,AF102016,Petición,Atención al usuario,Web,2026-03-15,,Abierto
+PQRS-2026-000535,AF100180,Petición,Historia laboral,Presencial,2026-06-23,2026-07-01,Cerrado
+PQRS-2026-000536,AF102889,Petición,Pensión de vejez,Correo electrónico,2026-10-18,2026-10-31,Cerrado
+PQRS-2026-000537,AF101530,Petición,Corrección de datos,Correo electrónico,2026-01-10,,Cerrado
+PQRS-2026-000538,AF102916,Petición,Atención al usuario,Correo electrónico,2026-01-03,2026-01-06,Cerrado
+PQRS-2026-000539,AF100710,Queja,Pensión de vejez,Correo electrónico,2026-09-06,2026-09-26,Cerrado
+PQRS-2026-000540,AF100835,Queja,Devolución de aportes,Correo electrónico,2026-08-03,2026-08-19,Cerrado
+PQRS-2026-000541,AF100817,Petición,Devolución de aportes,Correo electrónico,2026-08-29,2026-09-08,Cerrado
+PQRS-2026-000542,AF100803,Petición,Corrección de datos,Web,2026-05-27,2026-06-03,Cerrado
+PQRS-2026-000543,AF102955,Petición,Corrección de datos,Presencial,2026-07-27,2026-08-12,Cerrado
+PQRS-2026-000544,AF102654,Petición,Historia laboral,Telefónico,2026-01-27,2026-02-03,Cerrado
+PQRS-2026-000545,AF101475,Reclamo,Historia laboral,Presencial,2026-09-11,2026-10-05,Cerrado
+PQRS-2026-000546,AF100743,Reclamo,Devolución de aportes,Telefónico,2026-06-23,2026-06-30,Cerrado
+PQRS-2026-000547,AF102411,Petición,Devolución de aportes,Web,2026-04-12,2026-04-26,Cerrado
+PQRS-2026-000548,AF900019,Petición,Pensión de vejez,Presencial,2026-05-20,2026-06-12,Cerrado
+PQRS-2026-000549,AF101093,Petición,Pensión de vejez,Correo electrónico,2026-02-02,2026-02-07,Cerrado
+PQRS-2026-000550,AF102350,Reclamo,Atención al usuario,Telefónico,2026-08-16,2026-08-22,Cerrado
+PQRS-2026-000551,AF101183,Petición,Corrección de datos,Presencial,2026-06-01,2026-06-12,Cerrado
+PQRS-2026-000552,AF100770,Reclamo,Certificados,Presencial,2026-05-22,2026-05-26,Cerrado
+PQRS-2026-000553,AF100300,Petición,Atención al usuario,Web,2026-06-07,2026-07-09,Cerrado
+PQRS-2026-000554,AF102505,Petición,Corrección de datos,Web,2026-10-17,2026-10-18,Cerrado
+PQRS-2026-000555,AF100743,Petición,Atención al usuario,Presencial,2026-10-11,,Abierto
+PQRS-2026-000556,AF100356,Petición,Devolución de aportes,Correo electrónico,2026-08-09,2026-08-13,Cerrado
+PQRS-2026-000557,AF100831,Petición,Atención al usuario,Correo electrónico,2026-06-03,2026-06-17,Cerrado
+PQRS-2026-000558,AF100952,Reclamo,Pensión de vejez,Web,2026-03-18,2026-03-28,Cerrado
+PQRS-2026-000559,AF102014,Petición,Atención al usuario,Telefónico,2026-04-24,2026-05-11,Cerrado
+PQRS-2026-000560,AF101893,Petición,Pensión de vejez,Presencial,2026-09-18,2026-09-25,Cerrado
+PQRS-2026-000561,AF101238,Petición,Historia laboral,Correo electrónico,2026-05-17,2026-06-03,Cerrado
+PQRS-2026-000562,AF102231,Queja,Pensión de vejez,Web,2026-07-14,2026-07-20,Cerrado
+PQRS-2026-000563,AF101082,Petición,Historia laboral,Telefónico,2026-06-08,2026-06-15,Cerrado
+PQRS-2026-000564,AF101568,Sugerencia,Devolución de aportes,Correo electrónico,2026-02-18,2026-03-14,Cerrado
+PQRS-2026-000565,AF100095,Petición,Certificados,Correo electrónico,2026-06-08,2026-06-15,Cerrado
+PQRS-2026-000566,AF102762,Petición,Atención al usuario,Web,2026-08-19,2026-09-07,Cerrado
+PQRS-2026-000567,AF102860,Queja,Historia laboral,Telefónico,2026-08-06,2026-08-21,Cerrado
+PQRS-2026-000568,AF100060,Reclamo,Certificados,Telefónico,2026-10-21,,Cerrado
+PQRS-2026-000569,AF101068,Petición,Corrección de datos,Correo electrónico,2026-09-07,2026-09-28,Cerrado
+PQRS-2026-000570,AF101294,Petición,Atención al usuario,Presencial,2026-10-18,,En trámite
+PQRS-2026-000571,AF100729,Petición,Atención al usuario,Presencial,2026-10-15,,En trámite
+PQRS-2026-000572,AF101407,Petición,Corrección de datos,Correo electrónico,2026-05-27,2026-06-03,Cerrado
+PQRS-2026-000573,AF101290,Petición,Certificados,Correo electrónico,2026-02-28,2026-03-17,Cerrado
+PQRS-2026-000574,AF101454,Petición,Corrección de datos,Telefónico,2026-03-23,2026-04-03,Cerrado
+PQRS-2026-000575,AF101157,Queja,Corrección de datos,Presencial,2026-03-24,2026-03-31,Cerrado
+PQRS-2026-000576,AF102003,Sugerencia,Corrección de datos,Web,2026-01-09,2026-01-16,Cerrado
+PQRS-2026-000577,AF100209,Sugerencia,Certificados,Correo electrónico,2026-03-18,2026-04-24,Cerrado
+PQRS-2026-000578,AF102472,Petición,Corrección de datos,Presencial,2026-01-28,2026-01-30,Cerrado
+PQRS-2026-000579,AF100994,Queja,Certificados,Telefónico,2026-03-13,2026-03-22,Cerrado
+PQRS-2026-000580,AF100280,Petición,Atención al usuario,Correo electrónico,2026-02-19,2026-03-08,Cerrado
+PQRS-2026-000581,AF101387,Petición,Atención al usuario,Telefónico,2026-02-10,2026-02-16,Cerrado
+PQRS-2026-000582,AF102508,Petición,Corrección de datos,Correo electrónico,2026-02-16,2026-02-19,Cerrado
+PQRS-2026-000583,AF101851,Reclamo,Historia laboral,Correo electrónico,2026-02-11,2026-02-27,Cerrado
+PQRS-2026-000584,AF102506,Petición,Devolución de aportes,Web,2026-06-04,2026-06-12,Cerrado
+PQRS-2026-000585,AF102026,Reclamo,Pensión de vejez,Web,2026-03-07,2026-03-12,Cerrado
+PQRS-2026-000586,AF100213,Petición,Devolución de aportes,Presencial,2026-08-20,2026-08-26,Cerrado
+PQRS-2026-000587,AF100950,Queja,Devolución de aportes,Telefónico,2026-08-04,,Abierto
+PQRS-2026-000588,AF102795,Petición,Certificados,Telefónico,2026-01-05,2026-01-21,Cerrado
+PQRS-2026-000589,AF102017,Petición,Historia laboral,Telefónico,2026-06-03,2026-06-21,Cerrado
+PQRS-2026-000590,AF101532,Sugerencia,Corrección de datos,Web,2026-08-01,2026-08-04,Cerrado
+PQRS-2026-000591,AF101831,Queja,Devolución de aportes,Web,2026-07-17,2026-08-06,Cerrado
+PQRS-2026-000592,AF102549,Reclamo,Atención al usuario,Presencial,2026-09-19,2026-10-06,Cerrado
+PQRS-2026-000593,AF101023,Queja,Corrección de datos,Correo electrónico,2026-05-19,2026-06-04,Cerrado
+PQRS-2026-000594,AF100546,Queja,Historia laboral,Telefónico,2026-01-10,2026-02-05,Cerrado
+PQRS-2026-000595,AF100148,Petición,Historia laboral,Telefónico,2026-08-18,2026-08-25,Cerrado
+PQRS-2026-000596,AF101166,Queja,Devolución de aportes,Web,2026-02-02,2026-02-20,Cerrado
+PQRS-2026-000597,AF100073,Petición,Certificados,Presencial,2026-09-21,2026-10-04,Cerrado
+PQRS-2026-000598,AF101153,Queja,Devolución de aportes,Presencial,2026-04-21,2026-05-08,Cerrado
+PQRS-2026-000599,AF101447,Queja,Certificados,Presencial,2026-04-03,,En trámite
+PQRS-2026-000600,AF101842,Petición,Corrección de datos,Telefónico,2026-03-30,2026-04-14,Cerrado
+PQRS-2026-000601,AF101616,Sugerencia,Certificados,Web,2026-04-21,2026-05-05,Cerrado
+PQRS-2026-000602,AF100419,Petición,Atención al usuario,Presencial,2026-07-09,2026-07-22,Cerrado
+PQRS-2026-000603,AF100047,Petición,Historia laboral,Telefónico,2026-05-29,2026-06-06,Cerrado
+PQRS-2026-000604,AF102498,Petición,Historia laboral,Correo electrónico,2026-10-23,,En trámite
+PQRS-2026-000605,AF100454,Petición,Certificados,Telefónico,2026-05-24,2026-06-08,Cerrado
+PQRS-2026-000606,AF101246,Petición,Historia laboral,Web,2026-06-18,2026-06-30,Cerrado
+PQRS-2026-000607,AF100291,Petición,Devolución de aportes,Presencial,2026-01-30,,Cerrado
+PQRS-2026-000608,AF102546,Queja,Historia laboral,Web,2026-01-22,2026-01-30,Cerrado
+PQRS-2026-000609,AF100774,Petición,Historia laboral,Correo electrónico,2026-06-30,,En trámite
+PQRS-2026-000610,AF101683,Reclamo,Certificados,Telefónico,2026-01-18,2026-01-26,Cerrado
+PQRS-2026-000611,AF101999,Petición,Devolución de aportes,Correo electrónico,2026-07-13,2026-08-05,Cerrado
+PQRS-2026-000612,AF101645,Petición,Devolución de aportes,Web,2026-03-29,2026-04-03,Cerrado
+PQRS-2026-000613,AF100331,Queja,Pensión de vejez,Presencial,2026-02-25,2026-03-07,Cerrado
+PQRS-2026-000614,AF101041,Petición,Corrección de datos,Web,2026-03-30,2026-04-12,Cerrado
+PQRS-2026-000615,AF100384,Sugerencia,Certificados,Presencial,2026-08-27,2026-09-08,Cerrado
+PQRS-2026-000616,AF100593,Petición,Pensión de vejez,Web,2026-09-11,2026-09-24,Cerrado
+PQRS-2026-000617,AF102396,Petición,Atención al usuario,Correo electrónico,2026-02-21,2026-02-27,Cerrado
+PQRS-2026-000618,AF101668,Queja,Devolución de aportes,Telefónico,2026-06-08,2026-06-29,Cerrado
+PQRS-2026-000619,AF102757,Petición,Atención al usuario,Telefónico,2026-03-01,2026-03-15,Cerrado
+PQRS-2026-000620,AF102816,Petición,Pensión de vejez,Presencial,2026-07-13,2026-09-04,Cerrado
+PQRS-2026-000621,AF101018,Sugerencia,Pensión de vejez,Telefónico,2026-02-10,2026-02-14,Cerrado
+PQRS-2026-000622,AF100837,Reclamo,Certificados,Web,2026-04-09,2026-04-21,Cerrado
+PQRS-2026-000623,AF100435,Petición,Certificados,Correo electrónico,2026-01-21,2026-02-07,Cerrado
+PQRS-2026-000624,AF102215,Petición,Certificados,Presencial,2026-06-05,2026-06-22,Cerrado
+PQRS-2026-000625,AF101579,Reclamo,Historia laboral,Web,2026-09-22,2026-10-02,Cerrado
+PQRS-2026-000626,AF100816,Felicitación,Certificados,Presencial,2026-01-23,,Abierto
+PQRS-2026-000627,AF102010,Sugerencia,Certificados,Correo electrónico,2026-03-28,2026-03-30,Cerrado
+PQRS-2026-000628,AF100825,Queja,Atención al usuario,Web,2026-07-07,2026-07-29,Cerrado
+PQRS-2026-000629,AF102842,Petición,Certificados,Telefónico,2026-10-02,,Cerrado
+PQRS-2026-000630,AF100814,Reclamo,Corrección de datos,Telefónico,2026-09-17,2026-10-16,Cerrado
+PQRS-2026-000631,AF102832,Queja,Certificados,Correo electrónico,2026-07-17,2026-08-04,Cerrado
+PQRS-2026-000632,AF100482,Petición,Corrección de datos,Presencial,2026-03-27,2026-05-01,Cerrado
+PQRS-2026-000633,AF102078,Reclamo,Certificados,Web,2026-08-07,,Cerrado
+PQRS-2026-000634,AF101414,Petición,Pensión de vejez,Telefónico,2026-09-13,2026-09-26,Cerrado
+PQRS-2026-000635,AF101087,Queja,Pensión de vejez,Presencial,2026-06-03,,Abierto
+PQRS-2026-000636,AF100619,Petición,Historia laboral,Presencial,2026-08-02,2026-08-06,Cerrado
+PQRS-2026-000637,AF900000,Queja,Corrección de datos,Correo electrónico,2026-06-05,2026-06-25,Cerrado
+PQRS-2026-000638,AF102864,Reclamo,Certificados,Presencial,2026-03-05,2026-03-14,Cerrado
+PQRS-2026-000639,AF100023,Petición,Corrección de datos,Web,2026-02-28,2026-03-16,Cerrado
+PQRS-2026-000640,AF101437,Reclamo,Certificados,Presencial,2026-02-08,2026-03-06,Cerrado
+PQRS-2026-000641,AF102517,Reclamo,Pensión de vejez,Correo electrónico,2026-05-31,2026-06-05,Cerrado
+PQRS-2026-000642,AF102549,Petición,Devolución de aportes,Web,2026-04-04,2026-04-11,Cerrado
+PQRS-2026-000643,AF100244,Petición,Pensión de vejez,Telefónico,2026-04-20,2026-05-21,Cerrado
+PQRS-2026-000644,AF100318,Petición,Corrección de datos,Telefónico,2026-06-05,2026-06-18,Cerrado
+PQRS-2026-000645,AF100901,Petición,Corrección de datos,Web,2026-02-08,2026-02-09,Cerrado
+PQRS-2026-000646,AF101878,Petición,Historia laboral,Correo electrónico,2026-03-20,2026-03-29,Cerrado
+PQRS-2026-000647,AF100404,Sugerencia,Certificados,Presencial,2026-10-22,2026-10-26,Cerrado
+PQRS-2026-000648,AF100143,Queja,Corrección de datos,Web,2026-01-27,2026-02-12,Cerrado
+PQRS-2026-000649,AF101615,Petición,Devolución de aportes,Web,2026-06-14,2026-06-19,Cerrado
+PQRS-2026-000650,AF100729,Petición,Atención al usuario,Telefónico,2026-01-04,2026-02-03,Cerrado
+PQRS-2026-000651,AF101553,Petición,Devolución de aportes,Web,2026-09-20,,Cerrado
+PQRS-2026-000652,AF100437,Petición,Historia laboral,Correo electrónico,2026-04-11,2026-04-29,Cerrado
+PQRS-2026-000653,AF102193,Reclamo,Devolución de aportes,Presencial,2026-02-12,2026-02-20,Cerrado
+PQRS-2026-000654,AF101048,Petición,Corrección de datos,Telefónico,2026-05-12,2026-05-23,Cerrado
+PQRS-2026-000655,AF102211,Petición,Certificados,Telefónico,2026-02-07,2026-02-19,Cerrado
+PQRS-2026-000656,AF102508,Petición,Atención al usuario,Web,2026-08-28,2026-09-02,Cerrado
+PQRS-2026-000657,AF100611,Petición,Corrección de datos,Correo electrónico,2026-05-21,2026-05-30,Cerrado
+PQRS-2026-000658,AF102499,Petición,Devolución de aportes,Presencial,2026-04-21,2026-04-24,Cerrado
+PQRS-2026-000659,AF101382,Petición,Certificados,Correo electrónico,2026-07-09,,En trámite
+PQRS-2026-000660,AF100746,Petición,Corrección de datos,Telefónico,2026-09-15,2026-09-23,Cerrado
+PQRS-2026-000661,AF100658,Petición,Devolución de aportes,Web,2026-03-07,2026-04-01,Cerrado
+PQRS-2026-000662,AF100448,Reclamo,Corrección de datos,Presencial,2026-02-26,2026-03-10,Cerrado
+PQRS-2026-000663,AF102729,Felicitación,Corrección de datos,Telefónico,2026-04-16,2026-04-27,Cerrado
+PQRS-2026-000664,AF100194,Reclamo,Corrección de datos,Correo electrónico,2026-05-21,,Abierto
+PQRS-2026-000665,AF102600,Petición,Certificados,Web,2026-08-26,2026-09-05,Cerrado
+PQRS-2026-000666,AF900007,Queja,Certificados,Correo electrónico,2026-09-28,2026-10-12,Cerrado
+PQRS-2026-000667,AF102931,Queja,Pensión de vejez,Presencial,2026-05-27,2026-05-31,Cerrado
+PQRS-2026-000668,AF102746,Petición,Certificados,Telefónico,2026-04-19,2026-04-23,Cerrado
+PQRS-2026-000669,AF100357,Reclamo,Certificados,Presencial,2026-04-19,2026-05-07,Cerrado
+PQRS-2026-000670,AF100368,Petición,Devolución de aportes,Presencial,2026-10-03,2026-10-09,Cerrado
+PQRS-2026-000671,AF101023,Petición,Atención al usuario,Web,2026-04-01,2026-04-07,Cerrado
+PQRS-2026-000672,AF101215,Petición,Pensión de vejez,Correo electrónico,2026-10-11,,En trámite
+PQRS-2026-000673,AF100666,Reclamo,Historia laboral,Telefónico,2026-06-20,2026-07-09,Cerrado
+PQRS-2026-000674,AF101758,Reclamo,Devolución de aportes,Telefónico,2026-05-22,2026-05-25,Cerrado
+PQRS-2026-000675,AF102754,Queja,Pensión de vejez,Correo electrónico,2026-04-01,2026-04-11,Cerrado
+PQRS-2026-000676,AF101040,Reclamo,Atención al usuario,Correo electrónico,2026-10-27,,En trámite
+PQRS-2026-000677,AF101702,Petición,Certificados,Correo electrónico,2026-03-29,2026-04-05,Cerrado
+PQRS-2026-000678,AF102270,Queja,Atención al usuario,Web,2026-04-15,2026-04-18,Cerrado
+PQRS-2026-000679,AF101583,Petición,Historia laboral,Web,2026-07-27,2026-08-02,Cerrado
+PQRS-2026-000680,AF100069,Queja,Corrección de datos,Presencial,2026-02-03,2026-02-16,Cerrado
+PQRS-2026-000681,AF102977,Queja,Certificados,Telefónico,2026-02-20,2026-03-29,Cerrado
+PQRS-2026-000682,AF100396,Petición,Corrección de datos,Telefónico,2026-07-19,2026-07-22,Cerrado
+PQRS-2026-000683,AF102836,Queja,Certificados,Correo electrónico,2026-01-30,2026-02-12,Cerrado
+PQRS-2026-000684,AF101026,Petición,Certificados,Web,2026-08-30,2026-09-11,Cerrado
+PQRS-2026-000685,AF100742,Reclamo,Corrección de datos,Correo electrónico,2026-02-06,2026-02-11,Cerrado
+PQRS-2026-000686,AF100313,Petición,Historia laboral,Telefónico,2026-02-27,2026-03-17,Cerrado
+PQRS-2026-000687,AF101308,Reclamo,Certificados,Web,2026-08-08,2026-08-18,Cerrado
+PQRS-2026-000688,AF100713,Reclamo,Atención al usuario,Web,2026-06-01,2026-06-05,Cerrado
+PQRS-2026-000689,AF102524,Petición,Devolución de aportes,Presencial,2026-09-24,2026-10-01,Cerrado
+PQRS-2026-000690,AF100590,Petición,Atención al usuario,Web,2026-05-10,2026-05-18,Cerrado
+PQRS-2026-000691,AF101491,Queja,Pensión de vejez,Correo electrónico,2026-10-07,,Abierto
+PQRS-2026-000692,AF102723,Reclamo,Certificados,Correo electrónico,2026-10-24,2026-10-17,Cerrado
+PQRS-2026-000693,AF102759,Petición,Devolución de aportes,Web,2026-06-17,2026-07-01,Cerrado
+PQRS-2026-000694,AF100361,Queja,Atención al usuario,Telefónico,2026-07-02,2026-07-06,Cerrado
+PQRS-2026-000695,AF100120,Petición,Devolución de aportes,Correo electrónico,2026-09-30,2026-10-04,Cerrado
+PQRS-2026-000696,AF101714,Petición,Devolución de aportes,Web,2026-03-31,2026-04-12,Cerrado
+PQRS-2026-000697,AF100316,Petición,Devolución de aportes,Telefónico,2026-06-17,2026-06-24,Cerrado
+PQRS-2026-000698,AF102678,Reclamo,Corrección de datos,Web,2026-04-27,2026-05-07,Cerrado
+PQRS-2026-000699,AF101232,Queja,Certificados,Presencial,2026-07-08,2026-07-21,Cerrado
+PQRS-2026-000700,AF100160,Reclamo,Corrección de datos,Correo electrónico,2026-07-20,2026-08-19,Cerrado
+PQRS-2026-000701,AF102006,Petición,Certificados,Correo electrónico,2026-05-03,2026-05-26,Cerrado
+PQRS-2026-000702,AF102799,Reclamo,Atención al usuario,Web,2026-01-20,2026-02-10,Cerrado
+PQRS-2026-000703,AF100246,Petición,Historia laboral,Telefónico,2026-01-11,2026-01-29,Cerrado
+PQRS-2026-000704,AF101384,Queja,Historia laboral,Correo electrónico,2026-10-05,2026-10-14,Cerrado
+PQRS-2026-000705,AF102870,Reclamo,Atención al usuario,Web,2026-01-23,2026-02-10,Cerrado
+PQRS-2026-000706,AF100164,Petición,Devolución de aportes,Presencial,2026-07-30,2026-08-21,Cerrado
+PQRS-2026-000707,AF101788,Queja,Historia laboral,Web,2026-06-18,2026-07-10,Cerrado
+PQRS-2026-000708,AF102570,Petición,Certificados,Correo electrónico,2026-08-05,,En trámite
+PQRS-2026-000709,AF101514,Petición,Historia laboral,Presencial,2026-04-14,2026-04-25,Cerrado
+PQRS-2026-000710,AF100854,Queja,Atención al usuario,Web,2026-02-07,2026-02-25,Cerrado
+PQRS-2026-000711,AF102137,Petición,Atención al usuario,Web,2026-01-30,2026-02-09,Cerrado
+PQRS-2026-000712,AF101477,Petición,Certificados,Presencial,2026-07-01,2026-07-15,Cerrado
+PQRS-2026-000713,AF100652,Reclamo,Pensión de vejez,Correo electrónico,2026-06-14,2026-06-16,Cerrado
+PQRS-2026-000714,AF102542,Petición,Certificados,Presencial,2026-10-04,2026-10-14,Cerrado
+PQRS-2026-000715,AF100936,Petición,Atención al usuario,Web,2026-10-11,,Abierto
+PQRS-2026-000716,AF102971,Petición,Corrección de datos,Correo electrónico,2026-08-05,2026-08-13,Cerrado
+PQRS-2026-000717,AF100903,Petición,Devolución de aportes,Web,2026-05-06,,En trámite
+PQRS-2026-000718,AF100907,Petición,Corrección de datos,Correo electrónico,2026-10-20,,En trámite
+PQRS-2026-000719,AF101626,Reclamo,Devolución de aportes,Correo electrónico,2026-01-24,2026-02-02,Cerrado
+PQRS-2026-000720,AF102436,Petición,Historia laboral,Web,2026-02-09,2026-02-25,Cerrado
+PQRS-2026-000721,AF100287,Queja,Historia laboral,Web,2026-03-17,2026-03-23,Cerrado
+PQRS-2026-000722,AF101820,Petición,Pensión de vejez,Correo electrónico,2026-06-25,2026-07-01,Cerrado
+PQRS-2026-000723,AF102113,Reclamo,Devolución de aportes,Telefónico,2026-06-09,2026-06-21,Cerrado
+PQRS-2026-000724,AF102075,Petición,Historia laboral,Correo electrónico,2026-10-24,,Abierto
+PQRS-2026-000725,AF100954,Felicitación,Certificados,Presencial,2026-05-23,2026-06-05,Cerrado
+PQRS-2026-000726,AF102946,Petición,Atención al usuario,Presencial,2026-07-01,2026-07-03,Cerrado
+PQRS-2026-000727,AF102816,Petición,Certificados,Web,2026-06-18,2026-07-01,Cerrado
+PQRS-2026-000728,AF102533,Petición,Atención al usuario,Web,2026-01-31,2026-02-18,Cerrado
+PQRS-2026-000729,AF102127,Petición,Historia laboral,Correo electrónico,2026-06-09,2026-06-24,Cerrado
+PQRS-2026-000730,AF102025,Petición,Corrección de datos,Correo electrónico,2026-06-07,2026-06-15,Cerrado
+PQRS-2026-000731,AF102938,Queja,Atención al usuario,Telefónico,2026-02-09,2026-02-17,Cerrado
+PQRS-2026-000732,AF101281,Petición,Atención al usuario,Web,2026-05-08,2026-05-25,Cerrado
+PQRS-2026-000733,AF100998,Queja,Atención al usuario,Web,2026-04-11,2026-04-16,Cerrado
+PQRS-2026-000734,AF100257,Queja,Corrección de datos,Web,2026-01-23,2026-01-29,Cerrado
+PQRS-2026-000735,AF101632,Petición,Certificados,Web,2026-09-04,2026-09-17,Cerrado
+PQRS-2026-000736,AF100242,Petición,Atención al usuario,Web,2026-08-04,2026-08-16,Cerrado
+PQRS-2026-000737,AF102092,Petición,Pensión de vejez,Web,2026-05-10,2026-05-30,Cerrado
+PQRS-2026-000738,AF101297,Petición,Corrección de datos,Presencial,2026-05-21,2026-05-23,Cerrado
+PQRS-2026-000739,AF102768,Queja,Corrección de datos,Correo electrónico,2026-01-05,2026-01-13,Cerrado
+PQRS-2026-000740,AF101057,Reclamo,Devolución de aportes,Telefónico,2026-08-25,2026-09-06,Cerrado
+PQRS-2026-000741,AF101454,Petición,Historia laboral,Telefónico,2026-03-14,2026-04-15,Cerrado
+PQRS-2026-000742,AF100985,Sugerencia,Corrección de datos,Correo electrónico,2026-08-02,2026-08-07,Cerrado
+PQRS-2026-000743,AF101340,Reclamo,Pensión de vejez,Presencial,2026-05-22,2026-05-29,Cerrado
+PQRS-2026-000744,AF102566,Reclamo,Certificados,Presencial,2026-07-18,2026-07-27,Cerrado
+PQRS-2026-000745,AF101235,Reclamo,Certificados,Telefónico,2026-04-23,,Cerrado
+PQRS-2026-000746,AF101176,Petición,Devolución de aportes,Correo electrónico,2026-07-06,2026-07-18,Cerrado
+PQRS-2026-000747,AF100559,Petición,Historia laboral,Presencial,2026-09-06,2026-09-28,Cerrado
+PQRS-2026-000748,AF100086,Petición,Certificados,Web,2026-03-03,2026-03-25,Cerrado
+PQRS-2026-000749,AF102512,Petición,Corrección de datos,Correo electrónico,2026-09-01,2026-10-03,Cerrado
+PQRS-2026-000750,AF102392,Reclamo,Atención al usuario,Correo electrónico,2026-07-05,2026-07-19,Cerrado
+PQRS-2026-000751,AF102930,Queja,Historia laboral,Web,2026-08-10,2026-08-21,Cerrado
+PQRS-2026-000752,AF100048,Felicitación,Atención al usuario,Web,2026-03-20,2026-03-24,Cerrado
+PQRS-2026-000753,AF102185,Petición,Historia laboral,Presencial,2026-05-18,2026-05-23,Cerrado
+PQRS-2026-000754,AF101197,Petición,Devolución de aportes,Web,2026-04-23,2026-05-02,Cerrado
+PQRS-2026-000755,AF102833,Petición,Pensión de vejez,Presencial,2026-05-01,2026-05-06,Cerrado
+PQRS-2026-000756,AF101756,Petición,Atención al usuario,Correo electrónico,2026-05-21,2026-05-30,Cerrado
+PQRS-2026-000757,AF102004,Petición,Corrección de datos,Web,2026-04-28,2026-05-14,Cerrado
+PQRS-2026-000758,AF102191,Reclamo,Historia laboral,Presencial,2026-01-20,2026-01-29,Cerrado
+PQRS-2026-000759,AF100507,Petición,Historia laboral,Correo electrónico,2026-05-14,2026-05-21,Cerrado
+PQRS-2026-000760,AF100519,Petición,Pensión de vejez,Correo electrónico,2026-02-23,2026-03-12,Cerrado
+PQRS-2026-000761,AF102219,Reclamo,Pensión de vejez,Correo electrónico,2026-08-11,2026-08-16,Cerrado
+PQRS-2026-000762,AF102821,Petición,Devolución de aportes,Presencial,2026-09-08,2026-09-16,Cerrado
+PQRS-2026-000763,AF102602,Queja,Certificados,Telefónico,2026-02-16,2026-03-04,Cerrado
+PQRS-2026-000764,AF101625,Felicitación,Atención al usuario,Web,2026-10-12,2026-10-17,Cerrado
+PQRS-2026-000765,AF101993,Petición,Corrección de datos,Web,2026-04-27,2026-05-11,Cerrado
+PQRS-2026-000766,AF100800,Petición,Pensión de vejez,Telefónico,2026-08-10,2026-08-20,Cerrado
+PQRS-2026-000767,AF101546,Petición,Certificados,Presencial,2026-08-06,2026-08-07,Cerrado
+PQRS-2026-000768,AF101149,Petición,Atención al usuario,Web,2026-05-21,2026-05-29,Cerrado
+PQRS-2026-000769,AF101823,Petición,Pensión de vejez,Telefónico,2026-10-22,,En trámite
+PQRS-2026-000770,AF102962,Petición,Corrección de datos,Presencial,2026-05-02,2026-05-15,Cerrado
+PQRS-2026-000771,AF100759,Petición,Pensión de vejez,Web,2026-07-24,2026-07-27,Cerrado
+PQRS-2026-000772,AF101927,Petición,Historia laboral,Web,2026-02-07,,Abierto
+PQRS-2026-000773,AF102377,Queja,Pensión de vejez,Web,2026-10-10,2026-10-31,Cerrado
+PQRS-2026-000774,AF102410,Petición,Certificados,Presencial,2026-01-26,2026-02-25,Cerrado
+PQRS-2026-000775,AF101814,Petición,Historia laboral,Correo electrónico,2026-06-10,2026-06-23,Cerrado
+PQRS-2026-000776,AF102644,Petición,Atención al usuario,Telefónico,2026-02-05,2026-03-01,Cerrado
+PQRS-2026-000777,AF100740,Petición,Devolución de aportes,Presencial,2026-05-21,2026-05-31,Cerrado
+PQRS-2026-000778,AF102678,Petición,Certificados,Telefónico,2026-08-14,2026-08-27,Cerrado
+PQRS-2026-000779,AF101377,Sugerencia,Atención al usuario,Correo electrónico,2026-03-19,2026-03-21,Cerrado
+PQRS-2026-000780,AF101129,Petición,Historia laboral,Web,2026-10-19,2026-10-24,Cerrado
+PQRS-2026-000781,AF100435,Reclamo,Atención al usuario,Telefónico,2026-06-08,2026-06-20,Cerrado
+PQRS-2026-000782,AF102191,Sugerencia,Atención al usuario,Correo electrónico,2026-09-22,2026-09-28,Cerrado
+PQRS-2026-000783,AF102599,Petición,Atención al usuario,Correo electrónico,2026-04-20,2026-05-07,Cerrado
+PQRS-2026-000784,AF100552,Petición,Certificados,Correo electrónico,2026-10-23,2026-10-30,Cerrado
+PQRS-2026-000785,AF102007,Reclamo,Historia laboral,Telefónico,2026-09-15,2026-10-08,Cerrado
+PQRS-2026-000786,AF101895,Petición,Corrección de datos,Correo electrónico,2026-10-26,,En trámite
+PQRS-2026-000787,AF101078,Petición,Pensión de vejez,Telefónico,2026-07-15,2026-08-12,Cerrado
+PQRS-2026-000788,AF100212,Queja,Certificados,Telefónico,2026-05-08,2026-05-14,Cerrado
+PQRS-2026-000789,AF100910,Petición,Devolución de aportes,Correo electrónico,2026-05-02,2026-05-12,Cerrado
+PQRS-2026-000790,AF101528,Petición,Certificados,Telefónico,2026-06-10,2026-06-18,Cerrado
+PQRS-2026-000791,AF102143,Reclamo,Atención al usuario,Correo electrónico,2026-03-05,2026-03-25,Cerrado
+PQRS-2026-000792,AF102860,Petición,Atención al usuario,Correo electrónico,2026-04-17,2026-05-06,Cerrado
+PQRS-2026-000793,AF100466,Petición,Devolución de aportes,Web,2026-02-22,2026-03-01,Cerrado
+PQRS-2026-000794,AF102652,Queja,Atención al usuario,Web,2026-02-06,2026-02-17,Cerrado
+PQRS-2026-000795,AF101229,Felicitación,Historia laboral,Telefónico,2026-06-30,2026-07-02,Cerrado
+PQRS-2026-000796,AF102407,Petición,Corrección de datos,Telefónico,2026-09-10,2026-09-12,Cerrado
+PQRS-2026-000797,AF102049,Petición,Devolución de aportes,Web,2026-10-25,,Abierto
+PQRS-2026-000798,AF102222,Petición,Certificados,Web,2026-05-17,2026-06-07,Cerrado
+PQRS-2026-000799,AF100880,Petición,Devolución de aportes,Presencial,2026-01-25,2026-02-09,Cerrado
+PQRS-2026-000800,AF100529,Queja,Atención al usuario,Telefónico,2026-06-05,,En trámite
+PQRS-2026-000801,AF101859,Reclamo,Certificados,Presencial,2026-03-03,,Abierto
+PQRS-2026-000802,AF101655,Petición,Pensión de vejez,Telefónico,2026-10-18,2026-10-31,Cerrado
+PQRS-2026-000803,AF101678,Felicitación,Devolución de aportes,Web,2026-03-07,2026-03-21,Cerrado
+PQRS-2026-000804,AF102468,Petición,Historia laboral,Presencial,2026-08-24,,Cerrado
+PQRS-2026-000805,AF102023,Reclamo,Historia laboral,Web,2026-01-25,2026-02-14,Cerrado
+PQRS-2026-000806,AF100035,Sugerencia,Certificados,Correo electrónico,2026-01-03,2026-01-09,Cerrado
+PQRS-2026-000807,AF101529,Reclamo,Historia laboral,Telefónico,2026-05-03,2026-05-08,Cerrado
+PQRS-2026-000808,AF101175,Petición,Historia laboral,Web,2026-10-13,2026-10-25,Cerrado
+PQRS-2026-000809,AF100754,Petición,Atención al usuario,Web,2026-10-01,2026-10-01,Cerrado
+PQRS-2026-000810,AF101397,Reclamo,Corrección de datos,Telefónico,2026-06-24,2026-06-27,Cerrado
+PQRS-2026-000811,AF100260,Petición,Atención al usuario,Correo electrónico,2026-03-26,2026-03-31,Cerrado
+PQRS-2026-000812,AF100223,Petición,Historia laboral,Correo electrónico,2026-09-13,2026-09-16,Cerrado
+PQRS-2026-000813,AF102870,Petición,Atención al usuario,Presencial,2026-06-08,,Abierto
+PQRS-2026-000814,AF102496,Queja,Pensión de vejez,Web,2026-10-19,2026-10-28,Cerrado
+PQRS-2026-000815,AF101720,Petición,Historia laboral,Web,2026-04-28,2026-04-26,Cerrado
+PQRS-2026-000816,AF101248,Petición,Corrección de datos,Presencial,2026-03-06,2026-03-11,Cerrado
+PQRS-2026-000817,AF102372,Petición,Corrección de datos,Correo electrónico,2026-08-02,2026-09-05,Cerrado
+PQRS-2026-000818,AF102416,Petición,Devolución de aportes,Web,2026-06-07,2026-06-25,Cerrado
+PQRS-2026-000819,AF102590,Petición,Certificados,Presencial,2026-01-31,2026-02-20,Cerrado
+PQRS-2026-000820,AF100700,Petición,Historia laboral,Presencial,2026-07-06,2026-07-25,Cerrado
+PQRS-2026-000821,AF101838,Queja,Atención al usuario,Presencial,2026-05-02,2026-05-10,Cerrado
+PQRS-2026-000822,AF101448,Petición,Atención al usuario,Telefónico,2026-06-01,2026-06-12,Cerrado
+PQRS-2026-000823,AF100382,Reclamo,Historia laboral,Presencial,2026-08-12,2026-08-27,Cerrado
+PQRS-2026-000824,AF102141,Petición,Historia laboral,Correo electrónico,2026-04-19,2026-05-08,Cerrado
+PQRS-2026-000825,AF102093,Petición,Devolución de aportes,Correo electrónico,2026-01-09,2026-01-25,Cerrado
+PQRS-2026-000826,AF102239,Reclamo,Certificados,Web,2026-09-24,2026-10-04,Cerrado
+PQRS-2026-000827,AF102759,Petición,Devolución de aportes,Telefónico,2026-10-30,,En trámite
+PQRS-2026-000828,AF100918,Queja,Corrección de datos,Presencial,2026-01-05,2026-01-07,Cerrado
+PQRS-2026-000829,AF100791,Queja,Certificados,Correo electrónico,2026-04-18,2026-04-18,Cerrado
+PQRS-2026-000830,AF100988,Petición,Corrección de datos,Correo electrónico,2026-09-07,,En trámite
+PQRS-2026-000831,AF100708,Sugerencia,Pensión de vejez,Telefónico,2026-03-15,2026-03-29,Cerrado
+PQRS-2026-000832,AF100662,Reclamo,Certificados,Correo electrónico,2026-02-01,2026-02-07,Cerrado
+PQRS-2026-000833,AF100670,Petición,Certificados,Web,2026-03-15,2026-03-17,Cerrado
+PQRS-2026-000834,AF100044,Reclamo,Historia laboral,Presencial,2026-02-09,2026-03-08,Cerrado
+PQRS-2026-000835,AF101769,Petición,Pensión de vejez,Presencial,2026-07-11,2026-08-17,Cerrado
+PQRS-2026-000836,AF100353,Sugerencia,Devolución de aportes,Telefónico,2026-03-09,2026-03-18,Cerrado
+PQRS-2026-000837,AF101952,Petición,Devolución de aportes,Telefónico,2026-05-02,2026-05-12,Cerrado
+PQRS-2026-000838,AF100727,Queja,Pensión de vejez,Correo electrónico,2026-03-07,2026-04-01,Cerrado
+PQRS-2026-000839,AF900021,Sugerencia,Historia laboral,Web,2026-04-28,2026-05-09,Cerrado
+PQRS-2026-000840,AF100422,Sugerencia,Devolución de aportes,Correo electrónico,2026-02-24,2026-02-28,Cerrado
+PQRS-2026-000841,AF101736,Reclamo,Devolución de aportes,Web,2026-01-14,2026-01-18,Cerrado
+PQRS-2026-000842,AF101206,Petición,Devolución de aportes,Presencial,2026-07-08,2026-07-20,Cerrado
+PQRS-2026-000843,AF101967,Petición,Atención al usuario,Correo electrónico,2026-04-16,2026-05-03,Cerrado
+PQRS-2026-000844,AF100514,Petición,Corrección de datos,Correo electrónico,2026-08-18,,Abierto
+PQRS-2026-000845,AF100442,Petición,Certificados,Correo electrónico,2026-02-13,2026-02-25,Cerrado
+PQRS-2026-000846,AF102427,Queja,Corrección de datos,Telefónico,2026-07-15,2026-08-05,Cerrado
+PQRS-2026-000847,AF102102,Petición,Historia laboral,Presencial,2026-09-13,2026-09-21,Cerrado
+PQRS-2026-000848,AF101795,Sugerencia,Pensión de vejez,Web,2026-02-18,2026-03-02,Cerrado
+PQRS-2026-000849,AF100341,Queja,Atención al usuario,Telefónico,2026-07-10,2026-07-18,Cerrado
+PQRS-2026-000850,AF100257,Petición,Devolución de aportes,Telefónico,2026-07-01,2026-07-04,Cerrado
+PQRS-2026-000851,AF100741,Queja,Atención al usuario,Correo electrónico,2026-10-14,,Abierto
+PQRS-2026-000852,AF100782,Petición,Atención al usuario,Web,2026-04-04,2026-04-12,Cerrado
+PQRS-2026-000853,AF102851,Petición,Corrección de datos,Presencial,2026-06-12,2026-06-19,Cerrado
+PQRS-2026-000854,AF100409,Petición,Atención al usuario,Presencial,2026-07-15,2026-07-27,Cerrado
+PQRS-2026-000855,AF100733,Petición,Pensión de vejez,Correo electrónico,2026-10-30,,En trámite
+PQRS-2026-000856,AF100326,Petición,Corrección de datos,Telefónico,2026-01-23,,Cerrado
+PQRS-2026-000857,AF102690,Petición,Corrección de datos,Presencial,2026-05-09,2026-06-10,Cerrado
+PQRS-2026-000858,AF102336,Reclamo,Certificados,Telefónico,2026-08-08,2026-08-18,Cerrado
+PQRS-2026-000859,AF101744,Petición,Pensión de vejez,Telefónico,2026-01-09,2026-01-25,Cerrado
+PQRS-2026-000860,AF101007,Petición,Pensión de vejez,Presencial,2026-02-02,2026-02-12,Cerrado
+PQRS-2026-000861,AF101413,Felicitación,Corrección de datos,Correo electrónico,2026-01-05,2026-01-13,Cerrado
+PQRS-2026-000862,AF102495,Reclamo,Certificados,Correo electrónico,2026-07-03,2026-07-03,Cerrado
+PQRS-2026-000863,AF101945,Petición,Corrección de datos,Telefónico,2026-07-01,,Abierto
+PQRS-2026-000864,AF100649,Reclamo,Atención al usuario,Presencial,2026-01-04,2026-01-06,Cerrado
+PQRS-2026-000865,AF100199,Reclamo,Corrección de datos,Presencial,2026-09-06,2026-09-23,Cerrado
+PQRS-2026-000866,AF100316,Petición,Devolución de aportes,Web,2026-09-10,,En trámite
+PQRS-2026-000867,AF100188,Felicitación,Devolución de aportes,Correo electrónico,2026-02-15,2026-03-03,Cerrado
+PQRS-2026-000868,AF100607,Petición,Atención al usuario,Correo electrónico,2026-09-29,2026-10-01,Cerrado
+PQRS-2026-000869,AF100863,Queja,Certificados,Correo electrónico,2026-06-26,2026-07-29,Cerrado
+PQRS-2026-000870,AF102841,Reclamo,Pensión de vejez,Correo electrónico,2026-07-27,2026-07-30,Cerrado
+PQRS-2026-000871,AF101439,Petición,Corrección de datos,Telefónico,2026-07-19,2026-08-18,Cerrado
+PQRS-2026-000872,AF100641,Queja,Certificados,Web,2026-07-23,2026-08-02,Cerrado
+PQRS-2026-000873,AF102044,Reclamo,Atención al usuario,Correo electrónico,2026-05-12,2026-05-15,Cerrado
+PQRS-2026-000874,AF100114,Reclamo,Corrección de datos,Telefónico,2026-07-31,2026-08-20,Cerrado
+PQRS-2026-000875,AF102103,Petición,Devolución de aportes,Presencial,2026-02-20,2026-03-17,Cerrado
+PQRS-2026-000876,AF102762,Petición,Pensión de vejez,Presencial,2026-03-21,2026-03-25,Cerrado
+PQRS-2026-000877,AF102562,Petición,Historia laboral,Telefónico,2026-08-01,2026-08-06,Cerrado
+PQRS-2026-000878,AF102761,Petición,Atención al usuario,Correo electrónico,2026-06-08,2026-06-23,Cerrado
+PQRS-2026-000879,AF101279,Reclamo,Historia laboral,Web,2026-09-24,2026-10-21,Cerrado
+PQRS-2026-000880,AF100402,Petición,Certificados,Presencial,2026-03-17,2026-03-19,Cerrado
+PQRS-2026-000881,AF102969,Petición,Corrección de datos,Presencial,2026-04-30,2026-05-26,Cerrado
+PQRS-2026-000882,AF101643,Petición,Corrección de datos,Telefónico,2026-06-28,2026-07-11,Cerrado
+PQRS-2026-000883,AF100256,Reclamo,Corrección de datos,Presencial,2026-07-19,2026-07-27,Cerrado
+PQRS-2026-000884,AF100800,Petición,Certificados,Presencial,2026-10-17,2026-10-20,Cerrado
+PQRS-2026-000885,AF100837,Reclamo,Pensión de vejez,Web,2026-09-21,2026-10-21,Cerrado
+PQRS-2026-000886,AF101935,Petición,Certificados,Telefónico,2026-01-03,2026-01-22,Cerrado
+PQRS-2026-000887,AF101888,Petición,Certificados,Correo electrónico,2026-03-28,2026-04-09,Cerrado
+PQRS-2026-000888,AF101028,Reclamo,Atención al usuario,Telefónico,2026-09-16,2026-09-26,Cerrado
+PQRS-2026-000889,AF102800,Petición,Historia laboral,Correo electrónico,2026-03-11,2026-03-27,Cerrado
+PQRS-2026-000890,AF101252,Queja,Corrección de datos,Presencial,2026-07-29,2026-08-04,Cerrado
+PQRS-2026-000891,AF102062,Reclamo,Devolución de aportes,Presencial,2026-03-30,2026-04-18,Cerrado
+PQRS-2026-000892,AF102474,Petición,Devolución de aportes,Presencial,2026-04-24,,En trámite
+PQRS-2026-000893,AF100819,Petición,Pensión de vejez,Telefónico,2026-01-14,2026-01-21,Cerrado
+PQRS-2026-000894,AF102529,Queja,Pensión de vejez,Presencial,2026-06-14,2026-06-29,Cerrado
+PQRS-2026-000895,AF101654,Petición,Corrección de datos,Telefónico,2026-04-12,2026-04-23,Cerrado
+PQRS-2026-000896,AF101356,Petición,Atención al usuario,Telefónico,2026-08-10,2026-08-21,Cerrado
+PQRS-2026-000897,AF101254,Petición,Devolución de aportes,Telefónico,2026-08-22,2026-08-30,Cerrado
+PQRS-2026-000898,AF102466,Reclamo,Devolución de aportes,Correo electrónico,2026-04-05,2026-04-11,Cerrado
+PQRS-2026-000899,AF102843,Petición,Certificados,Telefónico,2026-01-24,2026-03-02,Cerrado
+PQRS-2026-000900,AF100385,Reclamo,Pensión de vejez,Correo electrónico,2026-10-07,2026-10-26,Cerrado
+PQRS-2026-000901,AF100553,Petición,Devolución de aportes,Web,2026-02-04,2026-02-12,Cerrado
+PQRS-2026-000902,AF102036,Petición,Atención al usuario,Correo electrónico,2026-04-10,2026-04-26,Cerrado
+PQRS-2026-000903,AF102089,Petición,Corrección de datos,Presencial,2026-08-07,2026-08-12,Cerrado
+PQRS-2026-000904,AF101955,Petición,Historia laboral,Presencial,2026-01-23,2026-02-10,Cerrado
+PQRS-2026-000905,AF102387,Reclamo,Atención al usuario,Presencial,2026-07-08,2026-07-18,Cerrado
+PQRS-2026-000906,AF101189,Petición,Devolución de aportes,Telefónico,2026-02-09,2026-02-18,Cerrado
+PQRS-2026-000907,AF100654,Petición,Historia laboral,Web,2026-02-26,2026-03-08,Cerrado
+PQRS-2026-000908,AF101455,Petición,Certificados,Correo electrónico,2026-07-23,2026-07-28,Cerrado
+PQRS-2026-000909,AF100919,Petición,Pensión de vejez,Correo electrónico,2026-07-15,2026-07-18,Cerrado
+PQRS-2026-000910,AF100249,Reclamo,Devolución de aportes,Presencial,2026-06-14,2026-06-26,Cerrado
+PQRS-2026-000911,AF101408,Queja,Pensión de vejez,Presencial,2026-05-30,2026-06-10,Cerrado
+PQRS-2026-000912,AF100562,Queja,Corrección de datos,Correo electrónico,2026-08-26,2026-08-30,Cerrado
+PQRS-2026-000913,AF102369,Petición,Devolución de aportes,Web,2026-08-31,2026-09-09,Cerrado
+PQRS-2026-000914,AF101116,Petición,Devolución de aportes,Telefónico,2026-02-13,2026-02-18,Cerrado
+PQRS-2026-000915,AF102178,Queja,Corrección de datos,Correo electrónico,2026-03-13,2026-03-23,Cerrado
+PQRS-2026-000916,AF101536,Petición,Corrección de datos,Presencial,2026-05-17,2026-05-31,Cerrado
+PQRS-2026-000917,AF102274,Petición,Historia laboral,Correo electrónico,2026-04-07,2026-04-21,Cerrado
+PQRS-2026-000918,AF100708,Reclamo,Certificados,Telefónico,2026-01-10,2026-01-10,Cerrado
+PQRS-2026-000919,AF101315,Petición,Atención al usuario,Telefónico,2026-04-03,,Cerrado
+PQRS-2026-000920,AF100689,Reclamo,Corrección de datos,Correo electrónico,2026-03-24,2026-04-11,Cerrado
+PQRS-2026-000921,AF100762,Queja,Corrección de datos,Correo electrónico,2026-03-02,2026-03-03,Cerrado
+PQRS-2026-000922,AF100261,Felicitación,Certificados,Telefónico,2026-04-12,2026-04-18,Cerrado
+PQRS-2026-000923,AF102423,Petición,Atención al usuario,Correo electrónico,2026-05-19,2026-05-30,Cerrado
+PQRS-2026-000924,AF100256,Petición,Pensión de vejez,Correo electrónico,2026-03-16,2026-03-18,Cerrado
+PQRS-2026-000925,AF102185,Reclamo,Certificados,Presencial,2026-04-02,2026-04-06,Cerrado
+PQRS-2026-000926,AF100619,Petición,Historia laboral,Telefónico,2026-03-13,2026-03-15,Cerrado
+PQRS-2026-000927,AF100985,Petición,Historia laboral,Presencial,2026-05-29,,Cerrado
+PQRS-2026-000928,AF100029,Reclamo,Pensión de vejez,Telefónico,2026-08-18,2026-08-22,Cerrado
+PQRS-2026-000929,AF100072,Felicitación,Certificados,Web,2026-02-11,2026-02-13,Cerrado
+PQRS-2026-000930,AF101038,Petición,Atención al usuario,Web,2026-01-14,2026-01-24,Cerrado
+PQRS-2026-000931,AF100300,Petición,Pensión de vejez,Correo electrónico,2026-05-12,2026-05-22,Cerrado
+PQRS-2026-000932,AF101589,Queja,Certificados,Presencial,2026-03-17,2026-04-10,Cerrado
+PQRS-2026-000933,AF100312,Reclamo,Historia laboral,Web,2026-09-05,2026-09-12,Cerrado
+PQRS-2026-000934,AF900014,Petición,Certificados,Web,2026-08-11,,Abierto
+PQRS-2026-000935,AF100617,Petición,Corrección de datos,Telefónico,2026-02-25,2026-03-11,Cerrado
+PQRS-2026-000936,AF100121,Petición,Atención al usuario,Web,2026-05-26,2026-05-28,Cerrado
+PQRS-2026-000937,AF102442,Petición,Corrección de datos,Telefónico,2026-10-02,2026-10-09,Cerrado
+PQRS-2026-000938,AF102700,Petición,Historia laboral,Presencial,2026-10-11,2026-10-19,Cerrado
+PQRS-2026-000939,AF102109,Sugerencia,Pensión de vejez,Telefónico,2026-03-15,2026-03-23,Cerrado
+PQRS-2026-000940,AF100516,Queja,Certificados,Telefónico,2026-10-30,,Abierto
+PQRS-2026-000941,AF101536,Petición,Atención al usuario,Correo electrónico,2026-09-16,2026-09-25,Cerrado
+PQRS-2026-000942,AF100822,Petición,Certificados,Telefónico,2026-04-30,2026-05-05,Cerrado
+PQRS-2026-000943,AF101704,Reclamo,Certificados,Telefónico,2026-10-26,,Abierto
+PQRS-2026-000944,AF100046,Petición,Corrección de datos,Telefónico,2026-07-11,2026-07-23,Cerrado
+PQRS-2026-000945,AF102879,Felicitación,Certificados,Correo electrónico,2026-10-20,,Abierto
+PQRS-2026-000946,AF101939,Petición,Devolución de aportes,Presencial,2026-03-02,2026-03-13,Cerrado
+PQRS-2026-000947,AF102164,Queja,Devolución de aportes,Telefónico,2026-09-10,2026-09-16,Cerrado
+PQRS-2026-000948,AF101431,Sugerencia,Corrección de datos,Web,2026-06-21,2026-07-03,Cerrado
+PQRS-2026-000949,AF101313,Petición,Corrección de datos,Web,2026-07-15,2026-07-18,Cerrado
+PQRS-2026-000950,AF102263,Petición,Corrección de datos,Web,2026-09-07,2026-09-14,Cerrado
+PQRS-2026-000951,AF101377,Petición,Corrección de datos,Telefónico,2026-01-05,,Cerrado
+PQRS-2026-000952,AF102423,Petición,Corrección de datos,Correo electrónico,2026-05-04,2026-05-08,Cerrado
+PQRS-2026-000953,AF102996,Petición,Certificados,Web,2026-10-23,2026-10-26,Cerrado
+PQRS-2026-000954,AF101916,Reclamo,Historia laboral,Web,2026-09-24,2026-10-05,Cerrado
+PQRS-2026-000955,AF102173,Felicitación,Pensión de vejez,Telefónico,2026-06-12,2026-06-29,Cerrado
+PQRS-2026-000956,AF102674,Felicitación,Corrección de datos,Web,2026-01-04,2026-01-19,Cerrado
+PQRS-2026-000957,AF102395,Sugerencia,Atención al usuario,Presencial,2026-07-16,2026-08-04,Cerrado
+PQRS-2026-000958,AF102710,Petición,Pensión de vejez,Web,2026-02-08,2026-02-19,Cerrado
+PQRS-2026-000959,AF101869,Petición,Corrección de datos,Web,2026-08-20,2026-09-01,Cerrado
+PQRS-2026-000960,AF100163,Petición,Atención al usuario,Correo electrónico,2026-07-24,2026-08-02,Cerrado
+PQRS-2026-000961,AF102695,Reclamo,Historia laboral,Web,2026-05-25,2026-06-02,Cerrado
+PQRS-2026-000962,AF101895,Petición,Devolución de aportes,Telefónico,2026-04-10,,Abierto
+PQRS-2026-000963,AF100466,Reclamo,Corrección de datos,Telefónico,2026-07-22,2026-07-27,Cerrado
+PQRS-2026-000964,AF101484,Petición,Devolución de aportes,Web,2026-08-01,2026-08-03,Cerrado
+PQRS-2026-000965,AF102324,Petición,Corrección de datos,Presencial,2026-04-03,2026-04-09,Cerrado
+PQRS-2026-000966,AF101849,Petición,Historia laboral,Correo electrónico,2026-04-22,2026-05-07,Cerrado
+PQRS-2026-000967,AF101022,Petición,Certificados,Web,2026-10-15,2026-10-29,Cerrado
+PQRS-2026-000968,AF101802,Queja,Corrección de datos,Web,2026-01-24,2026-02-01,Cerrado
+PQRS-2026-000969,AF102765,Sugerencia,Historia laboral,Presencial,2026-05-15,2026-05-17,Cerrado
+PQRS-2026-000970,AF101484,Petición,Devolución de aportes,Correo electrónico,2026-06-03,2026-06-15,Cerrado
+PQRS-2026-000971,AF102551,Reclamo,Devolución de aportes,Web,2026-02-11,2026-02-20,Cerrado
+PQRS-2026-000972,AF101498,Reclamo,Corrección de datos,Correo electrónico,2026-10-09,2026-10-19,Cerrado
+PQRS-2026-000973,AF102942,Queja,Devolución de aportes,Telefónico,2026-07-07,2026-07-19,Cerrado
+PQRS-2026-000974,AF101080,Queja,Atención al usuario,Web,2026-08-22,2026-08-28,Cerrado
+PQRS-2026-000975,AF102041,Petición,Pensión de vejez,Correo electrónico,2026-01-23,2026-01-27,Cerrado
+PQRS-2026-000976,AF100750,Petición,Corrección de datos,Web,2026-01-14,2026-01-23,Cerrado
+PQRS-2026-000977,AF101064,Petición,Atención al usuario,Presencial,2026-05-24,2026-06-03,Cerrado
+PQRS-2026-000978,AF101875,Petición,Certificados,Presencial,2026-04-22,2026-05-05,Cerrado
+PQRS-2026-000979,AF101243,Petición,Corrección de datos,Telefónico,2026-03-20,2026-03-15,Cerrado
+PQRS-2026-000980,AF100512,Reclamo,Atención al usuario,Web,2026-03-26,2026-04-13,Cerrado
+PQRS-2026-000981,AF101808,Petición,Devolución de aportes,Correo electrónico,2026-10-09,2026-10-19,Cerrado
+PQRS-2026-000982,AF102899,Reclamo,Corrección de datos,Correo electrónico,2026-09-16,2026-09-23,Cerrado
+PQRS-2026-000983,AF100934,Petición,Atención al usuario,Presencial,2026-06-26,2026-07-12,Cerrado
+PQRS-2026-000984,AF102817,Felicitación,Historia laboral,Correo electrónico,2026-04-17,2026-05-03,Cerrado
+PQRS-2026-000985,AF100769,Petición,Atención al usuario,Web,2026-08-01,2026-08-11,Cerrado
+PQRS-2026-000986,AF102652,Reclamo,Pensión de vejez,Web,2026-01-04,2026-01-24,Cerrado
+PQRS-2026-000987,AF102799,Petición,Certificados,Presencial,2026-07-19,2026-08-09,Cerrado
+PQRS-2026-000988,AF101629,Queja,Certificados,Presencial,2026-06-16,2026-06-18,Cerrado
+PQRS-2026-000989,AF101242,Petición,Atención al usuario,Correo electrónico,2026-08-05,2026-08-16,Cerrado
+PQRS-2026-000990,AF102381,Petición,Corrección de datos,Correo electrónico,2026-04-18,2026-04-29,Cerrado
+PQRS-2026-000991,AF100705,Petición,Pensión de vejez,Correo electrónico,2026-08-06,2026-08-08,Cerrado
+PQRS-2026-000992,AF101737,Petición,Pensión de vejez,Telefónico,2026-05-10,2026-05-14,Cerrado
+PQRS-2026-000993,AF100231,Petición,Historia laboral,Correo electrónico,2026-08-02,2026-08-13,Cerrado
+PQRS-2026-000994,AF102815,Petición,Historia laboral,Presencial,2026-05-07,2026-05-22,Cerrado
+PQRS-2026-000995,AF101218,Petición,Certificados,Web,2026-01-10,2026-01-11,Cerrado
+PQRS-2026-000996,AF100045,Petición,Historia laboral,Presencial,2026-08-02,2026-08-15,Cerrado
+PQRS-2026-000997,AF100400,Reclamo,Historia laboral,Web,2026-03-27,2026-04-15,Cerrado
+PQRS-2026-000998,AF101040,Reclamo,Certificados,Presencial,2026-09-10,,En trámite
+PQRS-2026-000999,AF101382,Queja,Devolución de aportes,Web,2026-01-29,2026-02-18,Cerrado
+PQRS-2026-001000,AF102502,Reclamo,Pensión de vejez,Telefónico,2026-10-04,2026-10-12,Cerrado
+PQRS-2026-001001,AF100669,Petición,Atención al usuario,Correo electrónico,2026-10-28,,Abierto
+PQRS-2026-001002,AF101061,Petición,Devolución de aportes,Web,2026-06-18,2026-06-22,Cerrado
+PQRS-2026-001003,AF101564,Petición,Historia laboral,Correo electrónico,2026-01-23,2026-02-04,Cerrado
+PQRS-2026-001004,AF101701,Petición,Certificados,Correo electrónico,2026-09-26,2026-10-25,Cerrado
+PQRS-2026-001005,AF100733,Petición,Historia laboral,Correo electrónico,2026-01-29,2026-02-13,Cerrado
+PQRS-2026-001006,AF101161,Reclamo,Certificados,Presencial,2026-10-13,,En trámite
+PQRS-2026-001007,AF102671,Petición,Corrección de datos,Correo electrónico,2026-05-01,2026-05-07,Cerrado
+PQRS-2026-001008,AF101030,Sugerencia,Pensión de vejez,Presencial,2026-04-19,,En trámite
+PQRS-2026-001009,AF100234,Petición,Corrección de datos,Web,2026-02-11,2026-03-05,Cerrado
+PQRS-2026-001010,AF100204,Petición,Certificados,Web,2026-07-01,2026-07-07,Cerrado
+PQRS-2026-001011,AF101990,Reclamo,Pensión de vejez,Presencial,2026-01-23,2026-02-11,Cerrado
+PQRS-2026-001012,AF101160,Felicitación,Pensión de vejez,Presencial,2026-05-01,2026-05-08,Cerrado
+PQRS-2026-001013,AF101014,Petición,Devolución de aportes,Presencial,2026-10-07,2026-10-18,Cerrado
+PQRS-2026-001014,AF100857,Reclamo,Certificados,Web,2026-06-04,2026-07-10,Cerrado
+PQRS-2026-001015,AF102111,Queja,Atención al usuario,Telefónico,2026-06-02,2026-06-16,Cerrado
+PQRS-2026-001016,AF102783,Reclamo,Historia laboral,Web,2026-06-11,2026-06-19,Cerrado
+PQRS-2026-001017,AF102838,Reclamo,Certificados,Telefónico,2026-01-11,2026-01-23,Cerrado
+PQRS-2026-001018,AF102262,Petición,Historia laboral,Correo electrónico,2026-03-22,,Cerrado
+PQRS-2026-001019,AF100688,Reclamo,Devolución de aportes,Web,2026-07-13,2026-08-03,Cerrado
+PQRS-2026-001020,AF100015,Petición,Pensión de vejez,Web,2026-10-09,2026-10-31,Cerrado
+PQRS-2026-001021,AF101847,Sugerencia,Corrección de datos,Telefónico,2026-04-28,,Abierto
+PQRS-2026-001022,AF100077,Reclamo,Corrección de datos,Presencial,2026-09-27,,En trámite
+PQRS-2026-001023,AF102907,Queja,Historia laboral,Web,2026-09-16,2026-10-25,Cerrado
+PQRS-2026-001024,AF101078,Petición,Pensión de vejez,Web,2026-04-23,2026-05-08,Cerrado
+PQRS-2026-001025,AF100175,Reclamo,Certificados,Correo electrónico,2026-06-15,2026-06-25,Cerrado
+PQRS-2026-001026,AF100293,Petición,Pensión de vejez,Web,2026-04-28,2026-05-13,Cerrado
+PQRS-2026-001027,AF102763,Petición,Corrección de datos,Web,2026-06-18,2026-07-08,Cerrado
+PQRS-2026-001028,AF100821,Queja,Historia laboral,Telefónico,2026-07-19,2026-08-06,Cerrado
+PQRS-2026-001029,AF100780,Petición,Devolución de aportes,Presencial,2026-02-10,2026-02-14,Cerrado
+PQRS-2026-001030,AF100639,Petición,Certificados,Web,2026-06-13,2026-07-14,Cerrado
+PQRS-2026-001031,AF101479,Reclamo,Certificados,Presencial,2026-05-12,2026-05-23,Cerrado
+PQRS-2026-001032,AF102726,Petición,Corrección de datos,Telefónico,2026-09-26,2026-10-16,Cerrado
+PQRS-2026-001033,AF101239,Petición,Historia laboral,Presencial,2026-10-01,2026-10-09,Cerrado
+PQRS-2026-001034,AF101929,Petición,Pensión de vejez,Web,2026-10-12,,En trámite
+PQRS-2026-001035,AF101485,Petición,Historia laboral,Telefónico,2026-08-22,2026-09-12,Cerrado
+PQRS-2026-001036,AF102145,Sugerencia,Corrección de datos,Correo electrónico,2026-05-12,2026-05-19,Cerrado
+PQRS-2026-001037,AF100459,Reclamo,Pensión de vejez,Presencial,2026-06-03,2026-06-11,Cerrado
+PQRS-2026-001038,AF100604,Petición,Pensión de vejez,Web,2026-09-21,2026-10-07,Cerrado
+PQRS-2026-001039,AF101808,Reclamo,Pensión de vejez,Telefónico,2026-03-04,2026-03-13,Cerrado
+PQRS-2026-001040,AF102328,Reclamo,Pensión de vejez,Presencial,2026-01-22,2026-01-26,Cerrado
+PQRS-2026-001041,AF102995,Sugerencia,Corrección de datos,Web,2026-04-20,2026-05-08,Cerrado
+PQRS-2026-001042,AF102942,Sugerencia,Certificados,Telefónico,2026-02-18,2026-02-19,Cerrado
+PQRS-2026-001043,AF100937,Reclamo,Devolución de aportes,Correo electrónico,2026-05-27,2026-06-07,Cerrado
+PQRS-2026-001044,AF100995,Petición,Corrección de datos,Telefónico,2026-06-29,2026-07-09,Cerrado
+PQRS-2026-001045,AF102472,Petición,Historia laboral,Telefónico,2026-05-19,2026-05-23,Cerrado
+PQRS-2026-001046,AF101171,Petición,Corrección de datos,Web,2026-09-22,2026-10-02,Cerrado
+PQRS-2026-001047,AF102355,Reclamo,Corrección de datos,Telefónico,2026-10-06,,Abierto
+PQRS-2026-001048,AF102797,Petición,Certificados,Correo electrónico,2026-06-18,2026-06-20,Cerrado
+PQRS-2026-001049,AF900022,Reclamo,Atención al usuario,Presencial,2026-07-03,2026-07-15,Cerrado
+PQRS-2026-001050,AF101400,Petición,Corrección de datos,Correo electrónico,2026-09-28,2026-10-06,Cerrado
+PQRS-2026-001051,AF101676,Petición,Certificados,Correo electrónico,2026-07-29,2026-08-17,Cerrado
+PQRS-2026-001052,AF101443,Petición,Corrección de datos,Web,2026-07-07,2026-07-15,Cerrado
+PQRS-2026-001053,AF100688,Petición,Atención al usuario,Correo electrónico,2026-02-11,2026-02-21,Cerrado
+PQRS-2026-001054,AF100484,Reclamo,Atención al usuario,Correo electrónico,2026-03-26,2026-04-07,Cerrado
+PQRS-2026-001055,AF101635,Petición,Devolución de aportes,Presencial,2026-03-11,2026-03-15,Cerrado
+PQRS-2026-001056,AF101833,Petición,Pensión de vejez,Correo electrónico,2026-02-03,2026-02-19,Cerrado
+PQRS-2026-001057,AF102376,Petición,Atención al usuario,Correo electrónico,2026-07-19,2026-08-04,Cerrado
+PQRS-2026-001058,AF102659,Reclamo,Corrección de datos,Correo electrónico,2026-01-22,2026-02-05,Cerrado
+PQRS-2026-001059,AF100252,Petición,Atención al usuario,Correo electrónico,2026-09-24,2026-09-29,Cerrado
+PQRS-2026-001060,AF101515,Petición,Certificados,Presencial,2026-07-20,2026-07-23,Cerrado
+PQRS-2026-001061,AF102782,Petición,Pensión de vejez,Presencial,2026-09-23,2026-09-27,Cerrado
+PQRS-2026-001062,AF101430,Reclamo,Devolución de aportes,Presencial,2026-07-23,2026-07-28,Cerrado
+PQRS-2026-001063,AF102025,Sugerencia,Corrección de datos,Correo electrónico,2026-03-08,,En trámite
+PQRS-2026-001064,AF102907,Petición,Historia laboral,Presencial,2026-02-24,2026-03-03,Cerrado
+PQRS-2026-001065,AF100606,Queja,Pensión de vejez,Telefónico,2026-09-24,2026-10-01,Cerrado
+PQRS-2026-001066,AF100818,Queja,Certificados,Telefónico,2026-09-23,2026-09-17,Cerrado
+PQRS-2026-001067,AF100945,Petición,Atención al usuario,Presencial,2026-08-31,2026-09-17,Cerrado
+PQRS-2026-001068,AF102244,Reclamo,Devolución de aportes,Web,2026-04-19,2026-04-23,Cerrado
+PQRS-2026-001069,AF101182,Petición,Certificados,Presencial,2026-05-10,2026-05-22,Cerrado
+PQRS-2026-001070,AF100156,Felicitación,Atención al usuario,Telefónico,2026-08-04,2026-08-28,Cerrado
+PQRS-2026-001071,AF101761,Queja,Corrección de datos,Web,2026-01-12,2026-01-25,Cerrado
+PQRS-2026-001072,AF101726,Petición,Certificados,Correo electrónico,2026-09-02,2026-09-08,Cerrado
+PQRS-2026-001073,AF900006,Queja,Certificados,Presencial,2026-01-06,2026-01-26,Cerrado
+PQRS-2026-001074,AF101110,Petición,Historia laboral,Presencial,2026-10-19,,En trámite
+PQRS-2026-001075,AF101072,Petición,Pensión de vejez,Web,2026-04-29,2026-05-15,Cerrado
+PQRS-2026-001076,AF102149,Petición,Certificados,Correo electrónico,2026-06-14,2026-06-24,Cerrado
+PQRS-2026-001077,AF101528,Petición,Devolución de aportes,Telefónico,2026-07-25,,En trámite
+PQRS-2026-001078,AF102698,Reclamo,Atención al usuario,Presencial,2026-05-12,2026-05-28,Cerrado
+PQRS-2026-001079,AF101132,Petición,Certificados,Correo electrónico,2026-04-07,2026-04-08,Cerrado
+PQRS-2026-001080,AF100569,Petición,Atención al usuario,Presencial,2026-09-19,2026-10-10,Cerrado
+PQRS-2026-001081,AF102375,Reclamo,Atención al usuario,Correo electrónico,2026-02-04,2026-02-03,Cerrado
+PQRS-2026-001082,AF102561,Petición,Pensión de vejez,Web,2026-04-13,2026-04-18,Cerrado
+PQRS-2026-001083,AF100363,Queja,Corrección de datos,Telefónico,2026-09-15,2026-09-30,Cerrado
+PQRS-2026-001084,AF101683,Petición,Pensión de vejez,Presencial,2026-10-03,2026-10-14,Cerrado
+PQRS-2026-001085,AF100620,Petición,Historia laboral,Telefónico,2026-07-26,2026-07-31,Cerrado
+PQRS-2026-001086,AF101712,Petición,Devolución de aportes,Correo electrónico,2026-07-03,2026-07-20,Cerrado
+PQRS-2026-001087,AF101642,Reclamo,Certificados,Presencial,2026-04-15,2026-04-25,Cerrado
+PQRS-2026-001088,AF102023,Petición,Corrección de datos,Web,2026-02-24,,Abierto
+PQRS-2026-001089,AF100064,Petición,Devolución de aportes,Web,2026-05-04,2026-05-21,Cerrado
+PQRS-2026-001090,AF102525,Petición,Atención al usuario,Web,2026-10-17,,En trámite
+PQRS-2026-001091,AF100853,Petición,Atención al usuario,Web,2026-05-30,2026-06-12,Cerrado
+PQRS-2026-001092,AF101188,Sugerencia,Pensión de vejez,Web,2026-06-16,2026-06-27,Cerrado
+PQRS-2026-001093,AF101620,Petición,Historia laboral,Presencial,2026-09-28,2026-10-25,Cerrado
+PQRS-2026-001094,AF102263,Petición,Pensión de vejez,Correo electrónico,2026-10-22,,Abierto
+PQRS-2026-001095,AF101155,Petición,Devolución de aportes,Telefónico,2026-08-25,2026-09-11,Cerrado
+PQRS-2026-001096,AF101113,Petición,Corrección de datos,Presencial,2026-06-01,2026-06-25,Cerrado
+PQRS-2026-001097,AF101537,Petición,Pensión de vejez,Presencial,2026-05-10,2026-05-10,Cerrado
+PQRS-2026-001098,AF102031,Sugerencia,Corrección de datos,Web,2026-09-19,2026-09-22,Cerrado
+PQRS-2026-001099,AF102214,Reclamo,Pensión de vejez,Web,2026-03-17,2026-03-20,Cerrado
+PQRS-2026-001100,AF100862,Felicitación,Corrección de datos,Presencial,2026-04-27,2026-05-11,Cerrado
+PQRS-2026-001101,AF102510,Reclamo,Certificados,Web,2026-04-25,2026-05-07,Cerrado
+PQRS-2026-001102,AF101683,Petición,Atención al usuario,Web,2026-01-02,2026-02-04,Cerrado
+PQRS-2026-001103,AF102111,Reclamo,Historia laboral,Correo electrónico,2026-05-09,2026-05-15,Cerrado
+PQRS-2026-001104,AF101115,Petición,Certificados,Telefónico,2026-03-25,,En trámite
+PQRS-2026-001105,AF100738,Reclamo,Devolución de aportes,Presencial,2026-09-23,,Cerrado
+PQRS-2026-001106,AF100140,Queja,Atención al usuario,Web,2026-08-24,2026-09-09,Cerrado
+PQRS-2026-001107,AF101627,Petición,Pensión de vejez,Presencial,2026-06-30,2026-07-03,Cerrado
+PQRS-2026-001108,AF101098,Petición,Historia laboral,Presencial,2026-07-26,2026-08-05,Cerrado
+PQRS-2026-001109,AF102784,Queja,Certificados,Web,2026-02-24,2026-03-19,Cerrado
+PQRS-2026-001110,AF100844,Queja,Corrección de datos,Web,2026-06-01,2026-06-30,Cerrado
+PQRS-2026-001111,AF100146,Petición,Atención al usuario,Web,2026-06-27,2026-07-01,Cerrado
+PQRS-2026-001112,AF102788,Felicitación,Historia laboral,Telefónico,2026-06-17,2026-07-01,Cerrado
+PQRS-2026-001113,AF102868,Petición,Pensión de vejez,Web,2026-02-28,,En trámite
+PQRS-2026-001114,AF102029,Reclamo,Devolución de aportes,Telefónico,2026-08-08,2026-08-23,Cerrado
+PQRS-2026-001115,AF100602,Petición,Historia laboral,Telefónico,2026-03-23,,Abierto
+PQRS-2026-001116,AF100895,Petición,Devolución de aportes,Telefónico,2026-09-20,2026-09-25,Cerrado
+PQRS-2026-001117,AF101202,Queja,Historia laboral,Telefónico,2026-03-12,2026-03-19,Cerrado
+PQRS-2026-001118,AF100992,Queja,Certificados,Correo electrónico,2026-02-23,2026-03-10,Cerrado
+PQRS-2026-001119,AF102014,Queja,Pensión de vejez,Presencial,2026-02-13,,En trámite
+PQRS-2026-001120,AF100710,Petición,Certificados,Telefónico,2026-05-02,2026-05-08,Cerrado
+PQRS-2026-001121,AF100809,Petición,Corrección de datos,Web,2026-02-27,2026-03-06,Cerrado
+PQRS-2026-001122,AF101066,Petición,Historia laboral,Correo electrónico,2026-10-27,,En trámite
+PQRS-2026-001123,AF100585,Petición,Corrección de datos,Presencial,2026-01-14,,Abierto
+PQRS-2026-001124,AF100821,Petición,Corrección de datos,Web,2026-04-05,2026-05-10,Cerrado
+PQRS-2026-001125,AF100389,Queja,Corrección de datos,Correo electrónico,2026-10-24,2026-10-28,Cerrado
+PQRS-2026-001126,AF101432,Queja,Devolución de aportes,Telefónico,2026-06-21,2026-06-29,Cerrado
+PQRS-2026-001127,AF101789,Felicitación,Pensión de vejez,Correo electrónico,2026-03-01,2026-03-03,Cerrado
+PQRS-2026-001128,AF102592,Sugerencia,Historia laboral,Web,2026-08-24,2026-09-11,Cerrado
+PQRS-2026-001129,AF102799,Petición,Devolución de aportes,Web,2026-09-16,2026-10-25,Cerrado
+PQRS-2026-001130,AF102370,Queja,Devolución de aportes,Correo electrónico,2026-02-11,2026-02-27,Cerrado
+PQRS-2026-001131,AF102809,Queja,Atención al usuario,Presencial,2026-07-13,2026-08-06,Cerrado
+PQRS-2026-001132,AF100732,Felicitación,Corrección de datos,Presencial,2026-09-28,,En trámite
+PQRS-2026-001133,AF102307,Reclamo,Pensión de vejez,Presencial,2026-08-29,2026-09-16,Cerrado
+PQRS-2026-001134,AF102482,Petición,Pensión de vejez,Web,2026-10-07,,Abierto
+PQRS-2026-001135,AF100356,Petición,Pensión de vejez,Presencial,2026-10-10,2026-10-18,Cerrado
+PQRS-2026-001136,AF102066,Reclamo,Pensión de vejez,Correo electrónico,2026-07-23,2026-07-29,Cerrado
+PQRS-2026-001137,AF101824,Petición,Corrección de datos,Telefónico,2026-01-20,2026-01-30,Cerrado
+PQRS-2026-001138,AF101178,Queja,Historia laboral,Web,2026-05-16,2026-05-22,Cerrado
+PQRS-2026-001139,AF100582,Queja,Certificados,Telefónico,2026-02-11,,Abierto
+PQRS-2026-001140,AF100193,Petición,Certificados,Telefónico,2026-04-11,2026-04-25,Cerrado
+PQRS-2026-001141,AF102088,Petición,Corrección de datos,Correo electrónico,2026-06-09,2026-06-21,Cerrado
+PQRS-2026-001142,AF101361,Petición,Devolución de aportes,Correo electrónico,2026-04-19,2026-05-05,Cerrado
+PQRS-2026-001143,AF101140,Reclamo,Atención al usuario,Correo electrónico,2026-04-13,2026-06-04,Cerrado
+PQRS-2026-001144,AF102127,Queja,Pensión de vejez,Telefónico,2026-10-18,,Cerrado
+PQRS-2026-001145,AF101314,Petición,Pensión de vejez,Presencial,2026-10-17,2026-10-29,Cerrado
+PQRS-2026-001146,AF100245,Petición,Pensión de vejez,Presencial,2026-05-27,2026-06-12,Cerrado
+PQRS-2026-001147,AF100341,Reclamo,Corrección de datos,Correo electrónico,2026-07-23,2026-08-09,Cerrado
+PQRS-2026-001148,AF102370,Petición,Historia laboral,Correo electrónico,2026-07-05,,Cerrado
+PQRS-2026-001149,AF900025,Petición,Devolución de aportes,Presencial,2026-08-15,2026-09-01,Cerrado
+PQRS-2026-001150,AF102179,Reclamo,Certificados,Presencial,2026-05-24,2026-06-06,Cerrado
+PQRS-2026-001151,AF100949,Felicitación,Certificados,Correo electrónico,2026-05-12,2026-05-19,Cerrado
+PQRS-2026-001152,AF102922,Petición,Certificados,Correo electrónico,2026-04-25,2026-05-12,Cerrado
+PQRS-2026-001153,AF100431,Petición,Devolución de aportes,Presencial,2026-04-16,2026-04-20,Cerrado
+PQRS-2026-001154,AF102435,Petición,Pensión de vejez,Correo electrónico,2026-09-01,2026-09-08,Cerrado
+PQRS-2026-001155,AF100909,Petición,Pensión de vejez,Correo electrónico,2026-06-21,2026-07-03,Cerrado
+PQRS-2026-001156,AF102313,Queja,Certificados,Web,2026-05-11,2026-05-21,Cerrado
+PQRS-2026-001157,AF100959,Petición,Corrección de datos,Web,2026-06-27,2026-07-12,Cerrado
+PQRS-2026-001158,AF102912,Petición,Certificados,Presencial,2026-01-20,2026-01-30,Cerrado
+PQRS-2026-001159,AF100596,Petición,Pensión de vejez,Web,2026-05-20,2026-05-29,Cerrado
+PQRS-2026-001160,AF102833,Petición,Atención al usuario,Telefónico,2026-06-01,2026-06-11,Cerrado
+PQRS-2026-001161,AF100130,Petición,Historia laboral,Presencial,2026-10-05,2026-10-11,Cerrado
+PQRS-2026-001162,AF102093,Felicitación,Corrección de datos,Telefónico,2026-06-20,2026-07-19,Cerrado
+PQRS-2026-001163,AF100042,Sugerencia,Certificados,Telefónico,2026-03-24,2026-03-29,Cerrado
+PQRS-2026-001164,AF101663,Sugerencia,Atención al usuario,Telefónico,2026-09-29,2026-10-06,Cerrado
+PQRS-2026-001165,AF102513,Petición,Atención al usuario,Telefónico,2026-05-09,2026-05-16,Cerrado
+PQRS-2026-001166,AF102255,Felicitación,Historia laboral,Presencial,2026-08-06,2026-08-23,Cerrado
+PQRS-2026-001167,AF101745,Petición,Pensión de vejez,Presencial,2026-06-01,2026-06-13,Cerrado
+PQRS-2026-001168,AF102706,Petición,Corrección de datos,Web,2026-07-01,2026-07-31,Cerrado
+PQRS-2026-001169,AF100930,Petición,Pensión de vejez,Presencial,2026-05-15,,Abierto
+PQRS-2026-001170,AF101572,Reclamo,Historia laboral,Telefónico,2026-10-18,2026-10-19,Cerrado
+PQRS-2026-001171,AF102076,Petición,Devolución de aportes,Correo electrónico,2026-03-29,2026-04-13,Cerrado
+PQRS-2026-001172,AF101987,Reclamo,Atención al usuario,Presencial,2026-08-23,2026-09-15,Cerrado
+PQRS-2026-001173,AF101696,Queja,Historia laboral,Web,2026-01-07,2026-01-15,Cerrado
+PQRS-2026-001174,AF100585,Petición,Historia laboral,Telefónico,2026-03-08,2026-03-10,Cerrado
+PQRS-2026-001175,AF102044,Petición,Corrección de datos,Web,2026-01-18,2026-01-31,Cerrado
+PQRS-2026-001176,AF102131,Sugerencia,Devolución de aportes,Web,2026-08-26,2026-08-31,Cerrado
+PQRS-2026-001177,AF100761,Petición,Corrección de datos,Telefónico,2026-09-17,2026-09-18,Cerrado
+PQRS-2026-001178,AF101804,Petición,Pensión de vejez,Correo electrónico,2026-01-16,2026-02-15,Cerrado
+PQRS-2026-001179,AF100028,Reclamo,Devolución de aportes,Presencial,2026-10-06,2026-10-17,Cerrado
+PQRS-2026-001180,AF101123,Queja,Historia laboral,Correo electrónico,2026-01-17,2026-01-13,Abierto
+PQRS-2026-001181,AF102965,Reclamo,Pensión de vejez,Presencial,2026-01-20,2026-01-25,Cerrado
+PQRS-2026-001182,AF102461,Petición,Atención al usuario,Telefónico,2026-06-23,2026-07-12,Cerrado
+PQRS-2026-001183,AF102573,Petición,Pensión de vejez,Web,2026-07-12,2026-08-05,Cerrado
+PQRS-2026-001184,AF101205,Petición,Devolución de aportes,Presencial,2026-09-27,2026-10-12,Cerrado
+PQRS-2026-001185,AF101397,Reclamo,Certificados,Correo electrónico,2026-09-10,2026-09-25,Cerrado
+PQRS-2026-001186,AF900015,Reclamo,Atención al usuario,Presencial,2026-01-16,2026-01-22,Cerrado
+PQRS-2026-001187,AF102074,Petición,Atención al usuario,Telefónico,2026-10-18,2026-10-23,Cerrado
+PQRS-2026-001188,AF100612,Petición,Historia laboral,Web,2026-07-11,2026-07-31,Cerrado
+PQRS-2026-001189,AF100067,Petición,Historia laboral,Web,2026-10-09,2026-10-20,Cerrado
+PQRS-2026-001190,AF100374,Queja,Certificados,Presencial,2026-07-12,2026-08-03,Cerrado
+PQRS-2026-001191,AF101341,Petición,Devolución de aportes,Telefónico,2026-02-04,2026-02-08,Cerrado
+PQRS-2026-001192,AF101903,Petición,Pensión de vejez,Telefónico,2026-06-25,2026-07-04,Cerrado
+PQRS-2026-001193,AF102639,Reclamo,Devolución de aportes,Correo electrónico,2026-04-26,2026-05-05,Cerrado
+PQRS-2026-001194,AF102698,Queja,Devolución de aportes,Presencial,2026-02-01,2026-02-19,Cerrado
+PQRS-2026-001195,AF101025,Queja,Historia laboral,Telefónico,2026-05-04,,Abierto
+PQRS-2026-001196,AF100283,Petición,Devolución de aportes,Correo electrónico,2026-04-17,2026-06-04,Cerrado
+PQRS-2026-001197,AF102022,Petición,Certificados,Telefónico,2026-08-18,2026-08-22,Cerrado
+PQRS-2026-001198,AF101447,Queja,Historia laboral,Correo electrónico,2026-10-14,,En trámite
+PQRS-2026-001199,AF101267,Petición,Devolución de aportes,Presencial,2026-09-21,2026-09-25,Cerrado
+PQRS-2026-001200,AF101157,Queja,Pensión de vejez,Correo electrónico,2026-02-10,2026-02-17,Cerrado
+PQRS-2026-001201,AF100751,Petición,Certificados,Presencial,2026-04-15,2026-04-26,Cerrado
+PQRS-2026-001202,AF101181,Queja,Atención al usuario,Telefónico,2026-04-15,2026-04-26,Cerrado
+PQRS-2026-001203,AF101276,Petición,Pensión de vejez,Web,2026-04-17,2026-04-26,Cerrado
+PQRS-2026-001204,AF100956,Petición,Devolución de aportes,Web,2026-06-15,2026-06-23,Cerrado
+PQRS-2026-001205,AF101493,Petición,Historia laboral,Presencial,2026-04-21,2026-04-25,Cerrado
+PQRS-2026-001206,AF101192,Petición,Pensión de vejez,Web,2026-09-04,2026-09-27,Cerrado
+PQRS-2026-001207,AF101723,Petición,Historia laboral,Web,2026-06-24,2026-07-08,Cerrado
+PQRS-2026-001208,AF100779,Petición,Corrección de datos,Web,2026-07-27,2026-08-01,Cerrado
+PQRS-2026-001209,AF101486,Felicitación,Pensión de vejez,Telefónico,2026-05-08,2026-05-12,Cerrado
+PQRS-2026-001210,AF101741,Reclamo,Atención al usuario,Presencial,2026-07-11,2026-07-25,Cerrado
+PQRS-2026-001211,AF101063,Felicitación,Historia laboral,Presencial,2026-01-19,2026-01-24,Cerrado
+PQRS-2026-001212,AF100765,Petición,Devolución de aportes,Telefónico,2026-04-29,2026-05-19,Cerrado
+PQRS-2026-001213,AF101686,Petición,Historia laboral,Telefónico,2026-07-29,2026-08-20,Cerrado
+PQRS-2026-001214,AF101040,Petición,Historia laboral,Correo electrónico,2026-03-27,2026-04-06,Cerrado
+PQRS-2026-001215,AF101718,Queja,Pensión de vejez,Web,2026-09-27,2026-09-30,Cerrado
+PQRS-2026-001216,AF100357,Reclamo,Atención al usuario,Presencial,2026-05-06,2026-06-05,Cerrado
+PQRS-2026-001217,AF101921,Queja,Corrección de datos,Presencial,2026-10-04,2026-09-25,Cerrado
+PQRS-2026-001218,AF100072,Queja,Atención al usuario,Correo electrónico,2026-08-31,2026-09-04,Cerrado
+PQRS-2026-001219,AF100281,Reclamo,Corrección de datos,Web,2026-01-30,2026-02-05,Cerrado
+PQRS-2026-001220,AF101732,Reclamo,Certificados,Telefónico,2026-08-18,,Abierto
+PQRS-2026-001221,AF102055,Petición,Historia laboral,Web,2026-07-28,2026-08-23,Cerrado
+PQRS-2026-001222,AF100560,Petición,Certificados,Web,2026-02-13,2026-02-22,Cerrado
+PQRS-2026-001223,AF101795,Reclamo,Corrección de datos,Correo electrónico,2026-04-10,2026-04-12,Cerrado
+PQRS-2026-001224,AF100678,Petición,Historia laboral,Telefónico,2026-05-01,2026-05-11,Cerrado
+PQRS-2026-001225,AF102420,Reclamo,Corrección de datos,Presencial,2026-04-09,,Abierto
+PQRS-2026-001226,AF100221,Petición,Historia laboral,Telefónico,2026-08-15,2026-08-24,Cerrado
+PQRS-2026-001227,AF100092,Reclamo,Pensión de vejez,Telefónico,2026-01-05,2026-01-17,Cerrado
+PQRS-2026-001228,AF102892,Felicitación,Devolución de aportes,Web,2026-09-14,2026-09-23,Cerrado
+PQRS-2026-001229,AF100581,Reclamo,Pensión de vejez,Correo electrónico,2026-10-14,2026-10-19,Cerrado
+PQRS-2026-001230,AF101245,Felicitación,Pensión de vejez,Correo electrónico,2026-07-15,2026-07-23,Cerrado
+PQRS-2026-001231,AF100447,Petición,Pensión de vejez,Web,2026-08-30,2026-09-08,Cerrado
+PQRS-2026-001232,AF100877,Queja,Atención al usuario,Telefónico,2026-06-09,2026-06-12,Cerrado
+PQRS-2026-001233,AF101860,Petición,Devolución de aportes,Telefónico,2026-04-21,2026-04-29,Cerrado
+PQRS-2026-001234,AF102622,Petición,Atención al usuario,Web,2026-08-12,2026-08-18,Cerrado
+PQRS-2026-001235,AF101903,Reclamo,Devolución de aportes,Correo electrónico,2026-07-16,2026-07-18,Cerrado
+PQRS-2026-001236,AF101071,Petición,Devolución de aportes,Correo electrónico,2026-07-31,2026-08-20,Cerrado
+PQRS-2026-001237,AF100801,Queja,Devolución de aportes,Web,2026-08-23,,Abierto
+PQRS-2026-001238,AF100641,Sugerencia,Devolución de aportes,Presencial,2026-09-12,2026-09-16,Cerrado
+PQRS-2026-001239,AF102806,Petición,Historia laboral,Web,2026-03-25,2026-04-07,Cerrado
+PQRS-2026-001240,AF101387,Reclamo,Atención al usuario,Presencial,2026-04-21,2026-05-22,Cerrado
+PQRS-2026-001241,AF101221,Queja,Corrección de datos,Correo electrónico,2026-10-07,2026-10-09,Cerrado
+PQRS-2026-001242,AF100013,Queja,Corrección de datos,Presencial,2026-10-13,,Abierto
+PQRS-2026-001243,AF100013,Petición,Pensión de vejez,Web,2026-10-03,2026-10-07,Cerrado
+PQRS-2026-001244,AF102516,Sugerencia,Certificados,Presencial,2026-10-07,2026-10-17,Cerrado
+PQRS-2026-001245,AF102808,Petición,Historia laboral,Telefónico,2026-01-20,2026-01-26,Cerrado
+PQRS-2026-001246,AF100067,Petición,Atención al usuario,Web,2026-10-18,2026-10-22,Cerrado
+PQRS-2026-001247,AF101294,Sugerencia,Devolución de aportes,Web,2026-05-12,2026-05-31,Cerrado
+PQRS-2026-001248,AF102206,Petición,Devolución de aportes,Correo electrónico,2026-05-23,2026-05-23,Cerrado
+PQRS-2026-001249,AF100777,Petición,Historia laboral,Presencial,2026-06-24,2026-06-27,Cerrado
+PQRS-2026-001250,AF100419,Petición,Pensión de vejez,Telefónico,2026-08-24,2026-09-15,Cerrado
+PQRS-2026-001251,AF101127,Reclamo,Certificados,Web,2026-04-07,2026-05-02,Cerrado
+PQRS-2026-001252,AF101858,Petición,Corrección de datos,Web,2026-03-02,2026-03-10,Cerrado
+PQRS-2026-001253,AF100170,Petición,Historia laboral,Presencial,2026-08-20,2026-08-31,Cerrado
+PQRS-2026-001254,AF100950,Queja,Certificados,Presencial,2026-05-15,,Cerrado
+PQRS-2026-001255,AF100339,Petición,Historia laboral,Web,2026-02-11,2026-02-20,Cerrado
+PQRS-2026-001256,AF102789,Petición,Certificados,Web,2026-08-24,2026-09-09,Cerrado
+PQRS-2026-001257,AF102679,Reclamo,Atención al usuario,Telefónico,2026-10-16,2026-10-31,Cerrado
+PQRS-2026-001258,AF101034,Petición,Corrección de datos,Telefónico,2026-04-18,2026-05-17,Cerrado
+PQRS-2026-001259,AF102562,Petición,Corrección de datos,Web,2026-04-12,2026-05-07,Cerrado
+PQRS-2026-001260,AF100713,Reclamo,Certificados,Telefónico,2026-08-06,2026-08-14,Cerrado
+PQRS-2026-001261,AF101705,Petición,Pensión de vejez,Presencial,2026-04-18,2026-04-22,Cerrado
+PQRS-2026-001262,AF101136,Reclamo,Corrección de datos,Telefónico,2026-04-28,2026-05-14,Cerrado
+PQRS-2026-001263,AF100537,Petición,Historia laboral,Presencial,2026-06-02,2026-06-18,Cerrado
+PQRS-2026-001264,AF101292,Petición,Corrección de datos,Presencial,2026-03-19,2026-04-02,Cerrado
+PQRS-2026-001265,AF101470,Reclamo,Certificados,Correo electrónico,2026-05-07,2026-05-27,Cerrado
+PQRS-2026-001266,AF101044,Sugerencia,Certificados,Telefónico,2026-03-22,2026-03-31,Cerrado
+PQRS-2026-001267,AF101267,Petición,Devolución de aportes,Correo electrónico,2026-02-05,2026-02-17,Cerrado
+PQRS-2026-001268,AF100554,Reclamo,Corrección de datos,Presencial,2026-06-10,2026-06-15,Cerrado
+PQRS-2026-001269,AF100470,Petición,Certificados,Correo electrónico,2026-07-13,2026-08-09,Cerrado
+PQRS-2026-001270,AF102143,Petición,Devolución de aportes,Telefónico,2026-07-08,2026-07-22,Cerrado
+PQRS-2026-001271,AF102730,Petición,Corrección de datos,Telefónico,2026-01-04,2026-01-06,Cerrado
+PQRS-2026-001272,AF101958,Reclamo,Pensión de vejez,Presencial,2026-05-01,2026-05-13,Cerrado
+PQRS-2026-001273,AF102140,Queja,Certificados,Telefónico,2026-06-13,2026-06-30,Cerrado
+PQRS-2026-001274,AF102987,Queja,Certificados,Presencial,2026-06-22,2026-07-14,Cerrado
+PQRS-2026-001275,AF100442,Reclamo,Historia laboral,Web,2026-10-04,,Abierto
+PQRS-2026-001276,AF102877,Reclamo,Devolución de aportes,Correo electrónico,2026-02-27,2026-03-15,Cerrado
+PQRS-2026-001277,AF100580,Petición,Certificados,Telefónico,2026-08-22,2026-09-01,Cerrado
+PQRS-2026-001278,AF101381,Petición,Atención al usuario,Telefónico,2026-02-22,2026-03-12,Cerrado
+PQRS-2026-001279,AF102715,Petición,Pensión de vejez,Correo electrónico,2026-04-16,,En trámite
+PQRS-2026-001280,AF102918,Petición,Atención al usuario,Correo electrónico,2026-04-27,,Abierto
+PQRS-2026-001281,AF100648,Petición,Pensión de vejez,Telefónico,2026-06-23,2026-07-12,Cerrado
+PQRS-2026-001282,AF102186,Queja,Corrección de datos,Telefónico,2026-04-25,2026-05-03,Cerrado
+PQRS-2026-001283,AF100552,Reclamo,Historia laboral,Web,2026-03-17,2026-03-27,Cerrado
+PQRS-2026-001284,AF100255,Reclamo,Atención al usuario,Telefónico,2026-02-06,2026-02-18,Cerrado
+PQRS-2026-001285,AF102494,Queja,Devolución de aportes,Telefónico,2026-10-27,2026-10-31,Cerrado
+PQRS-2026-001286,AF101287,Petición,Atención al usuario,Telefónico,2026-06-07,2026-06-14,Cerrado
+PQRS-2026-001287,AF102658,Felicitación,Historia laboral,Web,2026-04-26,2026-05-25,Cerrado
+PQRS-2026-001288,AF100893,Sugerencia,Historia laboral,Web,2026-05-05,2026-05-11,Cerrado
+PQRS-2026-001289,AF102888,Queja,Devolución de aportes,Web,2026-09-03,2026-09-29,Cerrado
+PQRS-2026-001290,AF101386,Queja,Historia laboral,Correo electrónico,2026-08-03,2026-08-07,Cerrado
+PQRS-2026-001291,AF101154,Petición,Certificados,Correo electrónico,2026-09-03,2026-09-21,Cerrado
+PQRS-2026-001292,AF101536,Petición,Corrección de datos,Web,2026-05-23,2026-06-08,Cerrado
+PQRS-2026-001293,AF100079,Queja,Historia laboral,Web,2026-04-12,2026-04-21,Cerrado
+PQRS-2026-001294,AF100781,Queja,Pensión de vejez,Telefónico,2026-06-14,2026-07-01,Cerrado
+PQRS-2026-001295,AF101743,Petición,Historia laboral,Telefónico,2026-04-30,2026-05-08,Cerrado
+PQRS-2026-001296,AF900029,Petición,Atención al usuario,Telefónico,2026-07-14,2026-07-20,Cerrado
+PQRS-2026-001297,AF900016,Petición,Devolución de aportes,Correo electrónico,2026-06-22,2026-07-02,Cerrado
+PQRS-2026-001298,AF102744,Petición,Certificados,Correo electrónico,2026-09-12,2026-09-27,Cerrado
+PQRS-2026-001299,AF102961,Petición,Pensión de vejez,Presencial,2026-01-26,2026-02-02,Cerrado
+PQRS-2026-001300,AF101895,Queja,Certificados,Correo electrónico,2026-10-25,,En trámite
+PQRS-2026-001301,AF100673,Petición,Historia laboral,Telefónico,2026-01-06,2026-01-14,Cerrado
+PQRS-2026-001302,AF101228,Petición,Corrección de datos,Web,2026-01-07,2026-01-20,Cerrado
+PQRS-2026-001303,AF100525,Petición,Corrección de datos,Presencial,2026-10-14,2026-10-23,Cerrado
+PQRS-2026-001304,AF100320,Queja,Corrección de datos,Correo electrónico,2026-09-21,2026-10-08,Cerrado
+PQRS-2026-001305,AF101030,Petición,Certificados,Correo electrónico,2026-01-08,2026-01-16,Cerrado
+PQRS-2026-001306,AF102971,Petición,Historia laboral,Web,2026-10-30,,Abierto
+PQRS-2026-001307,AF102520,Queja,Pensión de vejez,Web,2026-04-29,2026-05-05,Cerrado
+PQRS-2026-001308,AF100244,Petición,Atención al usuario,Presencial,2026-07-04,2026-07-10,Cerrado
+PQRS-2026-001309,AF900009,Petición,Pensión de vejez,Correo electrónico,2026-07-09,2026-07-12,Cerrado
+PQRS-2026-001310,AF100594,Reclamo,Devolución de aportes,Correo electrónico,2026-09-06,2026-09-11,Cerrado
+PQRS-2026-001311,AF101062,Reclamo,Atención al usuario,Correo electrónico,2026-05-28,2026-06-21,Cerrado
+PQRS-2026-001312,AF100405,Petición,Corrección de datos,Correo electrónico,2026-05-23,2026-06-11,Cerrado
+PQRS-2026-001313,AF101161,Petición,Pensión de vejez,Correo electrónico,2026-08-13,2026-08-21,Cerrado
+PQRS-2026-001314,AF101161,Petición,Atención al usuario,Presencial,2026-06-20,2026-07-04,Cerrado
+PQRS-2026-001315,AF100701,Sugerencia,Certificados,Correo electrónico,2026-07-14,2026-07-23,Cerrado
+PQRS-2026-001316,AF102614,Petición,Certificados,Web,2026-01-14,2026-01-26,Cerrado
+PQRS-2026-001317,AF101355,Reclamo,Historia laboral,Correo electrónico,2026-09-30,2026-10-07,Cerrado
+PQRS-2026-001318,AF101331,Sugerencia,Atención al usuario,Web,2026-10-04,2026-10-09,Cerrado
+PQRS-2026-001319,AF101941,Petición,Certificados,Presencial,2026-05-26,2026-06-01,Cerrado
+PQRS-2026-001320,AF100009,Petición,Historia laboral,Presencial,2026-02-06,,Cerrado
+PQRS-2026-001321,AF102294,Reclamo,Atención al usuario,Telefónico,2026-04-02,2026-04-20,Cerrado
+PQRS-2026-001322,AF102094,Reclamo,Atención al usuario,Presencial,2026-04-24,2026-05-04,Cerrado
+PQRS-2026-001323,AF102652,Petición,Atención al usuario,Presencial,2026-09-06,2026-10-11,Cerrado
+PQRS-2026-001324,AF100129,Petición,Devolución de aportes,Web,2026-09-18,2026-10-11,Cerrado
+PQRS-2026-001325,AF101508,Queja,Historia laboral,Telefónico,2026-01-21,2026-02-14,Cerrado
+PQRS-2026-001326,AF102154,Petición,Certificados,Presencial,2026-09-18,2026-10-03,Cerrado
+PQRS-2026-001327,AF100341,Petición,Historia laboral,Web,2026-03-10,2026-03-18,Cerrado
+PQRS-2026-001328,AF101899,Petición,Pensión de vejez,Correo electrónico,2026-04-11,2026-04-16,Cerrado
+PQRS-2026-001329,AF102987,Petición,Certificados,Telefónico,2026-02-05,,Abierto
+PQRS-2026-001330,AF101062,Felicitación,Devolución de aportes,Presencial,2026-01-04,2026-01-13,Cerrado
+PQRS-2026-001331,AF100595,Petición,Historia laboral,Presencial,2026-08-20,2026-09-14,Cerrado
+PQRS-2026-001332,AF101209,Petición,Certificados,Correo electrónico,2026-01-02,2026-01-09,Cerrado
+PQRS-2026-001333,AF102665,Queja,Corrección de datos,Correo electrónico,2026-07-06,2026-08-08,Cerrado
+PQRS-2026-001334,AF100904,Petición,Pensión de vejez,Telefónico,2026-07-02,2026-07-05,Cerrado
+PQRS-2026-001335,AF102253,Reclamo,Pensión de vejez,Web,2026-01-10,2026-01-17,Cerrado
+PQRS-2026-001336,AF102137,Queja,Historia laboral,Presencial,2026-04-28,2026-05-13,Cerrado
+PQRS-2026-001337,AF101809,Reclamo,Certificados,Telefónico,2026-09-01,2026-09-28,Cerrado
+PQRS-2026-001338,AF102668,Petición,Atención al usuario,Presencial,2026-01-22,2026-02-02,Cerrado
+PQRS-2026-001339,AF100407,Queja,Atención al usuario,Correo electrónico,2026-08-13,2026-08-19,Cerrado
+PQRS-2026-001340,AF101348,Queja,Pensión de vejez,Correo electrónico,2026-02-13,2026-02-27,Cerrado
+PQRS-2026-001341,AF102849,Reclamo,Devolución de aportes,Presencial,2026-01-08,2026-02-05,Cerrado
+PQRS-2026-001342,AF101078,Petición,Atención al usuario,Correo electrónico,2026-10-04,2026-10-13,Cerrado
+PQRS-2026-001343,AF101546,Reclamo,Devolución de aportes,Web,2026-10-21,2026-10-31,Cerrado
+PQRS-2026-001344,AF100667,Petición,Atención al usuario,Presencial,2026-03-14,,Abierto
+PQRS-2026-001345,AF100424,Felicitación,Atención al usuario,Telefónico,2026-02-21,2026-03-28,Cerrado
+PQRS-2026-001346,AF101243,Queja,Corrección de datos,Web,2026-08-31,,Cerrado
+PQRS-2026-001347,AF101222,Petición,Historia laboral,Presencial,2026-07-17,2026-08-03,Cerrado
+PQRS-2026-001348,AF102788,Petición,Devolución de aportes,Web,2026-08-23,2026-08-28,Cerrado
+PQRS-2026-001349,AF100480,Petición,Certificados,Correo electrónico,2026-10-15,2026-10-21,Cerrado
+PQRS-2026-001350,AF102702,Petición,Historia laboral,Telefónico,2026-01-21,2026-01-29,Cerrado
+PQRS-2026-001351,AF102709,Petición,Atención al usuario,Telefónico,2026-09-28,2026-10-12,Cerrado
+PQRS-2026-001352,AF101099,Petición,Devolución de aportes,Web,2026-07-16,2026-07-25,Cerrado
+PQRS-2026-001353,AF102038,Petición,Corrección de datos,Telefónico,2026-01-14,2026-02-05,Cerrado
+PQRS-2026-001354,AF100068,Queja,Pensión de vejez,Telefónico,2026-07-29,2026-08-08,Cerrado
+PQRS-2026-001355,AF102382,Petición,Corrección de datos,Presencial,2026-08-09,2026-08-14,Cerrado
+PQRS-2026-001356,AF101316,Reclamo,Historia laboral,Presencial,2026-10-05,,En trámite
+PQRS-2026-001357,AF101841,Petición,Certificados,Web,2026-02-15,2026-03-11,Cerrado
+PQRS-2026-001358,AF102779,Reclamo,Pensión de vejez,Telefónico,2026-07-28,2026-08-01,Cerrado
+PQRS-2026-001359,AF102343,Petición,Pensión de vejez,Correo electrónico,2026-04-16,2026-04-18,Cerrado
+PQRS-2026-001360,AF101930,Petición,Historia laboral,Web,2026-07-06,2026-08-04,Cerrado
+PQRS-2026-001361,AF102469,Felicitación,Corrección de datos,Telefónico,2026-10-08,2026-10-24,Cerrado
+PQRS-2026-001362,AF102182,Petición,Pensión de vejez,Correo electrónico,2026-06-19,2026-06-29,Cerrado
+PQRS-2026-001363,AF101337,Petición,Pensión de vejez,Web,2026-10-18,2026-10-24,Cerrado
+PQRS-2026-001364,AF100609,Petición,Pensión de vejez,Presencial,2026-09-30,2026-10-22,Cerrado
+PQRS-2026-001365,AF100003,Queja,Pensión de vejez,Telefónico,2026-07-29,2026-08-09,Cerrado
+PQRS-2026-001366,AF100103,Sugerencia,Certificados,Telefónico,2026-05-05,2026-05-11,Cerrado
+PQRS-2026-001367,AF101805,Queja,Corrección de datos,Telefónico,2026-04-04,2026-04-17,Cerrado
+PQRS-2026-001368,AF102802,Queja,Historia laboral,Presencial,2026-05-28,2026-06-06,Cerrado
+PQRS-2026-001369,AF101165,Petición,Atención al usuario,Telefónico,2026-10-20,,Abierto
+PQRS-2026-001370,AF101129,Petición,Certificados,Presencial,2026-09-10,2026-09-28,Cerrado
+PQRS-2026-001371,AF100095,Petición,Pensión de vejez,Web,2026-07-20,2026-08-08,Cerrado
+PQRS-2026-001372,AF101496,Sugerencia,Pensión de vejez,Correo electrónico,2026-03-29,2026-04-14,Cerrado
+PQRS-2026-001373,AF100625,Petición,Devolución de aportes,Telefónico,2026-07-11,2026-07-16,Cerrado
+PQRS-2026-001374,AF100418,Reclamo,Atención al usuario,Correo electrónico,2026-10-19,,Abierto
+PQRS-2026-001375,AF100815,Reclamo,Devolución de aportes,Presencial,2026-08-26,2026-09-04,Cerrado
+PQRS-2026-001376,AF100990,Queja,Pensión de vejez,Correo electrónico,2026-09-11,2026-09-22,Cerrado
+PQRS-2026-001377,AF100564,Queja,Atención al usuario,Presencial,2026-04-27,2026-05-21,Cerrado
+PQRS-2026-001378,AF102655,Reclamo,Historia laboral,Telefónico,2026-02-07,2026-02-19,Cerrado
+PQRS-2026-001379,AF100609,Petición,Historia laboral,Web,2026-03-04,2026-04-03,Cerrado
+PQRS-2026-001380,AF101047,Petición,Certificados,Telefónico,2026-06-16,2026-07-03,Cerrado
+PQRS-2026-001381,AF101004,Reclamo,Certificados,Web,2026-10-12,2026-10-25,Cerrado
+PQRS-2026-001382,AF101311,Petición,Corrección de datos,Correo electrónico,2026-04-18,2026-05-02,Cerrado
+PQRS-2026-001383,AF101179,Petición,Pensión de vejez,Telefónico,2026-04-01,,Abierto
+PQRS-2026-001384,AF101518,Petición,Devolución de aportes,Web,2026-05-31,2026-06-09,Cerrado
+PQRS-2026-001385,AF100357,Reclamo,Pensión de vejez,Telefónico,2026-05-18,2026-06-04,Cerrado
+PQRS-2026-001386,AF102509,Reclamo,Corrección de datos,Presencial,2026-01-11,2026-01-18,Cerrado
+PQRS-2026-001387,AF101817,Petición,Devolución de aportes,Telefónico,2026-09-10,2026-09-17,Cerrado
+PQRS-2026-001388,AF102909,Petición,Historia laboral,Presencial,2026-08-04,2026-08-11,Cerrado
+PQRS-2026-001389,AF100391,Reclamo,Historia laboral,Presencial,2026-07-06,2026-07-13,Cerrado
+PQRS-2026-001390,AF101200,Petición,Pensión de vejez,Telefónico,2026-05-09,2026-06-09,Cerrado
+PQRS-2026-001391,AF102170,Petición,Historia laboral,Correo electrónico,2026-02-14,2026-02-18,Cerrado
+PQRS-2026-001392,AF100620,Petición,Corrección de datos,Telefónico,2026-02-25,,Abierto
+PQRS-2026-001393,AF102735,Reclamo,Certificados,Presencial,2026-03-19,2026-03-25,Cerrado
+PQRS-2026-001394,AF101730,Reclamo,Historia laboral,Correo electrónico,2026-09-01,2026-09-15,Cerrado
+PQRS-2026-001395,AF100141,Reclamo,Corrección de datos,Web,2026-04-23,2026-04-28,Cerrado
+PQRS-2026-001396,AF100767,Petición,Historia laboral,Correo electrónico,2026-04-28,2026-05-12,Cerrado
+PQRS-2026-001397,AF101766,Petición,Corrección de datos,Correo electrónico,2026-10-16,2026-10-16,Cerrado
+PQRS-2026-001398,AF102482,Reclamo,Pensión de vejez,Correo electrónico,2026-05-19,2026-05-24,Cerrado
+PQRS-2026-001399,AF102954,Reclamo,Historia laboral,Presencial,2026-08-05,2026-08-23,Cerrado
+PQRS-2026-001400,AF101898,Sugerencia,Atención al usuario,Web,2026-04-13,2026-05-02,Cerrado
+PQRS-2026-001401,AF101720,Petición,Devolución de aportes,Telefónico,2026-01-09,2026-01-28,Cerrado
+PQRS-2026-001402,AF101395,Felicitación,Certificados,Presencial,2026-02-07,2026-02-11,Cerrado
+PQRS-2026-001403,AF101097,Petición,Certificados,Telefónico,2026-03-26,2026-03-31,Cerrado
+PQRS-2026-001404,AF101523,Petición,Devolución de aportes,Telefónico,2026-02-28,2026-03-16,Cerrado
+PQRS-2026-001405,AF100493,Petición,Atención al usuario,Correo electrónico,2026-10-17,2026-10-30,Cerrado
+PQRS-2026-001406,AF100647,Felicitación,Certificados,Web,2026-05-07,2026-06-30,Cerrado
+PQRS-2026-001407,AF101355,Petición,Historia laboral,Correo electrónico,2026-08-16,,En trámite
+PQRS-2026-001408,AF100389,Petición,Corrección de datos,Presencial,2026-02-19,2026-02-26,Cerrado
+PQRS-2026-001409,AF101543,Petición,Corrección de datos,Presencial,2026-07-10,2026-07-17,Cerrado
+PQRS-2026-001410,AF102060,Sugerencia,Pensión de vejez,Telefónico,2026-09-01,2026-10-01,Cerrado
+PQRS-2026-001411,AF101709,Queja,Certificados,Web,2026-04-12,2026-05-07,Cerrado
+PQRS-2026-001412,AF100375,Petición,Devolución de aportes,Telefónico,2026-09-21,2026-09-28,Cerrado
+PQRS-2026-001413,AF102359,Petición,Pensión de vejez,Presencial,2026-04-03,2026-04-07,Cerrado
+PQRS-2026-001414,AF100982,Petición,Pensión de vejez,Presencial,2026-05-21,2026-05-28,Cerrado
+PQRS-2026-001415,AF101488,Sugerencia,Historia laboral,Telefónico,2026-06-04,2026-06-10,Cerrado
+PQRS-2026-001416,AF100636,Petición,Corrección de datos,Telefónico,2026-06-11,2026-06-15,Cerrado
+PQRS-2026-001417,AF100244,Reclamo,Devolución de aportes,Correo electrónico,2026-03-15,2026-04-04,Cerrado
+PQRS-2026-001418,AF102533,Felicitación,Corrección de datos,Web,2026-04-04,2026-04-21,Cerrado
+PQRS-2026-001419,AF102664,Petición,Historia laboral,Telefónico,2026-10-06,,Abierto
+PQRS-2026-001420,AF100427,Queja,Pensión de vejez,Telefónico,2026-05-17,2026-05-21,Cerrado
+PQRS-2026-001421,AF100107,Petición,Corrección de datos,Presencial,2026-01-13,2026-01-26,Cerrado
+PQRS-2026-001422,AF100649,Sugerencia,Certificados,Correo electrónico,2026-01-05,2026-01-25,Cerrado
+PQRS-2026-001423,AF100688,Queja,Devolución de aportes,Telefónico,2026-09-20,2026-09-27,Cerrado
+PQRS-2026-001424,AF101603,Queja,Pensión de vejez,Correo electrónico,2026-10-29,,Abierto
+PQRS-2026-001425,AF100674,Reclamo,Certificados,Correo electrónico,2026-06-27,2026-07-16,Cerrado
+PQRS-2026-001426,AF101001,Petición,Certificados,Correo electrónico,2026-06-30,2026-07-16,Cerrado
+PQRS-2026-001427,AF100589,Petición,Atención al usuario,Correo electrónico,2026-04-01,2026-04-16,Cerrado
+PQRS-2026-001428,AF102842,Queja,Pensión de vejez,Web,2026-09-03,2026-09-14,Cerrado
+PQRS-2026-001429,AF101125,Queja,Historia laboral,Presencial,2026-03-03,2026-03-13,Cerrado
+PQRS-2026-001430,AF102191,Sugerencia,Pensión de vejez,Web,2026-03-06,2026-03-22,Cerrado
+PQRS-2026-001431,AF100679,Felicitación,Historia laboral,Telefónico,2026-05-28,2026-06-25,Cerrado
+PQRS-2026-001432,AF102216,Queja,Historia laboral,Correo electrónico,2026-06-25,,En trámite
+PQRS-2026-001433,AF100427,Queja,Corrección de datos,Correo electrónico,2026-10-20,,En trámite
+PQRS-2026-001434,AF101503,Petición,Pensión de vejez,Telefónico,2026-08-29,2026-09-24,Cerrado
+PQRS-2026-001435,AF102919,Queja,Corrección de datos,Web,2026-08-07,2026-08-25,Cerrado
+PQRS-2026-001436,AF100628,Petición,Certificados,Presencial,2026-07-09,,Cerrado
+PQRS-2026-001437,AF101817,Petición,Historia laboral,Correo electrónico,2026-10-12,2026-10-14,Cerrado
+PQRS-2026-001438,AF100366,Queja,Pensión de vejez,Correo electrónico,2026-08-19,2026-09-19,Cerrado
+PQRS-2026-001439,AF100063,Sugerencia,Corrección de datos,Correo electrónico,2026-07-16,,Abierto
+PQRS-2026-001440,AF100723,Reclamo,Pensión de vejez,Web,2026-03-17,2026-04-15,Cerrado
+PQRS-2026-001441,AF102186,Petición,Atención al usuario,Telefónico,2026-06-11,2026-07-13,Cerrado
+PQRS-2026-001442,AF100524,Petición,Historia laboral,Correo electrónico,2026-08-11,2026-08-27,Cerrado
+PQRS-2026-001443,AF101721,Petición,Certificados,Telefónico,2026-03-22,2026-04-08,Cerrado
+PQRS-2026-001444,AF101733,Petición,Certificados,Web,2026-04-25,2026-05-17,Cerrado
+PQRS-2026-001445,AF100314,Reclamo,Historia laboral,Web,2026-06-21,2026-07-05,Cerrado
+PQRS-2026-001446,AF102007,Petición,Historia laboral,Presencial,2026-07-30,2026-08-14,Cerrado
+PQRS-2026-001447,AF102670,Petición,Corrección de datos,Telefónico,2026-02-28,2026-03-01,Cerrado
+PQRS-2026-001448,AF101713,Petición,Corrección de datos,Web,2026-07-09,2026-07-20,Cerrado
+PQRS-2026-001449,AF100615,Petición,Atención al usuario,Telefónico,2026-07-31,,En trámite
+PQRS-2026-001450,AF101928,Petición,Historia laboral,Presencial,2026-01-10,2026-01-14,Cerrado
+PQRS-2026-001451,AF102632,Petición,Atención al usuario,Correo electrónico,2026-04-10,2026-04-25,Cerrado
+PQRS-2026-001452,AF101325,Petición,Historia laboral,Presencial,2026-01-23,2026-01-29,Cerrado
+PQRS-2026-001453,AF101023,Petición,Devolución de aportes,Presencial,2026-03-09,2026-03-25,Cerrado
+PQRS-2026-001454,AF101280,Petición,Atención al usuario,Web,2026-08-13,2026-09-03,Cerrado
+PQRS-2026-001455,AF101910,Reclamo,Historia laboral,Web,2026-07-17,2026-08-12,Cerrado
+PQRS-2026-001456,AF102167,Sugerencia,Historia laboral,Correo electrónico,2026-09-28,,Abierto
+PQRS-2026-001457,AF100905,Petición,Historia laboral,Presencial,2026-05-18,2026-05-24,Cerrado
+PQRS-2026-001458,AF100447,Petición,Historia laboral,Telefónico,2026-03-27,2026-04-16,Cerrado
+PQRS-2026-001459,AF102404,Petición,Pensión de vejez,Correo electrónico,2026-06-23,2026-07-15,Cerrado
+PQRS-2026-001460,AF102354,Petición,Atención al usuario,Correo electrónico,2026-01-24,2026-01-30,Cerrado
+PQRS-2026-001461,AF100030,Petición,Pensión de vejez,Presencial,2026-05-10,2026-05-27,Cerrado
+PQRS-2026-001462,AF100676,Petición,Pensión de vejez,Web,2026-09-12,2026-10-07,Cerrado
+PQRS-2026-001463,AF100065,Queja,Historia laboral,Telefónico,2026-06-03,2026-06-09,Cerrado
+PQRS-2026-001464,AF102034,Queja,Historia laboral,Telefónico,2026-08-09,2026-08-16,Cerrado
+PQRS-2026-001465,AF101992,Petición,Historia laboral,Presencial,2026-09-17,2026-09-23,Cerrado
+PQRS-2026-001466,AF102599,Reclamo,Atención al usuario,Presencial,2026-07-02,2026-07-05,Cerrado
+PQRS-2026-001467,AF101055,Reclamo,Historia laboral,Correo electrónico,2026-07-30,,En trámite
+PQRS-2026-001468,AF101083,Queja,Atención al usuario,Presencial,2026-02-21,,Cerrado
+PQRS-2026-001469,AF102249,Reclamo,Corrección de datos,Correo electrónico,2026-03-17,,Abierto
+PQRS-2026-001470,AF101481,Petición,Devolución de aportes,Telefónico,2026-10-19,,Cerrado
+PQRS-2026-001471,AF100603,Petición,Pensión de vejez,Telefónico,2026-09-28,2026-09-30,Cerrado
+PQRS-2026-001472,AF102161,Petición,Certificados,Presencial,2026-02-15,2026-02-24,Cerrado
+PQRS-2026-001473,AF102515,Queja,Pensión de vejez,Presencial,2026-04-06,,Abierto
+PQRS-2026-001474,AF102145,Queja,Pensión de vejez,Correo electrónico,2026-03-17,2026-03-26,Cerrado
+PQRS-2026-001475,AF101549,Petición,Corrección de datos,Correo electrónico,2026-06-23,2026-06-30,Cerrado
+PQRS-2026-001476,AF100595,Petición,Corrección de datos,Web,2026-01-22,2026-01-30,Cerrado
+PQRS-2026-001477,AF100017,Petición,Historia laboral,Correo electrónico,2026-08-16,2026-08-22,Cerrado
+PQRS-2026-001478,AF101718,Petición,Pensión de vejez,Telefónico,2026-03-09,2026-03-18,Cerrado
+PQRS-2026-001479,AF100887,Reclamo,Historia laboral,Web,2026-04-07,2026-04-23,Cerrado
+PQRS-2026-001480,AF102231,Petición,Historia laboral,Presencial,2026-03-22,2026-04-10,Cerrado
+PQRS-2026-001481,AF101067,Petición,Historia laboral,Telefónico,2026-01-18,2026-02-07,Cerrado
+PQRS-2026-001482,AF102808,Reclamo,Atención al usuario,Web,2026-10-20,,Abierto
+PQRS-2026-001483,AF101493,Queja,Certificados,Correo electrónico,2026-02-19,2026-02-24,Cerrado
+PQRS-2026-001484,AF100557,Petición,Historia laboral,Telefónico,2026-02-20,2026-03-05,Cerrado
+PQRS-2026-001485,AF102401,Sugerencia,Atención al usuario,Telefónico,2026-05-02,2026-05-09,Cerrado
+PQRS-2026-001486,AF101765,Reclamo,Devolución de aportes,Web,2026-03-09,2026-03-15,Cerrado
+PQRS-2026-001487,AF102918,Petición,Devolución de aportes,Telefónico,2026-02-12,2026-03-18,Cerrado
+PQRS-2026-001488,AF102361,Petición,Certificados,Correo electrónico,2026-04-20,2026-04-21,Cerrado
+PQRS-2026-001489,AF102944,Reclamo,Corrección de datos,Presencial,2026-09-03,2026-10-04,Cerrado
+PQRS-2026-001490,AF102063,Queja,Corrección de datos,Presencial,2026-03-11,2026-03-14,Cerrado
+PQRS-2026-001491,AF100682,Queja,Devolución de aportes,Web,2026-02-05,2026-02-07,Cerrado
+PQRS-2026-001492,AF100548,Petición,Pensión de vejez,Telefónico,2026-07-20,2026-08-03,Cerrado
+PQRS-2026-001493,AF100532,Reclamo,Historia laboral,Presencial,2026-08-15,2026-08-25,Cerrado
+PQRS-2026-001494,AF102818,Reclamo,Pensión de vejez,Web,2026-01-26,2026-01-28,Cerrado
+PQRS-2026-001495,AF101407,Petición,Certificados,Presencial,2026-08-10,2026-08-11,Cerrado
+PQRS-2026-001496,AF100870,Reclamo,Devolución de aportes,Web,2026-01-25,2026-02-06,Cerrado
+PQRS-2026-001497,AF102249,Reclamo,Certificados,Correo electrónico,2026-08-22,2026-08-26,Cerrado
+PQRS-2026-001498,AF100183,Petición,Devolución de aportes,Presencial,2026-03-14,2026-03-18,Cerrado
+PQRS-2026-001499,AF100474,Petición,Corrección de datos,Correo electrónico,2026-05-10,2026-05-17,Cerrado
+PQRS-2026-001500,AF100175,Queja,Certificados,Web,2026-03-05,2026-03-13,Cerrado
