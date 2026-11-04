@@ -4,6 +4,8 @@
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hackwy402/python-procesamiento-ean/blob/main/02-limpieza-transformacion/PY-EAN_S02_Lab_alumno.ipynb)
 
+**Presentación de la sesión:** [PY-EAN_S02_Teoria_Limpieza-Transformacion.pdf](PY-EAN_S02_Teoria_Limpieza-Transformacion.pdf)
+
 ## Objetivos
 
 - Limpiar texto (`str.strip`, `lower`, `title`, quitar tildes) y normalizar categorías con diccionarios de mapeo.
