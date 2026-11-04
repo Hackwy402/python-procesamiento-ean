@@ -9,3 +9,5 @@
 - Hacer un primer diagnóstico de calidad del archivo de afiliados.
 
 **Datos:** `datos/afiliados.csv`, `datos/oficinas.xlsx` · **Duración:** ~70 min
+
+**Presentación de la sesión:** [PY-EAN_S01_Teoria_Fundamentos-Python-pandas.pdf](PY-EAN_S01_Teoria_Fundamentos-Python-pandas.pdf)
