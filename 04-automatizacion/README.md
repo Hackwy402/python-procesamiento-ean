@@ -2,6 +2,8 @@
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hackwy402/python-procesamiento-ean/blob/main/04-automatizacion/PY-EAN_S04_Lab_alumno.ipynb)
 
+**Presentación de la sesión:** [PY-EAN_S04_Teoria_Automatizacion.pdf](PY-EAN_S04_Teoria_Automatizacion.pdf)
+
 ## Objetivos
 
 - Convertir pasos sueltos en **funciones** reutilizables (una función = una responsabilidad).
