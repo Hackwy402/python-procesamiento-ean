@@ -1,0 +1,757 @@
+rango_edad,rango_salarial,genero,tipo_pension,cantidad
+0-19,Hasta 2,Masculino,Invalidez,0
+20-24,Hasta 2,Masculino,Invalidez,25
+25-29,Hasta 2,Masculino,Invalidez,124
+30-34,Hasta 2,Masculino,Invalidez,310
+35-39,Hasta 2,Masculino,Invalidez,693
+40-44,Hasta 2,Masculino,Invalidez,1300
+45-49,Hasta 2,Masculino,Invalidez,2298
+50-54,Hasta 2,Masculino,Invalidez,4061
+55-59,Hasta 2,Masculino,Invalidez,7591
+60-64,Hasta 2,Masculino,Invalidez,10670
+65-69,Hasta 2,Masculino,Invalidez,10280
+70-74,Hasta 2,Masculino,Invalidez,8084
+75-79,Hasta 2,Masculino,Invalidez,4475
+80-84,Hasta 2,Masculino,Invalidez,2199
+85-89,Hasta 2,Masculino,Invalidez,937
+90-94,Hasta 2,Masculino,Invalidez,335
+95-100,Hasta 2,Masculino,Invalidez,82
+100-104,Hasta 2,Masculino,Invalidez,11
+0-19,Hasta 2,Femenino,Invalidez,0
+20-24,Hasta 2,Femenino,Invalidez,19
+25-29,Hasta 2,Femenino,Invalidez,72
+30-34,Hasta 2,Femenino,Invalidez,248
+35-39,Hasta 2,Femenino,Invalidez,568
+40-44,Hasta 2,Femenino,Invalidez,1047
+45-49,Hasta 2,Femenino,Invalidez,2146
+50-54,Hasta 2,Femenino,Invalidez,3604
+55-59,Hasta 2,Femenino,Invalidez,5474
+60-64,Hasta 2,Femenino,Invalidez,6711
+65-69,Hasta 2,Femenino,Invalidez,6868
+70-74,Hasta 2,Femenino,Invalidez,4567
+75-79,Hasta 2,Femenino,Invalidez,2926
+80-84,Hasta 2,Femenino,Invalidez,1432
+85-89,Hasta 2,Femenino,Invalidez,620
+90-94,Hasta 2,Femenino,Invalidez,240
+95-100,Hasta 2,Femenino,Invalidez,67
+100-104,Hasta 2,Femenino,Invalidez,16
+0-19,Entre 2 y 4,Masculino,Invalidez,0
+20-24,Entre 2 y 4,Masculino,Invalidez,0
+25-29,Entre 2 y 4,Masculino,Invalidez,0
+30-34,Entre 2 y 4,Masculino,Invalidez,1
+35-39,Entre 2 y 4,Masculino,Invalidez,9
+40-44,Entre 2 y 4,Masculino,Invalidez,43
+45-49,Entre 2 y 4,Masculino,Invalidez,89
+50-54,Entre 2 y 4,Masculino,Invalidez,202
+55-59,Entre 2 y 4,Masculino,Invalidez,339
+60-64,Entre 2 y 4,Masculino,Invalidez,386
+65-69,Entre 2 y 4,Masculino,Invalidez,237
+70-74,Entre 2 y 4,Masculino,Invalidez,105
+75-79,Entre 2 y 4,Masculino,Invalidez,31
+80-84,Entre 2 y 4,Masculino,Invalidez,5
+85-89,Entre 2 y 4,Masculino,Invalidez,3
+90-94,Entre 2 y 4,Masculino,Invalidez,2
+95-100,Entre 2 y 4,Masculino,Invalidez,0
+100-104,Entre 2 y 4,Masculino,Invalidez,0
+0-19,Entre 2 y 4,Femenino,Invalidez,0
+20-24,Entre 2 y 4,Femenino,Invalidez,0
+25-29,Entre 2 y 4,Femenino,Invalidez,0
+30-34,Entre 2 y 4,Femenino,Invalidez,1
+35-39,Entre 2 y 4,Femenino,Invalidez,4
+40-44,Entre 2 y 4,Femenino,Invalidez,27
+45-49,Entre 2 y 4,Femenino,Invalidez,83
+50-54,Entre 2 y 4,Femenino,Invalidez,151
+55-59,Entre 2 y 4,Femenino,Invalidez,150
+60-64,Entre 2 y 4,Femenino,Invalidez,69
+65-69,Entre 2 y 4,Femenino,Invalidez,39
+70-74,Entre 2 y 4,Femenino,Invalidez,21
+75-79,Entre 2 y 4,Femenino,Invalidez,4
+80-84,Entre 2 y 4,Femenino,Invalidez,3
+85-89,Entre 2 y 4,Femenino,Invalidez,1
+90-94,Entre 2 y 4,Femenino,Invalidez,0
+95-100,Entre 2 y 4,Femenino,Invalidez,0
+100-104,Entre 2 y 4,Femenino,Invalidez,0
+0-19,Entre 4 y 7,Masculino,Invalidez,0
+20-24,Entre 4 y 7,Masculino,Invalidez,0
+25-29,Entre 4 y 7,Masculino,Invalidez,0
+30-34,Entre 4 y 7,Masculino,Invalidez,0
+35-39,Entre 4 y 7,Masculino,Invalidez,1
+40-44,Entre 4 y 7,Masculino,Invalidez,3
+45-49,Entre 4 y 7,Masculino,Invalidez,21
+50-54,Entre 4 y 7,Masculino,Invalidez,42
+55-59,Entre 4 y 7,Masculino,Invalidez,130
+60-64,Entre 4 y 7,Masculino,Invalidez,200
+65-69,Entre 4 y 7,Masculino,Invalidez,85
+70-74,Entre 4 y 7,Masculino,Invalidez,22
+75-79,Entre 4 y 7,Masculino,Invalidez,6
+80-84,Entre 4 y 7,Masculino,Invalidez,2
+85-89,Entre 4 y 7,Masculino,Invalidez,1
+90-94,Entre 4 y 7,Masculino,Invalidez,0
+95-100,Entre 4 y 7,Masculino,Invalidez,0
+100-104,Entre 4 y 7,Masculino,Invalidez,0
+0-19,Entre 4 y 7,Femenino,Invalidez,0
+20-24,Entre 4 y 7,Femenino,Invalidez,0
+25-29,Entre 4 y 7,Femenino,Invalidez,0
+30-34,Entre 4 y 7,Femenino,Invalidez,0
+35-39,Entre 4 y 7,Femenino,Invalidez,1
+40-44,Entre 4 y 7,Femenino,Invalidez,2
+45-49,Entre 4 y 7,Femenino,Invalidez,13
+50-54,Entre 4 y 7,Femenino,Invalidez,40
+55-59,Entre 4 y 7,Femenino,Invalidez,45
+60-64,Entre 4 y 7,Femenino,Invalidez,24
+65-69,Entre 4 y 7,Femenino,Invalidez,8
+70-74,Entre 4 y 7,Femenino,Invalidez,4
+75-79,Entre 4 y 7,Femenino,Invalidez,0
+80-84,Entre 4 y 7,Femenino,Invalidez,0
+85-89,Entre 4 y 7,Femenino,Invalidez,0
+90-94,Entre 4 y 7,Femenino,Invalidez,0
+95-100,Entre 4 y 7,Femenino,Invalidez,0
+100-104,Entre 4 y 7,Femenino,Invalidez,0
+0-19,Entre 7 y 10,Masculino,Invalidez,0
+20-24,Entre 7 y 10,Masculino,Invalidez,0
+25-29,Entre 7 y 10,Masculino,Invalidez,0
+30-34,Entre 7 y 10,Masculino,Invalidez,0
+35-39,Entre 7 y 10,Masculino,Invalidez,0
+40-44,Entre 7 y 10,Masculino,Invalidez,0
+45-49,Entre 7 y 10,Masculino,Invalidez,2
+50-54,Entre 7 y 10,Masculino,Invalidez,6
+55-59,Entre 7 y 10,Masculino,Invalidez,16
+60-64,Entre 7 y 10,Masculino,Invalidez,22
+65-69,Entre 7 y 10,Masculino,Invalidez,13
+70-74,Entre 7 y 10,Masculino,Invalidez,1
+75-79,Entre 7 y 10,Masculino,Invalidez,1
+80-84,Entre 7 y 10,Masculino,Invalidez,0
+85-89,Entre 7 y 10,Masculino,Invalidez,1
+90-94,Entre 7 y 10,Masculino,Invalidez,0
+95-100,Entre 7 y 10,Masculino,Invalidez,0
+100-104,Entre 7 y 10,Masculino,Invalidez,0
+0-19,Entre 7 y 10,Femenino,Invalidez,0
+20-24,Entre 7 y 10,Femenino,Invalidez,0
+25-29,Entre 7 y 10,Femenino,Invalidez,0
+30-34,Entre 7 y 10,Femenino,Invalidez,0
+35-39,Entre 7 y 10,Femenino,Invalidez,0
+40-44,Entre 7 y 10,Femenino,Invalidez,0
+45-49,Entre 7 y 10,Femenino,Invalidez,0
+50-54,Entre 7 y 10,Femenino,Invalidez,6
+55-59,Entre 7 y 10,Femenino,Invalidez,7
+60-64,Entre 7 y 10,Femenino,Invalidez,1
+65-69,Entre 7 y 10,Femenino,Invalidez,0
+70-74,Entre 7 y 10,Femenino,Invalidez,0
+75-79,Entre 7 y 10,Femenino,Invalidez,0
+80-84,Entre 7 y 10,Femenino,Invalidez,0
+85-89,Entre 7 y 10,Femenino,Invalidez,0
+90-94,Entre 7 y 10,Femenino,Invalidez,0
+95-100,Entre 7 y 10,Femenino,Invalidez,0
+100-104,Entre 7 y 10,Femenino,Invalidez,0
+0-19,Entre 10 y 13,Masculino,Invalidez,0
+20-24,Entre 10 y 13,Masculino,Invalidez,0
+25-29,Entre 10 y 13,Masculino,Invalidez,0
+30-34,Entre 10 y 13,Masculino,Invalidez,0
+35-39,Entre 10 y 13,Masculino,Invalidez,0
+40-44,Entre 10 y 13,Masculino,Invalidez,0
+45-49,Entre 10 y 13,Masculino,Invalidez,1
+50-54,Entre 10 y 13,Masculino,Invalidez,2
+55-59,Entre 10 y 13,Masculino,Invalidez,4
+60-64,Entre 10 y 13,Masculino,Invalidez,10
+65-69,Entre 10 y 13,Masculino,Invalidez,3
+70-74,Entre 10 y 13,Masculino,Invalidez,2
+75-79,Entre 10 y 13,Masculino,Invalidez,0
+80-84,Entre 10 y 13,Masculino,Invalidez,0
+85-89,Entre 10 y 13,Masculino,Invalidez,0
+90-94,Entre 10 y 13,Masculino,Invalidez,0
+95-100,Entre 10 y 13,Masculino,Invalidez,0
+100-104,Entre 10 y 13,Masculino,Invalidez,0
+0-19,Entre 10 y 13,Femenino,Invalidez,0
+20-24,Entre 10 y 13,Femenino,Invalidez,0
+25-29,Entre 10 y 13,Femenino,Invalidez,0
+30-34,Entre 10 y 13,Femenino,Invalidez,0
+35-39,Entre 10 y 13,Femenino,Invalidez,0
+40-44,Entre 10 y 13,Femenino,Invalidez,0
+45-49,Entre 10 y 13,Femenino,Invalidez,0
+50-54,Entre 10 y 13,Femenino,Invalidez,4
+55-59,Entre 10 y 13,Femenino,Invalidez,3
+60-64,Entre 10 y 13,Femenino,Invalidez,1
+65-69,Entre 10 y 13,Femenino,Invalidez,1
+70-74,Entre 10 y 13,Femenino,Invalidez,0
+75-79,Entre 10 y 13,Femenino,Invalidez,0
+80-84,Entre 10 y 13,Femenino,Invalidez,0
+85-89,Entre 10 y 13,Femenino,Invalidez,0
+90-94,Entre 10 y 13,Femenino,Invalidez,0
+95-100,Entre 10 y 13,Femenino,Invalidez,0
+100-104,Entre 10 y 13,Femenino,Invalidez,0
+0-19,Entre 13 y 16,Masculino,Invalidez,0
+20-24,Entre 13 y 16,Masculino,Invalidez,0
+25-29,Entre 13 y 16,Masculino,Invalidez,0
+30-34,Entre 13 y 16,Masculino,Invalidez,0
+35-39,Entre 13 y 16,Masculino,Invalidez,0
+40-44,Entre 13 y 16,Masculino,Invalidez,0
+45-49,Entre 13 y 16,Masculino,Invalidez,0
+50-54,Entre 13 y 16,Masculino,Invalidez,0
+55-59,Entre 13 y 16,Masculino,Invalidez,0
+60-64,Entre 13 y 16,Masculino,Invalidez,1
+65-69,Entre 13 y 16,Masculino,Invalidez,0
+70-74,Entre 13 y 16,Masculino,Invalidez,0
+75-79,Entre 13 y 16,Masculino,Invalidez,0
+80-84,Entre 13 y 16,Masculino,Invalidez,0
+85-89,Entre 13 y 16,Masculino,Invalidez,0
+90-94,Entre 13 y 16,Masculino,Invalidez,0
+95-100,Entre 13 y 16,Masculino,Invalidez,0
+100-104,Entre 13 y 16,Masculino,Invalidez,0
+0-19,Entre 13 y 16,Femenino,Invalidez,0
+20-24,Entre 13 y 16,Femenino,Invalidez,0
+25-29,Entre 13 y 16,Femenino,Invalidez,0
+30-34,Entre 13 y 16,Femenino,Invalidez,0
+35-39,Entre 13 y 16,Femenino,Invalidez,0
+40-44,Entre 13 y 16,Femenino,Invalidez,0
+45-49,Entre 13 y 16,Femenino,Invalidez,0
+50-54,Entre 13 y 16,Femenino,Invalidez,0
+55-59,Entre 13 y 16,Femenino,Invalidez,1
+60-64,Entre 13 y 16,Femenino,Invalidez,0
+65-69,Entre 13 y 16,Femenino,Invalidez,0
+70-74,Entre 13 y 16,Femenino,Invalidez,0
+75-79,Entre 13 y 16,Femenino,Invalidez,0
+80-84,Entre 13 y 16,Femenino,Invalidez,0
+85-89,Entre 13 y 16,Femenino,Invalidez,0
+90-94,Entre 13 y 16,Femenino,Invalidez,0
+95-100,Entre 13 y 16,Femenino,Invalidez,0
+100-104,Entre 13 y 16,Femenino,Invalidez,0
+0-19,Mayor a 16,Masculino,Invalidez,0
+20-24,Mayor a 16,Masculino,Invalidez,0
+25-29,Mayor a 16,Masculino,Invalidez,0
+30-34,Mayor a 16,Masculino,Invalidez,0
+35-39,Mayor a 16,Masculino,Invalidez,0
+40-44,Mayor a 16,Masculino,Invalidez,0
+45-49,Mayor a 16,Masculino,Invalidez,0
+50-54,Mayor a 16,Masculino,Invalidez,0
+55-59,Mayor a 16,Masculino,Invalidez,0
+60-64,Mayor a 16,Masculino,Invalidez,0
+65-69,Mayor a 16,Masculino,Invalidez,0
+70-74,Mayor a 16,Masculino,Invalidez,0
+75-79,Mayor a 16,Masculino,Invalidez,0
+80-84,Mayor a 16,Masculino,Invalidez,0
+85-89,Mayor a 16,Masculino,Invalidez,0
+90-94,Mayor a 16,Masculino,Invalidez,0
+95-100,Mayor a 16,Masculino,Invalidez,0
+100-104,Mayor a 16,Masculino,Invalidez,0
+0-19,Mayor a 16,Femenino,Invalidez,0
+20-24,Mayor a 16,Femenino,Invalidez,0
+25-29,Mayor a 16,Femenino,Invalidez,0
+30-34,Mayor a 16,Femenino,Invalidez,0
+35-39,Mayor a 16,Femenino,Invalidez,0
+40-44,Mayor a 16,Femenino,Invalidez,0
+45-49,Mayor a 16,Femenino,Invalidez,0
+50-54,Mayor a 16,Femenino,Invalidez,0
+55-59,Mayor a 16,Femenino,Invalidez,0
+60-64,Mayor a 16,Femenino,Invalidez,0
+65-69,Mayor a 16,Femenino,Invalidez,0
+70-74,Mayor a 16,Femenino,Invalidez,0
+75-79,Mayor a 16,Femenino,Invalidez,0
+80-84,Mayor a 16,Femenino,Invalidez,0
+85-89,Mayor a 16,Femenino,Invalidez,0
+90-94,Mayor a 16,Femenino,Invalidez,0
+95-100,Mayor a 16,Femenino,Invalidez,0
+100-104,Mayor a 16,Femenino,Invalidez,0
+0-19,Hasta 2,Masculino,Vejez,0
+20-24,Hasta 2,Masculino,Vejez,0
+25-29,Hasta 2,Masculino,Vejez,0
+30-34,Hasta 2,Masculino,Vejez,0
+35-39,Hasta 2,Masculino,Vejez,0
+40-44,Hasta 2,Masculino,Vejez,174
+45-49,Hasta 2,Masculino,Vejez,1661
+50-54,Hasta 2,Masculino,Vejez,1630
+55-59,Hasta 2,Masculino,Vejez,2516
+60-64,Hasta 2,Masculino,Vejez,82688
+65-69,Hasta 2,Masculino,Vejez,136773
+70-74,Hasta 2,Masculino,Vejez,126095
+75-79,Hasta 2,Masculino,Vejez,103932
+80-84,Hasta 2,Masculino,Vejez,61069
+85-89,Hasta 2,Masculino,Vejez,30568
+90-94,Hasta 2,Masculino,Vejez,11949
+95-100,Hasta 2,Masculino,Vejez,3283
+100-104,Hasta 2,Masculino,Vejez,595
+0-19,Hasta 2,Femenino,Vejez,0
+20-24,Hasta 2,Femenino,Vejez,0
+25-29,Hasta 2,Femenino,Vejez,0
+30-34,Hasta 2,Femenino,Vejez,0
+35-39,Hasta 2,Femenino,Vejez,0
+40-44,Hasta 2,Femenino,Vejez,11
+45-49,Hasta 2,Femenino,Vejez,296
+50-54,Hasta 2,Femenino,Vejez,493
+55-59,Hasta 2,Femenino,Vejez,54251
+60-64,Hasta 2,Femenino,Vejez,110312
+65-69,Hasta 2,Femenino,Vejez,124164
+70-74,Hasta 2,Femenino,Vejez,125667
+75-79,Hasta 2,Femenino,Vejez,85176
+80-84,Hasta 2,Femenino,Vejez,44408
+85-89,Hasta 2,Femenino,Vejez,21760
+90-94,Hasta 2,Femenino,Vejez,8868
+95-100,Hasta 2,Femenino,Vejez,2601
+100-104,Hasta 2,Femenino,Vejez,533
+0-19,Entre 2 y 4,Masculino,Vejez,0
+20-24,Entre 2 y 4,Masculino,Vejez,0
+25-29,Entre 2 y 4,Masculino,Vejez,0
+30-34,Entre 2 y 4,Masculino,Vejez,0
+35-39,Entre 2 y 4,Masculino,Vejez,0
+40-44,Entre 2 y 4,Masculino,Vejez,1
+45-49,Entre 2 y 4,Masculino,Vejez,18
+50-54,Entre 2 y 4,Masculino,Vejez,145
+55-59,Entre 2 y 4,Masculino,Vejez,634
+60-64,Entre 2 y 4,Masculino,Vejez,16804
+65-69,Entre 2 y 4,Masculino,Vejez,28120
+70-74,Entre 2 y 4,Masculino,Vejez,24668
+75-79,Entre 2 y 4,Masculino,Vejez,18983
+80-84,Entre 2 y 4,Masculino,Vejez,10508
+85-89,Entre 2 y 4,Masculino,Vejez,5546
+90-94,Entre 2 y 4,Masculino,Vejez,1727
+95-100,Entre 2 y 4,Masculino,Vejez,243
+100-104,Entre 2 y 4,Masculino,Vejez,31
+0-19,Entre 2 y 4,Femenino,Vejez,0
+20-24,Entre 2 y 4,Femenino,Vejez,0
+25-29,Entre 2 y 4,Femenino,Vejez,0
+30-34,Entre 2 y 4,Femenino,Vejez,0
+35-39,Entre 2 y 4,Femenino,Vejez,0
+40-44,Entre 2 y 4,Femenino,Vejez,1
+45-49,Entre 2 y 4,Femenino,Vejez,21
+50-54,Entre 2 y 4,Femenino,Vejez,100
+55-59,Entre 2 y 4,Femenino,Vejez,11840
+60-64,Entre 2 y 4,Femenino,Vejez,23260
+65-69,Entre 2 y 4,Femenino,Vejez,20223
+70-74,Entre 2 y 4,Femenino,Vejez,17399
+75-79,Entre 2 y 4,Femenino,Vejez,10101
+80-84,Entre 2 y 4,Femenino,Vejez,4811
+85-89,Entre 2 y 4,Femenino,Vejez,1668
+90-94,Entre 2 y 4,Femenino,Vejez,292
+95-100,Entre 2 y 4,Femenino,Vejez,46
+100-104,Entre 2 y 4,Femenino,Vejez,4
+0-19,Entre 4 y 7,Masculino,Vejez,0
+20-24,Entre 4 y 7,Masculino,Vejez,0
+25-29,Entre 4 y 7,Masculino,Vejez,0
+30-34,Entre 4 y 7,Masculino,Vejez,0
+35-39,Entre 4 y 7,Masculino,Vejez,1
+40-44,Entre 4 y 7,Masculino,Vejez,0
+45-49,Entre 4 y 7,Masculino,Vejez,4
+50-54,Entre 4 y 7,Masculino,Vejez,37
+55-59,Entre 4 y 7,Masculino,Vejez,178
+60-64,Entre 4 y 7,Masculino,Vejez,8212
+65-69,Entre 4 y 7,Masculino,Vejez,13225
+70-74,Entre 4 y 7,Masculino,Vejez,10537
+75-79,Entre 4 y 7,Masculino,Vejez,7736
+80-84,Entre 4 y 7,Masculino,Vejez,4072
+85-89,Entre 4 y 7,Masculino,Vejez,2031
+90-94,Entre 4 y 7,Masculino,Vejez,583
+95-100,Entre 4 y 7,Masculino,Vejez,69
+100-104,Entre 4 y 7,Masculino,Vejez,6
+0-19,Entre 4 y 7,Femenino,Vejez,0
+20-24,Entre 4 y 7,Femenino,Vejez,0
+25-29,Entre 4 y 7,Femenino,Vejez,0
+30-34,Entre 4 y 7,Femenino,Vejez,0
+35-39,Entre 4 y 7,Femenino,Vejez,0
+40-44,Entre 4 y 7,Femenino,Vejez,1
+45-49,Entre 4 y 7,Femenino,Vejez,12
+50-54,Entre 4 y 7,Femenino,Vejez,29
+55-59,Entre 4 y 7,Femenino,Vejez,4958
+60-64,Entre 4 y 7,Femenino,Vejez,9160
+65-69,Entre 4 y 7,Femenino,Vejez,7464
+70-74,Entre 4 y 7,Femenino,Vejez,5492
+75-79,Entre 4 y 7,Femenino,Vejez,2834
+80-84,Entre 4 y 7,Femenino,Vejez,1192
+85-89,Entre 4 y 7,Femenino,Vejez,358
+90-94,Entre 4 y 7,Femenino,Vejez,43
+95-100,Entre 4 y 7,Femenino,Vejez,9
+100-104,Entre 4 y 7,Femenino,Vejez,1
+0-19,Entre 7 y 10,Masculino,Vejez,0
+20-24,Entre 7 y 10,Masculino,Vejez,0
+25-29,Entre 7 y 10,Masculino,Vejez,0
+30-34,Entre 7 y 10,Masculino,Vejez,0
+35-39,Entre 7 y 10,Masculino,Vejez,0
+40-44,Entre 7 y 10,Masculino,Vejez,0
+45-49,Entre 7 y 10,Masculino,Vejez,0
+50-54,Entre 7 y 10,Masculino,Vejez,15
+55-59,Entre 7 y 10,Masculino,Vejez,58
+60-64,Entre 7 y 10,Masculino,Vejez,2930
+65-69,Entre 7 y 10,Masculino,Vejez,4602
+70-74,Entre 7 y 10,Masculino,Vejez,3371
+75-79,Entre 7 y 10,Masculino,Vejez,2428
+80-84,Entre 7 y 10,Masculino,Vejez,1418
+85-89,Entre 7 y 10,Masculino,Vejez,728
+90-94,Entre 7 y 10,Masculino,Vejez,199
+95-100,Entre 7 y 10,Masculino,Vejez,18
+100-104,Entre 7 y 10,Masculino,Vejez,2
+0-19,Entre 7 y 10,Femenino,Vejez,0
+20-24,Entre 7 y 10,Femenino,Vejez,0
+25-29,Entre 7 y 10,Femenino,Vejez,0
+30-34,Entre 7 y 10,Femenino,Vejez,0
+35-39,Entre 7 y 10,Femenino,Vejez,0
+40-44,Entre 7 y 10,Femenino,Vejez,0
+45-49,Entre 7 y 10,Femenino,Vejez,0
+50-54,Entre 7 y 10,Femenino,Vejez,12
+55-59,Entre 7 y 10,Femenino,Vejez,1518
+60-64,Entre 7 y 10,Femenino,Vejez,2597
+65-69,Entre 7 y 10,Femenino,Vejez,1809
+70-74,Entre 7 y 10,Femenino,Vejez,1317
+75-79,Entre 7 y 10,Femenino,Vejez,598
+80-84,Entre 7 y 10,Femenino,Vejez,247
+85-89,Entre 7 y 10,Femenino,Vejez,76
+90-94,Entre 7 y 10,Femenino,Vejez,10
+95-100,Entre 7 y 10,Femenino,Vejez,3
+100-104,Entre 7 y 10,Femenino,Vejez,0
+0-19,Entre 10 y 13,Masculino,Vejez,0
+20-24,Entre 10 y 13,Masculino,Vejez,0
+25-29,Entre 10 y 13,Masculino,Vejez,0
+30-34,Entre 10 y 13,Masculino,Vejez,0
+35-39,Entre 10 y 13,Masculino,Vejez,0
+40-44,Entre 10 y 13,Masculino,Vejez,0
+45-49,Entre 10 y 13,Masculino,Vejez,0
+50-54,Entre 10 y 13,Masculino,Vejez,0
+55-59,Entre 10 y 13,Masculino,Vejez,12
+60-64,Entre 10 y 13,Masculino,Vejez,1519
+65-69,Entre 10 y 13,Masculino,Vejez,1894
+70-74,Entre 10 y 13,Masculino,Vejez,1452
+75-79,Entre 10 y 13,Masculino,Vejez,1128
+80-84,Entre 10 y 13,Masculino,Vejez,427
+85-89,Entre 10 y 13,Masculino,Vejez,118
+90-94,Entre 10 y 13,Masculino,Vejez,29
+95-100,Entre 10 y 13,Masculino,Vejez,1
+100-104,Entre 10 y 13,Masculino,Vejez,0
+0-19,Entre 10 y 13,Femenino,Vejez,0
+20-24,Entre 10 y 13,Femenino,Vejez,0
+25-29,Entre 10 y 13,Femenino,Vejez,0
+30-34,Entre 10 y 13,Femenino,Vejez,0
+35-39,Entre 10 y 13,Femenino,Vejez,0
+40-44,Entre 10 y 13,Femenino,Vejez,0
+45-49,Entre 10 y 13,Femenino,Vejez,0
+50-54,Entre 10 y 13,Femenino,Vejez,4
+55-59,Entre 10 y 13,Femenino,Vejez,503
+60-64,Entre 10 y 13,Femenino,Vejez,657
+65-69,Entre 10 y 13,Femenino,Vejez,552
+70-74,Entre 10 y 13,Femenino,Vejez,490
+75-79,Entre 10 y 13,Femenino,Vejez,125
+80-84,Entre 10 y 13,Femenino,Vejez,37
+85-89,Entre 10 y 13,Femenino,Vejez,5
+90-94,Entre 10 y 13,Femenino,Vejez,0
+95-100,Entre 10 y 13,Femenino,Vejez,0
+100-104,Entre 10 y 13,Femenino,Vejez,0
+0-19,Entre 13 y 16,Masculino,Vejez,0
+20-24,Entre 13 y 16,Masculino,Vejez,0
+25-29,Entre 13 y 16,Masculino,Vejez,0
+30-34,Entre 13 y 16,Masculino,Vejez,0
+35-39,Entre 13 y 16,Masculino,Vejez,0
+40-44,Entre 13 y 16,Masculino,Vejez,0
+45-49,Entre 13 y 16,Masculino,Vejez,0
+50-54,Entre 13 y 16,Masculino,Vejez,0
+55-59,Entre 13 y 16,Masculino,Vejez,0
+60-64,Entre 13 y 16,Masculino,Vejez,229
+65-69,Entre 13 y 16,Masculino,Vejez,141
+70-74,Entre 13 y 16,Masculino,Vejez,484
+75-79,Entre 13 y 16,Masculino,Vejez,177
+80-84,Entre 13 y 16,Masculino,Vejez,28
+85-89,Entre 13 y 16,Masculino,Vejez,12
+90-94,Entre 13 y 16,Masculino,Vejez,0
+95-100,Entre 13 y 16,Masculino,Vejez,0
+100-104,Entre 13 y 16,Masculino,Vejez,0
+0-19,Entre 13 y 16,Femenino,Vejez,0
+20-24,Entre 13 y 16,Femenino,Vejez,0
+25-29,Entre 13 y 16,Femenino,Vejez,0
+30-34,Entre 13 y 16,Femenino,Vejez,0
+35-39,Entre 13 y 16,Femenino,Vejez,0
+40-44,Entre 13 y 16,Femenino,Vejez,0
+45-49,Entre 13 y 16,Femenino,Vejez,0
+50-54,Entre 13 y 16,Femenino,Vejez,0
+55-59,Entre 13 y 16,Femenino,Vejez,19
+60-64,Entre 13 y 16,Femenino,Vejez,25
+65-69,Entre 13 y 16,Femenino,Vejez,110
+70-74,Entre 13 y 16,Femenino,Vejez,106
+75-79,Entre 13 y 16,Femenino,Vejez,23
+80-84,Entre 13 y 16,Femenino,Vejez,8
+85-89,Entre 13 y 16,Femenino,Vejez,0
+90-94,Entre 13 y 16,Femenino,Vejez,0
+95-100,Entre 13 y 16,Femenino,Vejez,0
+100-104,Entre 13 y 16,Femenino,Vejez,0
+0-19,Mayor a 16,Masculino,Vejez,0
+20-24,Mayor a 16,Masculino,Vejez,0
+25-29,Mayor a 16,Masculino,Vejez,0
+30-34,Mayor a 16,Masculino,Vejez,0
+35-39,Mayor a 16,Masculino,Vejez,0
+40-44,Mayor a 16,Masculino,Vejez,0
+45-49,Mayor a 16,Masculino,Vejez,0
+50-54,Mayor a 16,Masculino,Vejez,0
+55-59,Mayor a 16,Masculino,Vejez,0
+60-64,Mayor a 16,Masculino,Vejez,0
+65-69,Mayor a 16,Masculino,Vejez,3
+70-74,Mayor a 16,Masculino,Vejez,50
+75-79,Mayor a 16,Masculino,Vejez,40
+80-84,Mayor a 16,Masculino,Vejez,10
+85-89,Mayor a 16,Masculino,Vejez,2
+90-94,Mayor a 16,Masculino,Vejez,0
+95-100,Mayor a 16,Masculino,Vejez,0
+100-104,Mayor a 16,Masculino,Vejez,0
+0-19,Mayor a 16,Femenino,Vejez,0
+20-24,Mayor a 16,Femenino,Vejez,0
+25-29,Mayor a 16,Femenino,Vejez,0
+30-34,Mayor a 16,Femenino,Vejez,0
+35-39,Mayor a 16,Femenino,Vejez,0
+40-44,Mayor a 16,Femenino,Vejez,0
+45-49,Mayor a 16,Femenino,Vejez,0
+50-54,Mayor a 16,Femenino,Vejez,0
+55-59,Mayor a 16,Femenino,Vejez,0
+60-64,Mayor a 16,Femenino,Vejez,0
+65-69,Mayor a 16,Femenino,Vejez,21
+70-74,Mayor a 16,Femenino,Vejez,27
+75-79,Mayor a 16,Femenino,Vejez,16
+80-84,Mayor a 16,Femenino,Vejez,3
+85-89,Mayor a 16,Femenino,Vejez,1
+90-94,Mayor a 16,Femenino,Vejez,1
+95-100,Mayor a 16,Femenino,Vejez,0
+100-104,Mayor a 16,Femenino,Vejez,0
+0-19,Hasta 2,Masculino,Sobrevivientes,2146
+20-24,Hasta 2,Masculino,Sobrevivientes,1440
+25-29,Hasta 2,Masculino,Sobrevivientes,481
+30-34,Hasta 2,Masculino,Sobrevivientes,528
+35-39,Hasta 2,Masculino,Sobrevivientes,971
+40-44,Hasta 2,Masculino,Sobrevivientes,1237
+45-49,Hasta 2,Masculino,Sobrevivientes,1817
+50-54,Hasta 2,Masculino,Sobrevivientes,2474
+55-59,Hasta 2,Masculino,Sobrevivientes,4045
+60-64,Hasta 2,Masculino,Sobrevivientes,5838
+65-69,Hasta 2,Masculino,Sobrevivientes,7029
+70-74,Hasta 2,Masculino,Sobrevivientes,7468
+75-79,Hasta 2,Masculino,Sobrevivientes,6685
+80-84,Hasta 2,Masculino,Sobrevivientes,4594
+85-89,Hasta 2,Masculino,Sobrevivientes,2935
+90-94,Hasta 2,Masculino,Sobrevivientes,1339
+95-100,Hasta 2,Masculino,Sobrevivientes,400
+100-104,Hasta 2,Masculino,Sobrevivientes,116
+0-19,Hasta 2,Femenino,Sobrevivientes,1937
+20-24,Hasta 2,Femenino,Sobrevivientes,1498
+25-29,Hasta 2,Femenino,Sobrevivientes,460
+30-34,Hasta 2,Femenino,Sobrevivientes,884
+35-39,Hasta 2,Femenino,Sobrevivientes,1993
+40-44,Hasta 2,Femenino,Sobrevivientes,3834
+45-49,Hasta 2,Femenino,Sobrevivientes,7383
+50-54,Hasta 2,Femenino,Sobrevivientes,12395
+55-59,Hasta 2,Femenino,Sobrevivientes,21845
+60-64,Hasta 2,Femenino,Sobrevivientes,33737
+65-69,Hasta 2,Femenino,Sobrevivientes,43668
+70-74,Hasta 2,Femenino,Sobrevivientes,49289
+75-79,Hasta 2,Femenino,Sobrevivientes,47526
+80-84,Hasta 2,Femenino,Sobrevivientes,38464
+85-89,Hasta 2,Femenino,Sobrevivientes,28720
+90-94,Hasta 2,Femenino,Sobrevivientes,15170
+95-100,Hasta 2,Femenino,Sobrevivientes,5273
+100-104,Hasta 2,Femenino,Sobrevivientes,1425
+0-19,Entre 2 y 4,Masculino,Sobrevivientes,145
+20-24,Entre 2 y 4,Masculino,Sobrevivientes,106
+25-29,Entre 2 y 4,Masculino,Sobrevivientes,49
+30-34,Entre 2 y 4,Masculino,Sobrevivientes,34
+35-39,Entre 2 y 4,Masculino,Sobrevivientes,79
+40-44,Entre 2 y 4,Masculino,Sobrevivientes,87
+45-49,Entre 2 y 4,Masculino,Sobrevivientes,147
+50-54,Entre 2 y 4,Masculino,Sobrevivientes,178
+55-59,Entre 2 y 4,Masculino,Sobrevivientes,254
+60-64,Entre 2 y 4,Masculino,Sobrevivientes,361
+65-69,Entre 2 y 4,Masculino,Sobrevivientes,421
+70-74,Entre 2 y 4,Masculino,Sobrevivientes,486
+75-79,Entre 2 y 4,Masculino,Sobrevivientes,484
+80-84,Entre 2 y 4,Masculino,Sobrevivientes,340
+85-89,Entre 2 y 4,Masculino,Sobrevivientes,186
+90-94,Entre 2 y 4,Masculino,Sobrevivientes,71
+95-100,Entre 2 y 4,Masculino,Sobrevivientes,15
+100-104,Entre 2 y 4,Masculino,Sobrevivientes,4
+0-19,Entre 2 y 4,Femenino,Sobrevivientes,115
+20-24,Entre 2 y 4,Femenino,Sobrevivientes,89
+25-29,Entre 2 y 4,Femenino,Sobrevivientes,33
+30-34,Entre 2 y 4,Femenino,Sobrevivientes,56
+35-39,Entre 2 y 4,Femenino,Sobrevivientes,125
+40-44,Entre 2 y 4,Femenino,Sobrevivientes,276
+45-49,Entre 2 y 4,Femenino,Sobrevivientes,531
+50-54,Entre 2 y 4,Femenino,Sobrevivientes,899
+55-59,Entre 2 y 4,Femenino,Sobrevivientes,1512
+60-64,Entre 2 y 4,Femenino,Sobrevivientes,2533
+65-69,Entre 2 y 4,Femenino,Sobrevivientes,3621
+70-74,Entre 2 y 4,Femenino,Sobrevivientes,4553
+75-79,Entre 2 y 4,Femenino,Sobrevivientes,4602
+80-84,Entre 2 y 4,Femenino,Sobrevivientes,3670
+85-89,Entre 2 y 4,Femenino,Sobrevivientes,2319
+90-94,Entre 2 y 4,Femenino,Sobrevivientes,869
+95-100,Entre 2 y 4,Femenino,Sobrevivientes,227
+100-104,Entre 2 y 4,Femenino,Sobrevivientes,34
+0-19,Entre 4 y 7,Masculino,Sobrevivientes,46
+20-24,Entre 4 y 7,Masculino,Sobrevivientes,37
+25-29,Entre 4 y 7,Masculino,Sobrevivientes,22
+30-34,Entre 4 y 7,Masculino,Sobrevivientes,9
+35-39,Entre 4 y 7,Masculino,Sobrevivientes,23
+40-44,Entre 4 y 7,Masculino,Sobrevivientes,36
+45-49,Entre 4 y 7,Masculino,Sobrevivientes,38
+50-54,Entre 4 y 7,Masculino,Sobrevivientes,58
+55-59,Entre 4 y 7,Masculino,Sobrevivientes,73
+60-64,Entre 4 y 7,Masculino,Sobrevivientes,115
+65-69,Entre 4 y 7,Masculino,Sobrevivientes,94
+70-74,Entre 4 y 7,Masculino,Sobrevivientes,114
+75-79,Entre 4 y 7,Masculino,Sobrevivientes,114
+80-84,Entre 4 y 7,Masculino,Sobrevivientes,78
+85-89,Entre 4 y 7,Masculino,Sobrevivientes,44
+90-94,Entre 4 y 7,Masculino,Sobrevivientes,19
+95-100,Entre 4 y 7,Masculino,Sobrevivientes,2
+100-104,Entre 4 y 7,Masculino,Sobrevivientes,1
+0-19,Entre 4 y 7,Femenino,Sobrevivientes,34
+20-24,Entre 4 y 7,Femenino,Sobrevivientes,27
+25-29,Entre 4 y 7,Femenino,Sobrevivientes,11
+30-34,Entre 4 y 7,Femenino,Sobrevivientes,17
+35-39,Entre 4 y 7,Femenino,Sobrevivientes,43
+40-44,Entre 4 y 7,Femenino,Sobrevivientes,74
+45-49,Entre 4 y 7,Femenino,Sobrevivientes,169
+50-54,Entre 4 y 7,Femenino,Sobrevivientes,271
+55-59,Entre 4 y 7,Femenino,Sobrevivientes,482
+60-64,Entre 4 y 7,Femenino,Sobrevivientes,761
+65-69,Entre 4 y 7,Femenino,Sobrevivientes,1042
+70-74,Entre 4 y 7,Femenino,Sobrevivientes,1387
+75-79,Entre 4 y 7,Femenino,Sobrevivientes,1396
+80-84,Entre 4 y 7,Femenino,Sobrevivientes,1012
+85-89,Entre 4 y 7,Femenino,Sobrevivientes,752
+90-94,Entre 4 y 7,Femenino,Sobrevivientes,239
+95-100,Entre 4 y 7,Femenino,Sobrevivientes,60
+100-104,Entre 4 y 7,Femenino,Sobrevivientes,7
+0-19,Entre 7 y 10,Masculino,Sobrevivientes,7
+20-24,Entre 7 y 10,Masculino,Sobrevivientes,2
+25-29,Entre 7 y 10,Masculino,Sobrevivientes,0
+30-34,Entre 7 y 10,Masculino,Sobrevivientes,3
+35-39,Entre 7 y 10,Masculino,Sobrevivientes,3
+40-44,Entre 7 y 10,Masculino,Sobrevivientes,6
+45-49,Entre 7 y 10,Masculino,Sobrevivientes,12
+50-54,Entre 7 y 10,Masculino,Sobrevivientes,12
+55-59,Entre 7 y 10,Masculino,Sobrevivientes,14
+60-64,Entre 7 y 10,Masculino,Sobrevivientes,25
+65-69,Entre 7 y 10,Masculino,Sobrevivientes,21
+70-74,Entre 7 y 10,Masculino,Sobrevivientes,20
+75-79,Entre 7 y 10,Masculino,Sobrevivientes,24
+80-84,Entre 7 y 10,Masculino,Sobrevivientes,11
+85-89,Entre 7 y 10,Masculino,Sobrevivientes,6
+90-94,Entre 7 y 10,Masculino,Sobrevivientes,3
+95-100,Entre 7 y 10,Masculino,Sobrevivientes,0
+100-104,Entre 7 y 10,Masculino,Sobrevivientes,1
+0-19,Entre 7 y 10,Femenino,Sobrevivientes,4
+20-24,Entre 7 y 10,Femenino,Sobrevivientes,7
+25-29,Entre 7 y 10,Femenino,Sobrevivientes,1
+30-34,Entre 7 y 10,Femenino,Sobrevivientes,2
+35-39,Entre 7 y 10,Femenino,Sobrevivientes,8
+40-44,Entre 7 y 10,Femenino,Sobrevivientes,12
+45-49,Entre 7 y 10,Femenino,Sobrevivientes,44
+50-54,Entre 7 y 10,Femenino,Sobrevivientes,71
+55-59,Entre 7 y 10,Femenino,Sobrevivientes,97
+60-64,Entre 7 y 10,Femenino,Sobrevivientes,200
+65-69,Entre 7 y 10,Femenino,Sobrevivientes,264
+70-74,Entre 7 y 10,Femenino,Sobrevivientes,366
+75-79,Entre 7 y 10,Femenino,Sobrevivientes,365
+80-84,Entre 7 y 10,Femenino,Sobrevivientes,355
+85-89,Entre 7 y 10,Femenino,Sobrevivientes,189
+90-94,Entre 7 y 10,Femenino,Sobrevivientes,54
+95-100,Entre 7 y 10,Femenino,Sobrevivientes,9
+100-104,Entre 7 y 10,Femenino,Sobrevivientes,0
+0-19,Entre 10 y 13,Masculino,Sobrevivientes,5
+20-24,Entre 10 y 13,Masculino,Sobrevivientes,0
+25-29,Entre 10 y 13,Masculino,Sobrevivientes,1
+30-34,Entre 10 y 13,Masculino,Sobrevivientes,2
+35-39,Entre 10 y 13,Masculino,Sobrevivientes,1
+40-44,Entre 10 y 13,Masculino,Sobrevivientes,0
+45-49,Entre 10 y 13,Masculino,Sobrevivientes,2
+50-54,Entre 10 y 13,Masculino,Sobrevivientes,1
+55-59,Entre 10 y 13,Masculino,Sobrevivientes,3
+60-64,Entre 10 y 13,Masculino,Sobrevivientes,6
+65-69,Entre 10 y 13,Masculino,Sobrevivientes,8
+70-74,Entre 10 y 13,Masculino,Sobrevivientes,8
+75-79,Entre 10 y 13,Masculino,Sobrevivientes,5
+80-84,Entre 10 y 13,Masculino,Sobrevivientes,6
+85-89,Entre 10 y 13,Masculino,Sobrevivientes,0
+90-94,Entre 10 y 13,Masculino,Sobrevivientes,0
+95-100,Entre 10 y 13,Masculino,Sobrevivientes,0
+100-104,Entre 10 y 13,Masculino,Sobrevivientes,0
+0-19,Entre 10 y 13,Femenino,Sobrevivientes,1
+20-24,Entre 10 y 13,Femenino,Sobrevivientes,1
+25-29,Entre 10 y 13,Femenino,Sobrevivientes,0
+30-34,Entre 10 y 13,Femenino,Sobrevivientes,1
+35-39,Entre 10 y 13,Femenino,Sobrevivientes,4
+40-44,Entre 10 y 13,Femenino,Sobrevivientes,3
+45-49,Entre 10 y 13,Femenino,Sobrevivientes,14
+50-54,Entre 10 y 13,Femenino,Sobrevivientes,20
+55-59,Entre 10 y 13,Femenino,Sobrevivientes,39
+60-64,Entre 10 y 13,Femenino,Sobrevivientes,59
+65-69,Entre 10 y 13,Femenino,Sobrevivientes,79
+70-74,Entre 10 y 13,Femenino,Sobrevivientes,93
+75-79,Entre 10 y 13,Femenino,Sobrevivientes,94
+80-84,Entre 10 y 13,Femenino,Sobrevivientes,55
+85-89,Entre 10 y 13,Femenino,Sobrevivientes,29
+90-94,Entre 10 y 13,Femenino,Sobrevivientes,9
+95-100,Entre 10 y 13,Femenino,Sobrevivientes,1
+100-104,Entre 10 y 13,Femenino,Sobrevivientes,0
+0-19,Entre 13 y 16,Masculino,Sobrevivientes,1
+20-24,Entre 13 y 16,Masculino,Sobrevivientes,0
+25-29,Entre 13 y 16,Masculino,Sobrevivientes,0
+30-34,Entre 13 y 16,Masculino,Sobrevivientes,1
+35-39,Entre 13 y 16,Masculino,Sobrevivientes,1
+40-44,Entre 13 y 16,Masculino,Sobrevivientes,0
+45-49,Entre 13 y 16,Masculino,Sobrevivientes,0
+50-54,Entre 13 y 16,Masculino,Sobrevivientes,2
+55-59,Entre 13 y 16,Masculino,Sobrevivientes,2
+60-64,Entre 13 y 16,Masculino,Sobrevivientes,1
+65-69,Entre 13 y 16,Masculino,Sobrevivientes,1
+70-74,Entre 13 y 16,Masculino,Sobrevivientes,1
+75-79,Entre 13 y 16,Masculino,Sobrevivientes,2
+80-84,Entre 13 y 16,Masculino,Sobrevivientes,0
+85-89,Entre 13 y 16,Masculino,Sobrevivientes,0
+90-94,Entre 13 y 16,Masculino,Sobrevivientes,0
+95-100,Entre 13 y 16,Masculino,Sobrevivientes,0
+100-104,Entre 13 y 16,Masculino,Sobrevivientes,1
+0-19,Entre 13 y 16,Femenino,Sobrevivientes,0
+20-24,Entre 13 y 16,Femenino,Sobrevivientes,0
+25-29,Entre 13 y 16,Femenino,Sobrevivientes,0
+30-34,Entre 13 y 16,Femenino,Sobrevivientes,0
+35-39,Entre 13 y 16,Femenino,Sobrevivientes,1
+40-44,Entre 13 y 16,Femenino,Sobrevivientes,0
+45-49,Entre 13 y 16,Femenino,Sobrevivientes,1
+50-54,Entre 13 y 16,Femenino,Sobrevivientes,9
+55-59,Entre 13 y 16,Femenino,Sobrevivientes,9
+60-64,Entre 13 y 16,Femenino,Sobrevivientes,6
+65-69,Entre 13 y 16,Femenino,Sobrevivientes,10
+70-74,Entre 13 y 16,Femenino,Sobrevivientes,24
+75-79,Entre 13 y 16,Femenino,Sobrevivientes,11
+80-84,Entre 13 y 16,Femenino,Sobrevivientes,1
+85-89,Entre 13 y 16,Femenino,Sobrevivientes,0
+90-94,Entre 13 y 16,Femenino,Sobrevivientes,1
+95-100,Entre 13 y 16,Femenino,Sobrevivientes,2
+100-104,Entre 13 y 16,Femenino,Sobrevivientes,0
+0-19,Mayor a 16,Masculino,Sobrevivientes,0
+20-24,Mayor a 16,Masculino,Sobrevivientes,0
+25-29,Mayor a 16,Masculino,Sobrevivientes,1
+30-34,Mayor a 16,Masculino,Sobrevivientes,0
+35-39,Mayor a 16,Masculino,Sobrevivientes,0
+40-44,Mayor a 16,Masculino,Sobrevivientes,1
+45-49,Mayor a 16,Masculino,Sobrevivientes,0
+50-54,Mayor a 16,Masculino,Sobrevivientes,0
+55-59,Mayor a 16,Masculino,Sobrevivientes,0
+60-64,Mayor a 16,Masculino,Sobrevivientes,0
+65-69,Mayor a 16,Masculino,Sobrevivientes,0
+70-74,Mayor a 16,Masculino,Sobrevivientes,1
+75-79,Mayor a 16,Masculino,Sobrevivientes,1
+80-84,Mayor a 16,Masculino,Sobrevivientes,0
+85-89,Mayor a 16,Masculino,Sobrevivientes,0
+90-94,Mayor a 16,Masculino,Sobrevivientes,1
+95-100,Mayor a 16,Masculino,Sobrevivientes,0
+100-104,Mayor a 16,Masculino,Sobrevivientes,0
+0-19,Mayor a 16,Femenino,Sobrevivientes,0
+20-24,Mayor a 16,Femenino,Sobrevivientes,0
+25-29,Mayor a 16,Femenino,Sobrevivientes,0
+30-34,Mayor a 16,Femenino,Sobrevivientes,0
+35-39,Mayor a 16,Femenino,Sobrevivientes,0
+40-44,Mayor a 16,Femenino,Sobrevivientes,0
+45-49,Mayor a 16,Femenino,Sobrevivientes,2
+50-54,Mayor a 16,Femenino,Sobrevivientes,0
+55-59,Mayor a 16,Femenino,Sobrevivientes,2
+60-64,Mayor a 16,Femenino,Sobrevivientes,1
+65-69,Mayor a 16,Femenino,Sobrevivientes,5
+70-74,Mayor a 16,Femenino,Sobrevivientes,5
+75-79,Mayor a 16,Femenino,Sobrevivientes,4
+80-84,Mayor a 16,Femenino,Sobrevivientes,4
+85-89,Mayor a 16,Femenino,Sobrevivientes,1
+90-94,Mayor a 16,Femenino,Sobrevivientes,1
+95-100,Mayor a 16,Femenino,Sobrevivientes,0
+100-104,Mayor a 16,Femenino,Sobrevivientes,0

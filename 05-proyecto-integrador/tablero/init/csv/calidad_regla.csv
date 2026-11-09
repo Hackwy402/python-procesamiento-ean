@@ -1,0 +1,10 @@
+n,tabla,regla,dimension,registros,incumplen,pct_cumplimiento
+1,afiliados,Documento con 6 a 10 dígitos,Validez,3030,15,99.5
+2,afiliados,Documento único,Unicidad,3030,75,97.52
+3,afiliados,Salario >= SMMLV,Validez,3030,106,96.5
+4,afiliados,Email con formato válido,Validez,3030,71,97.66
+5,afiliados,Ciudad en catálogo,Consistencia,3030,0,100.0
+6,aportes,Aporte = 16 % del IBC (±1 peso),Exactitud,15831,154,99.03
+7,aportes,El afiliado existe,Integridad,15831,72,99.55
+8,pqrs,Fechas coherentes,Consistencia,1500,44,97.07
+9,reales,Municipio real con código DIVIPOLA,Integridad,2104,2,99.9

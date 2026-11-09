@@ -1,22 +1,34 @@
-# Sesión 5 · Proyecto integrador: pipeline de datos de principio a fin
-
-**Caso:** Informe de PQRS y aportes para la Dirección de un fondo de pensiones (ficticio).
+# Sesión 5 · Proyecto integrador: base de datos, SQL y tablero
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hackwy402/python-procesamiento-ean/blob/main/05-proyecto-integrador/PY-EAN_S05_Proyecto_alumno.ipynb)
 
+**Presentación de la sesión:** [PY-EAN_S05_Teoria_Proyecto-Integrador.pdf](PY-EAN_S05_Teoria_Proyecto-Integrador.pdf)
+
+**Caso:** la Dirección de un fondo de pensiones (ficticio) quiere sus datos en una base formal, respuestas en SQL,
+un tablero que se actualice solo y saber cómo está frente a los **datos reales de Colpensiones**.
+
 ## Objetivos
 
-- Integrar en un solo flujo lo visto en el curso: **ingestar → procesar → validar → automatizar → reportar**.
-- Leer los 9 archivos mensuales de aportes de forma robusta (separadores y encabezados distintos).
-- Medir la calidad de los datos con 8 reglas y reportar su % de cumplimiento.
-- Calcular indicadores de PQRS (oportunidad en días hábiles) y de aportes (recaudo, regionales, mora).
-- Proteger datos personales con **seudonimización** (SHA-256 con sal) antes de compartir.
-- Exportar un Excel `Informe_Direccion_AAAAMMDD.xlsx` con un solo `main()`.
+- Integrar los **datos abiertos reales** de Colpensiones y del DANE (datos.gov.co) con los datos del fondo.
+- Cruzar fuentes con **códigos oficiales** (DIVIPOLA) y verificar lo que no cruza.
+- Diseñar un **modelo en estrella** con llaves primarias, llaves foráneas y restricciones `CHECK`.
+- Responder preguntas de negocio con **SQL**: `WHERE`, `GROUP BY`, `JOIN`, `HAVING`, `WITH` y funciones de ventana.
+- Publicar los indicadores como **vistas** y mostrarlos en un **tablero de Grafana**.
 
 ## Archivos
 
 | Archivo | Descripción |
 |---|---|
-| `PY-EAN_S05_Proyecto_alumno.ipynb` | Notebook guiado con andamiaje (completa los ✏️) |
+| `PY-EAN_S05_Proyecto_alumno.ipynb` | Notebook del laboratorio (SQLite, funciona en Colab) |
+| `pipeline_bodega.py` | Versión de producción: genera la base SQLite y la carga de PostgreSQL |
+| `tablero/` | PostgreSQL + Grafana con Docker: el tablero de la Dirección |
 
-Los datos están en [`../datos/`](../datos/). Son **sintéticos**: no corresponden a personas reales.
+```bash
+python pipeline_bodega.py --datos ../datos --salida salidas --postgres tablero/init
+cd tablero && docker compose up -d        # luego abre http://localhost:3300
+```
+
+## Datos usados
+
+- Fondo (ficticio): `datos/afiliados.csv`, `datos/aportes/`, `datos/pqrs.csv`, `datos/oficinas.xlsx`.
+- Reales (datos.gov.co, CC BY-SA 4.0): `datos/reales/`. Ver [FUENTES.md](../datos/reales/FUENTES.md).

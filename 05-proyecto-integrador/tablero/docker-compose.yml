@@ -1,0 +1,41 @@
+# Tablero del fondo de pensiones · Sesión 5 (PY-EAN · Universidad Ean)
+# Uso:   docker compose up -d        → Grafana en http://localhost:3300
+#        docker compose down -v      → apaga y borra la base (para recargarla desde init/)
+# Credenciales solo para la demo local. No las uses en un servidor real.
+services:
+  bodega:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: bodega_pensiones
+      POSTGRES_USER: analista
+      POSTGRES_PASSWORD: demo-ean-2026
+    ports:
+      - "127.0.0.1:5433:5432"          # para conectarte con DBeaver o psql
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d:ro   # modelo, datos y vistas (los genera pipeline_bodega.py)
+      - datos_bodega:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U analista -d bodega_pensiones"]
+      interval: 5s
+      retries: 20
+
+  grafana:
+    image: grafana/grafana:11.5.2
+    depends_on:
+      bodega:
+        condition: service_healthy
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: ean2026
+      GF_AUTH_ANONYMOUS_ENABLED: "true"           # se ve sin iniciar sesión (solo lectura)
+      GF_AUTH_ANONYMOUS_ORG_ROLE: Viewer
+      GF_USERS_DEFAULT_LANGUAGE: es-ES
+      GF_DASHBOARDS_DEFAULT_HOME_DASHBOARD_PATH: /var/lib/grafana/dashboards/fondo_pensiones.json
+    ports:
+      - "127.0.0.1:3300:3000"
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+
+volumes:
+  datos_bodega:
