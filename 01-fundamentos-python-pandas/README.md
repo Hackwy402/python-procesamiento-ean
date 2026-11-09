@@ -10,4 +10,4 @@
 
 **Datos:** `datos/afiliados.csv`, `datos/oficinas.xlsx` · **Duración:** ~70 min
 
-**Presentación de la sesión:** [PY-EAN_S01_Teoria_Fundamentos-Python-pandas.pdf](PY-EAN_S01_Teoria_Fundamentos-Python-pandas.pdf)
+**Presentación de la sesión:** [PDF](PY-EAN_S01_Teoria_Fundamentos-Python-pandas.pdf) · [PowerPoint](PY-EAN_S01_Teoria_Fundamentos-Python-pandas.pptx)

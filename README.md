@@ -15,6 +15,14 @@ Material de laboratorio del programa. Todo se trabaja en **Google Colab**: no ne
 | 4 | Vie 6 nov | Automatización: funciones, pipelines y reportes | [Abrir en Colab](https://colab.research.google.com/github/Hackwy402/python-procesamiento-ean/blob/main/04-automatizacion/PY-EAN_S04_Lab_alumno.ipynb) |
 | 5 | Lun 9 nov | Proyecto integrador: base de datos, SQL y tablero con datos reales | [Abrir en Colab](https://colab.research.google.com/github/Hackwy402/python-procesamiento-ean/blob/main/05-proyecto-integrador/PY-EAN_S05_Proyecto_alumno.ipynb) |
 
+## Presentaciones y material adicional
+
+- Cada carpeta de sesión trae la presentación en **PDF** y en **PowerPoint** (`.pptx`).
+- [`05-proyecto-integrador/sql/`](05-proyecto-integrador/sql/): todas las sentencias SQL de la Sesión 5, listas para
+  copiar en el notebook, en Grafana o en cualquier cliente SQL.
+- [`resueltos-en-clase/`](resueltos-en-clase/): los laboratorios de las Sesiones 1 a 4 tal como se resolvieron en vivo
+  en clase. Intenta primero el notebook de alumno y úsalos para comparar.
+
 ## Datos
 
 La carpeta [`datos/`](datos/) contiene un escenario **ficticio** de un fondo de pensiones, con errores de calidad

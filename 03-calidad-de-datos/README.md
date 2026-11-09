@@ -4,7 +4,7 @@
 
 **Jueves 5 de noviembre de 2026 · 2 horas · Google Colab**
 
-**Presentación de la sesión:** [PY-EAN_S03_Teoria_Calidad-de-Datos.pdf](PY-EAN_S03_Teoria_Calidad-de-Datos.pdf)
+**Presentación de la sesión:** [PDF](PY-EAN_S03_Teoria_Calidad-de-Datos.pdf) · [PowerPoint](PY-EAN_S03_Teoria_Calidad-de-Datos.pptx)
 
 ## Objetivos
 
