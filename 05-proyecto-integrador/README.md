@@ -25,6 +25,7 @@ un tablero que se actualice solo y saber cómo está frente a los **datos reales
 | `sql/consultas_clase.sql` | Las sentencias SQL de la clase: SELECT, GROUP BY, JOIN, HAVING, WITH, LAG, vistas y modelos |
 | `sql/demo_grafana.sql` | Las sentencias de la demo para pegar en Grafana → Explorar |
 | `pipeline_bodega.py` | Versión de producción: genera la base SQLite y la carga de PostgreSQL |
+| `tablero_streamlit/` | Tablero **público** en Streamlit: gráficos, consola SQL de solo lectura y simulación de meses |
 | `tablero/` | PostgreSQL + Grafana con Docker: tablero, simulador de llegada de meses y extracción por SQL |
 
 ```bash
