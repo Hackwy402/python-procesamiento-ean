@@ -11,19 +11,23 @@ alimentan el tablero de Grafana.
 Uso:
     python pipeline_bodega.py --datos ../datos --salida salidas
     python pipeline_bodega.py --datos ../datos --salida salidas --postgres tablero/init
+    python pipeline_bodega.py --datos tablero/datos_vivo --vivo tablero     (recarga el PostgreSQL que está corriendo)
 
 Salidas:
     salidas/bodega_pensiones.db     base SQLite (se abre con DB Browser for SQLite, DBeaver o Python)
     tablero/init/*.sql + csv/       carga inicial de PostgreSQL para el tablero (docker compose)
 """
 import argparse
+import glob
 import os
 import re
 import sqlite3
+import subprocess
 import unicodedata
 
 import numpy as np
 import pandas as pd
+from sklearn.linear_model import LinearRegression
 
 # ----------------------------------------------------------------------------- configuración
 CONFIG = {
@@ -46,16 +50,34 @@ def log(mensaje):
 
 
 # ----------------------------------------------------------------------------- 1. ingestar
+CARGAS = []        # bitácora de archivos leídos en esta corrida (se guarda en la tabla log_cargas)
+
+
+def meses_disponibles(ruta):
+    """Meses que tienen archivo de aportes. Si los datos vienen de una URL, se usan los de CONFIG."""
+    if ruta.startswith("http"):
+        return list(CONFIG["MESES"])
+    archivos = sorted(glob.glob(f"{ruta}aportes/aportes_2026-*.csv"))
+    return [int(a[-6:-4]) for a in archivos]
+
+
 def cargar_curso(ruta):
-    """Datos del curso: afiliados, PQRS, los 9 meses de aportes y el catálogo de ciudades."""
+    """Datos del curso: afiliados, PQRS, los meses de aportes que hayan llegado y el catálogo de ciudades."""
     afiliados = pd.read_csv(ruta + "afiliados.csv", dtype={"numero_documento": str, "telefono": str})
     pqrs = pd.read_csv(ruta + "pqrs.csv", parse_dates=["fecha_radicacion", "fecha_respuesta"])
     catalogo = pd.read_excel(ruta + "oficinas.xlsx", sheet_name="ciudades")
+    CONFIG["MESES"] = meses_disponibles(ruta)               # si llega octubre, se procesa solo
+    CARGAS.clear()
     partes = []
     for mes in CONFIG["MESES"]:
-        df = pd.read_csv(f"{ruta}aportes/aportes_2026-{mes:02d}.csv", sep=None, engine="python")
+        archivo = f"{ruta}aportes/aportes_2026-{mes:02d}.csv"
+        df = pd.read_csv(archivo, sep=None, engine="python")
         df.columns = df.columns.str.strip().str.lower()        # julio llega en MAYÚSCULA y con ;
         partes.append(df)
+        llegada = (pd.Timestamp.fromtimestamp(os.path.getmtime(archivo)) if os.path.exists(archivo)
+                   else pd.Timestamp.now())
+        CARGAS.append({"archivo": archivo.split("/")[-1], "periodo": f"2026-{mes:02d}", "filas": len(df),
+                       "llegada": llegada.floor("s")})
     aportes = pd.concat(partes, ignore_index=True)
     log(f"Curso: {len(afiliados):,} afiliados · {len(pqrs):,} PQRS · {len(aportes):,} aportes")
     return afiliados, pqrs, aportes, catalogo
@@ -261,6 +283,35 @@ CREATE TABLE real_pensionados_edad (
     cantidad      INTEGER NOT NULL CHECK (cantidad >= 0),
     PRIMARY KEY (rango_edad, rango_salarial, genero, tipo_pension)
 );
+CREATE TABLE log_cargas (
+    archivo       TEXT PRIMARY KEY,
+    periodo       TEXT NOT NULL,
+    filas         INTEGER NOT NULL,
+    llegada       TIMESTAMP NOT NULL
+);
+CREATE TABLE pred_recaudo (
+    periodo       TEXT PRIMARY KEY,
+    fecha         DATE NOT NULL,
+    recaudo_real  BIGINT,
+    recaudo_modelo BIGINT NOT NULL,
+    limite_inferior BIGINT,
+    limite_superior BIGINT
+);
+CREATE TABLE modelo_pensionados (
+    cod_mpio      TEXT PRIMARY KEY REFERENCES dim_municipio (cod_mpio),
+    afiliados     INTEGER NOT NULL,
+    pensionados   INTEGER NOT NULL,
+    pensionados_esperados INTEGER NOT NULL,
+    desviacion_pct DOUBLE PRECISION NOT NULL
+);
+CREATE TABLE modelo_metricas (
+    modelo        TEXT PRIMARY KEY,
+    tipo          TEXT NOT NULL,
+    metrica       TEXT NOT NULL,
+    valor         DOUBLE PRECISION NOT NULL,
+    observaciones INTEGER NOT NULL,
+    entrenado     TIMESTAMP NOT NULL
+);
 CREATE TABLE calidad_regla (
     n             INTEGER PRIMARY KEY,
     tabla         TEXT NOT NULL,
@@ -358,6 +409,14 @@ FROM dim_municipio m
 JOIN dim_departamento d ON d.cod_dpto = m.cod_dpto
 WHERE m.cod_mpio <> '00000';
 
+CREATE VIEW v_automatizacion AS
+SELECT (SELECT COUNT(*) FROM log_cargas)                       AS meses_cargados,
+       (SELECT MAX(periodo) FROM log_cargas)                   AS ultimo_periodo,
+       (SELECT MAX(llegada) FROM log_cargas)                   AS ultima_llegada,
+       (SELECT SUM(filas) FROM log_cargas)                     AS filas_recibidas,
+       (SELECT recaudo_modelo FROM pred_recaudo WHERE recaudo_real IS NULL)  AS pronostico_proximo_mes,
+       (SELECT periodo FROM pred_recaudo WHERE recaudo_real IS NULL)         AS proximo_periodo;
+
 CREATE VIEW v_comparativo_ciudades AS
 SELECT m.municipio, f.regional,
        COUNT(*)                                                                   AS afiliados_muestra_curso,
@@ -440,6 +499,109 @@ def construir_modelo(af, ap, pq, catalogo, afil_real, pens_real, edad_real, divi
             "real_pensionados_edad": real_pensionados_edad, "calidad_regla": calidad_regla}
 
 
+# ----------------------------------------------------------------------------- 4b. modelos
+def pronosticar_recaudo(fact_aporte):
+    """Regresión lineal sobre el tiempo: ajusta los meses conocidos y pronostica el siguiente.
+    Se reentrena cada vez que llega un mes nuevo."""
+    mensual = fact_aporte.groupby("periodo", as_index=False)["valor_aporte"].sum()
+    mensual["t"] = np.arange(len(mensual))
+    modelo = LinearRegression().fit(mensual[["t"]], mensual["valor_aporte"])
+    mensual["recaudo_modelo"] = modelo.predict(mensual[["t"]])
+    error = (mensual["valor_aporte"] - mensual["recaudo_modelo"]).std(ddof=1)
+    siguiente = (pd.Period(mensual["periodo"].iloc[-1], "M") + 1)
+    pron = float(modelo.predict(pd.DataFrame({"t": [len(mensual)]}))[0])
+    filas = [{"periodo": r.periodo, "fecha": pd.Period(r.periodo, "M").start_time.date(),
+              "recaudo_real": int(r.valor_aporte), "recaudo_modelo": int(round(r.recaudo_modelo)),
+              "limite_inferior": None, "limite_superior": None} for r in mensual.itertuples()]
+    filas.append({"periodo": str(siguiente), "fecha": siguiente.start_time.date(), "recaudo_real": None,
+                  "recaudo_modelo": int(round(pron)), "limite_inferior": int(round(pron - 1.96 * error)),
+                  "limite_superior": int(round(pron + 1.96 * error))})
+    tabla = pd.DataFrame(filas).astype({"recaudo_real": "Int64", "limite_inferior": "Int64",
+                                        "limite_superior": "Int64"})
+    mape = float((abs(mensual["valor_aporte"] - mensual["recaudo_modelo"]) / mensual["valor_aporte"]).mean() * 100)
+    metrica = {"modelo": "pronostico_recaudo", "tipo": "Regresión lineal (tendencia)",
+               "metrica": "MAPE %", "valor": round(mape, 2), "observaciones": len(mensual)}
+    return tabla, metrica
+
+
+def modelo_pensionados_esperados(real_afiliados, real_pensionados):
+    """Regresión log-log con datos REALES: cuántos pensionados 'debería' tener un municipio según sus
+    afiliados. La desviación señala municipios fuera de lo esperado (para revisar, no para concluir)."""
+    af = real_afiliados.groupby("cod_mpio")["cantidad"].sum().rename("afiliados")
+    pe = real_pensionados.set_index("cod_mpio")["cantidad"].rename("pensionados")
+    df = pd.concat([af, pe], axis=1).dropna()
+    df = df[(df.index != "00000") & (df["afiliados"] > 0) & (df["pensionados"] > 0)].copy()
+    X, y = np.log(df[["afiliados"]]), np.log(df["pensionados"])
+    modelo = LinearRegression().fit(X, y)
+    df["pensionados_esperados"] = np.exp(modelo.predict(X)).round().astype(int)
+    df["desviacion_pct"] = ((df["pensionados"] / df["pensionados_esperados"] - 1) * 100).round(1)
+    tabla = df.reset_index(names="cod_mpio").astype({"afiliados": int, "pensionados": int})
+    metrica = {"modelo": "pensionados_esperados", "tipo": "Regresión log-log (datos reales)",
+               "metrica": "R2", "valor": round(float(modelo.score(X, y)), 3), "observaciones": len(df)}
+    return tabla, metrica
+
+
+def agregar_modelos(tablas):
+    """Entrena los modelos y agrega sus resultados como tablas de la bodega."""
+    pred, m1 = pronosticar_recaudo(tablas["fact_aporte"])
+    pens, m2 = modelo_pensionados_esperados(tablas["real_afiliados"], tablas["real_pensionados"])
+    ahora = pd.Timestamp.now().floor("s")
+    tablas["log_cargas"] = pd.DataFrame(CARGAS, columns=["archivo", "periodo", "filas", "llegada"])
+    tablas["pred_recaudo"] = pred
+    tablas["modelo_pensionados"] = pens
+    tablas["modelo_metricas"] = pd.DataFrame([m1, m2]).assign(entrenado=ahora)
+    return tablas
+
+
+# ----------------------------------------------------------------------------- 4c. simulador de llegada
+def simular_mes(aportes, pqrs, mes, retencion=0.99, semilla=None):
+    """Genera el archivo de aportes y las PQRS de un mes nuevo a partir del último mes conocido.
+    retencion < 1 hace que menos afiliados aporten (sube la mora y baja el recaudo)."""
+    rng = np.random.default_rng(semilla if semilla is not None else 2026 + mes)
+    periodo = f"2026-{mes:02d}"
+    ultimo = aportes[aportes["periodo"] == aportes["periodo"].max()].drop_duplicates("id_afiliado")
+    base = aportes.drop_duplicates("id_afiliado", keep="last")
+    p = min(1.0, len(ultimo) / len(base)) * retencion
+    nuevo = base[rng.random(len(base)) < p][["id_afiliado", "ibc", "operador"]].copy()
+    nuevo["periodo"] = periodo
+    nuevo["valor_aporte"] = (nuevo["ibc"] * CONFIG["TASA_APORTE"]).round().astype(int)
+    errores = rng.random(len(nuevo)) < 0.01
+    nuevo.loc[errores, "valor_aporte"] = (nuevo.loc[errores, "valor_aporte"] * 0.9).round().astype(int)
+    fin_mes = pd.Period(periodo, "M").end_time.normalize()
+    dias = rng.integers(1, 28, len(nuevo)) + np.where(rng.random(len(nuevo)) < 0.05, 60, 0)
+    nuevo["fecha_pago"] = (fin_mes + pd.to_timedelta(dias, unit="D")).strftime("%Y-%m-%d")
+    nuevo = nuevo[["id_afiliado", "periodo", "ibc", "valor_aporte", "fecha_pago", "operador"]]
+
+    n = int(rng.integers(150, 190))
+    ultimo_rad = int(pqrs["radicado"].str[-6:].astype(int).max())
+    rad = pd.Period(periodo, "M").start_time + pd.to_timedelta(rng.integers(0, 28, n), unit="D")
+    cerrada = rng.random(n) < 0.88
+    resp = rad + pd.to_timedelta(rng.integers(1, 30, n), unit="D")
+    nuevas = pd.DataFrame({
+        "radicado": [f"PQRS-2026-{ultimo_rad + i + 1:06d}" for i in range(n)],
+        "id_afiliado": rng.choice(pqrs["id_afiliado"].unique(), n),
+        "tipo": rng.choice(pqrs["tipo"], n), "tema": rng.choice(pqrs["tema"], n),
+        "canal": rng.choice(pqrs["canal"], n),
+        "fecha_radicacion": pd.Series(rad).dt.strftime("%Y-%m-%d"),
+        "fecha_respuesta": pd.Series(resp).dt.strftime("%Y-%m-%d").where(cerrada, None),
+        "estado": np.where(cerrada, "Cerrado", rng.choice(["Abierto", "En trámite"], n)),
+    })
+    return nuevo, nuevas
+
+
+def cargar_postgres_vivo(tablas, carpeta_tablero, proyecto="tablero-ean"):
+    """Recarga el PostgreSQL del tablero (que ya está corriendo) en una sola transacción:
+    Grafana nunca ve la base a medias."""
+    partes = ["BEGIN;", "TRUNCATE " + ", ".join(tablas) + " CASCADE;"]
+    for nombre, df in tablas.items():
+        partes.append(f"COPY {nombre} ({', '.join(df.columns)}) FROM STDIN WITH (FORMAT csv, HEADER true);")
+        partes.append(df.to_csv(index=False) + "\\.")
+    partes.append("COMMIT;")
+    subprocess.run(["docker", "compose", "-p", proyecto, "exec", "-T", "bodega", "psql", "-q",
+                    "-v", "ON_ERROR_STOP=1", "-U", "analista", "-d", "bodega_pensiones"],
+                   input="\n".join(partes), text=True, cwd=carpeta_tablero, check=True, capture_output=True)
+
+
 # ----------------------------------------------------------------------------- 5. cargar
 def cargar_sqlite(tablas, ruta_db):
     """Crea la base desde cero: DDL → INSERT de cada tabla (en orden de dependencias) → vistas."""
@@ -472,7 +634,7 @@ def exportar_postgres(tablas, carpeta):
 
 
 # ----------------------------------------------------------------------------- main
-def main(ruta_datos="../datos/", salida="salidas", carpeta_postgres=None):
+def main(ruta_datos="../datos/", salida="salidas", carpeta_postgres=None, carpeta_vivo=None):
     log("=== Inicio del pipeline de la bodega ===")
     ruta_datos = ruta_datos.rstrip("/") + "/"
     os.makedirs(salida, exist_ok=True)
@@ -485,6 +647,7 @@ def main(ruta_datos="../datos/", salida="salidas", carpeta_postgres=None):
     calidad = evaluar_calidad(afiliados, aportes, pqrs, catalogo, afil_real)
     tablas = construir_modelo(afiliados, aportes, pqrs, catalogo, afil_real, pens_real,
                               edad_real, divipola, calidad)
+    tablas = agregar_modelos(tablas)
     ruta_db = os.path.join(salida, "bodega_pensiones.db")
     con = cargar_sqlite(tablas, ruta_db)
     for nombre in tablas:
@@ -498,6 +661,9 @@ def main(ruta_datos="../datos/", salida="salidas", carpeta_postgres=None):
     if carpeta_postgres:
         exportar_postgres(tablas, carpeta_postgres)
         log(f"Carga para PostgreSQL: {carpeta_postgres}")
+    if carpeta_vivo:
+        cargar_postgres_vivo(tablas, carpeta_vivo)
+        log(f"PostgreSQL del tablero recargado ({len(CONFIG['MESES'])} meses): Grafana ya lo muestra")
     log("=== Fin ===")
     return ruta_db
 
@@ -507,5 +673,6 @@ if __name__ == "__main__":
     p.add_argument("--datos", default="../datos", help="carpeta con los datos del curso")
     p.add_argument("--salida", default="salidas", help="carpeta para la base SQLite")
     p.add_argument("--postgres", default=None, help="carpeta para la carga de PostgreSQL (tablero/init)")
+    p.add_argument("--vivo", default=None, help="carpeta del docker compose: recarga el PostgreSQL en caliente")
     a = p.parse_args()
-    main(a.datos, a.salida, a.postgres)
+    main(a.datos, a.salida, a.postgres, a.vivo)

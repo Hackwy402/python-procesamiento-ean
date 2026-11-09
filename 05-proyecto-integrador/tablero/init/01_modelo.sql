@@ -69,6 +69,35 @@ CREATE TABLE real_pensionados_edad (
     cantidad      INTEGER NOT NULL CHECK (cantidad >= 0),
     PRIMARY KEY (rango_edad, rango_salarial, genero, tipo_pension)
 );
+CREATE TABLE log_cargas (
+    archivo       TEXT PRIMARY KEY,
+    periodo       TEXT NOT NULL,
+    filas         INTEGER NOT NULL,
+    llegada       TIMESTAMP NOT NULL
+);
+CREATE TABLE pred_recaudo (
+    periodo       TEXT PRIMARY KEY,
+    fecha         DATE NOT NULL,
+    recaudo_real  BIGINT,
+    recaudo_modelo BIGINT NOT NULL,
+    limite_inferior BIGINT,
+    limite_superior BIGINT
+);
+CREATE TABLE modelo_pensionados (
+    cod_mpio      TEXT PRIMARY KEY REFERENCES dim_municipio (cod_mpio),
+    afiliados     INTEGER NOT NULL,
+    pensionados   INTEGER NOT NULL,
+    pensionados_esperados INTEGER NOT NULL,
+    desviacion_pct DOUBLE PRECISION NOT NULL
+);
+CREATE TABLE modelo_metricas (
+    modelo        TEXT PRIMARY KEY,
+    tipo          TEXT NOT NULL,
+    metrica       TEXT NOT NULL,
+    valor         DOUBLE PRECISION NOT NULL,
+    observaciones INTEGER NOT NULL,
+    entrenado     TIMESTAMP NOT NULL
+);
 CREATE TABLE calidad_regla (
     n             INTEGER PRIMARY KEY,
     tabla         TEXT NOT NULL,

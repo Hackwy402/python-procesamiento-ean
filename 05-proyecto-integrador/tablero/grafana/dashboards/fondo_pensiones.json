@@ -12,10 +12,550 @@
     "from": "2025-12-01T00:00:00.000Z",
     "to": "2026-09-30T23:59:59.000Z"
   },
-  "refresh": "",
+  "refresh": "5s",
   "schemaVersion": 39,
+  "templating": {
+    "list": [
+      {
+        "name": "regional",
+        "label": "Regional",
+        "type": "query",
+        "datasource": {
+          "type": "grafana-postgresql-datasource",
+          "uid": "bodega"
+        },
+        "query": "SELECT DISTINCT regional FROM dim_afiliado WHERE regional IS NOT NULL ORDER BY 1",
+        "definition": "SELECT DISTINCT regional FROM dim_afiliado WHERE regional IS NOT NULL ORDER BY 1",
+        "multi": true,
+        "includeAll": true,
+        "refresh": 1,
+        "current": {
+          "selected": true,
+          "text": [
+            "All"
+          ],
+          "value": [
+            "$__all"
+          ]
+        }
+      }
+    ]
+  },
   "version": 1,
   "panels": [
+    {
+      "type": "row",
+      "id": 21,
+      "title": "Automatización en vivo · cada archivo que llega recarga la base y reentrena el modelo (refresco 5 s)",
+      "collapsed": false,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "panels": []
+    },
+    {
+      "type": "stat",
+      "id": 22,
+      "title": "Meses cargados",
+      "description": "",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "bodega"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 0,
+        "y": 1
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "grafana-postgresql-datasource",
+            "uid": "bodega"
+          },
+          "rawQuery": true,
+          "editorMode": "code",
+          "format": "table",
+          "rawSql": "SELECT meses_cargados FROM v_automatizacion"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "locale",
+          "decimals": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "#0A2240",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "textMode": "value",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        }
+      }
+    },
+    {
+      "type": "stat",
+      "id": 23,
+      "title": "Último periodo recibido",
+      "description": "",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "bodega"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 4,
+        "y": 1
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "grafana-postgresql-datasource",
+            "uid": "bodega"
+          },
+          "rawQuery": true,
+          "editorMode": "code",
+          "format": "table",
+          "rawSql": "SELECT ultimo_periodo FROM v_automatizacion"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "locale",
+          "decimals": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "#0A2240",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "textMode": "value",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "/.*/",
+          "values": false
+        }
+      }
+    },
+    {
+      "type": "stat",
+      "id": 24,
+      "title": "Última llegada",
+      "description": "",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "bodega"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 8,
+        "y": 1
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "grafana-postgresql-datasource",
+            "uid": "bodega"
+          },
+          "rawQuery": true,
+          "editorMode": "code",
+          "format": "table",
+          "rawSql": "SELECT CAST(ultima_llegada AS TEXT) AS llegada FROM v_automatizacion"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "locale",
+          "decimals": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "#0A2240",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "textMode": "value",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "/.*/",
+          "values": false
+        }
+      }
+    },
+    {
+      "type": "stat",
+      "id": 25,
+      "title": "Recaudo del último mes (millones $)",
+      "description": "",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "bodega"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 12,
+        "y": 1
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "grafana-postgresql-datasource",
+            "uid": "bodega"
+          },
+          "rawQuery": true,
+          "editorMode": "code",
+          "format": "table",
+          "rawSql": "SELECT ROUND(recaudo / 1e6) AS recaudo FROM v_recaudo_mensual ORDER BY periodo DESC LIMIT 1"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "locale",
+          "decimals": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "#0B3C91",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "textMode": "value",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        }
+      }
+    },
+    {
+      "type": "stat",
+      "id": 26,
+      "title": "Pronóstico del próximo mes (millones $)",
+      "description": "Regresión lineal sobre los meses conocidos. Se reentrena con cada archivo nuevo.",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "bodega"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 16,
+        "y": 1
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "grafana-postgresql-datasource",
+            "uid": "bodega"
+          },
+          "rawQuery": true,
+          "editorMode": "code",
+          "format": "table",
+          "rawSql": "SELECT ROUND(pronostico_proximo_mes / 1e6) AS pronostico FROM v_automatizacion"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "locale",
+          "decimals": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "#F2A900",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "textMode": "value",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        }
+      }
+    },
+    {
+      "type": "stat",
+      "id": 27,
+      "title": "Activos en mora",
+      "description": "",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "bodega"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 4,
+        "x": 20,
+        "y": 1
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "grafana-postgresql-datasource",
+            "uid": "bodega"
+          },
+          "rawQuery": true,
+          "editorMode": "code",
+          "format": "table",
+          "rawSql": "SELECT activos_en_mora FROM v_kpi_fondo"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "locale",
+          "decimals": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "#008542",
+                "value": null
+              },
+              {
+                "color": "#F2A900",
+                "value": 30
+              },
+              {
+                "color": "#B02A26",
+                "value": 80
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "textMode": "value",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        }
+      }
+    },
+    {
+      "type": "barchart",
+      "id": 28,
+      "title": "Recaudo real frente al modelo (millones $): la última barra es el pronóstico",
+      "description": "",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "bodega"
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 15,
+        "x": 0,
+        "y": 5
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "grafana-postgresql-datasource",
+            "uid": "bodega"
+          },
+          "rawQuery": true,
+          "editorMode": "code",
+          "format": "table",
+          "rawSql": "SELECT periodo,\n       ROUND(recaudo_real / 1e6)   AS real,\n       ROUND(recaudo_modelo / 1e6) AS modelo\nFROM pred_recaudo\nORDER BY periodo"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "locale",
+          "color": {
+            "mode": "fixed",
+            "fixedColor": "#0B3C91"
+          },
+          "custom": {
+            "fillOpacity": 85,
+            "lineWidth": 0,
+            "axisSoftMin": 880
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "real"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#0B3C91"
+                }
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "modelo"
+            },
+            "properties": [
+              {
+                "id": "color",
+                "value": {
+                  "mode": "fixed",
+                  "fixedColor": "#F2A900"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "options": {
+        "orientation": "vertical",
+        "stacking": "none",
+        "showValue": "never",
+        "xTickLabelRotation": 0,
+        "barWidth": 0.8,
+        "groupWidth": 0.8,
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "mode": "multi"
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": 29,
+      "title": "Bitácora de cargas (log_cargas)",
+      "description": "",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "bodega"
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 9,
+        "x": 15,
+        "y": 5
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "grafana-postgresql-datasource",
+            "uid": "bodega"
+          },
+          "rawQuery": true,
+          "editorMode": "code",
+          "format": "table",
+          "rawSql": "SELECT archivo, filas, CAST(llegada AS TEXT) AS llegada\nFROM log_cargas\nORDER BY periodo DESC"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm"
+      }
+    },
     {
       "type": "row",
       "id": 1,
@@ -25,7 +565,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 0
+        "y": 14
       },
       "panels": []
     },
@@ -42,7 +582,7 @@
         "h": 4,
         "w": 6,
         "x": 0,
-        "y": 1
+        "y": 15
       },
       "targets": [
         {
@@ -102,7 +642,7 @@
         "h": 4,
         "w": 6,
         "x": 6,
-        "y": 1
+        "y": 15
       },
       "targets": [
         {
@@ -162,7 +702,7 @@
         "h": 4,
         "w": 6,
         "x": 12,
-        "y": 1
+        "y": 15
       },
       "targets": [
         {
@@ -222,7 +762,7 @@
         "h": 4,
         "w": 6,
         "x": 18,
-        "y": 1
+        "y": 15
       },
       "targets": [
         {
@@ -281,7 +821,7 @@
         "h": 16,
         "w": 10,
         "x": 0,
-        "y": 5
+        "y": 19
       },
       "targets": [
         {
@@ -374,7 +914,7 @@
         "h": 8,
         "w": 14,
         "x": 10,
-        "y": 5
+        "y": 19
       },
       "targets": [
         {
@@ -464,7 +1004,7 @@
         "h": 8,
         "w": 9,
         "x": 10,
-        "y": 13
+        "y": 27
       },
       "targets": [
         {
@@ -553,7 +1093,7 @@
         "h": 8,
         "w": 5,
         "x": 19,
-        "y": 13
+        "y": 27
       },
       "targets": [
         {
@@ -603,7 +1143,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 21
+        "y": 35
       },
       "panels": []
     },
@@ -620,7 +1160,7 @@
         "h": 4,
         "w": 6,
         "x": 0,
-        "y": 22
+        "y": 36
       },
       "targets": [
         {
@@ -680,7 +1220,7 @@
         "h": 4,
         "w": 6,
         "x": 6,
-        "y": 22
+        "y": 36
       },
       "targets": [
         {
@@ -744,7 +1284,7 @@
         "h": 4,
         "w": 6,
         "x": 12,
-        "y": 22
+        "y": 36
       },
       "targets": [
         {
@@ -812,7 +1352,7 @@
         "h": 4,
         "w": 6,
         "x": 18,
-        "y": 22
+        "y": 36
       },
       "targets": [
         {
@@ -880,7 +1420,7 @@
         "h": 8,
         "w": 12,
         "x": 0,
-        "y": 26
+        "y": 40
       },
       "targets": [
         {
@@ -940,7 +1480,7 @@
         "h": 8,
         "w": 12,
         "x": 12,
-        "y": 26
+        "y": 40
       },
       "targets": [
         {
@@ -952,7 +1492,7 @@
           "rawQuery": true,
           "editorMode": "code",
           "format": "table",
-          "rawSql": "SELECT regional, ROUND(recaudo / 1e6) AS recaudo\nFROM v_recaudo_regional\nORDER BY recaudo DESC"
+          "rawSql": "SELECT regional, ROUND(recaudo / 1e6) AS recaudo\nFROM v_recaudo_regional\nWHERE regional IN ($regional)\nORDER BY recaudo DESC"
         }
       ],
       "fieldConfig": {
@@ -998,7 +1538,7 @@
         "h": 8,
         "w": 12,
         "x": 0,
-        "y": 34
+        "y": 48
       },
       "targets": [
         {
@@ -1064,7 +1604,7 @@
         "h": 8,
         "w": 12,
         "x": 12,
-        "y": 34
+        "y": 48
       },
       "targets": [
         {
@@ -1131,7 +1671,7 @@
     {
       "type": "table",
       "id": 19,
-      "title": "Afiliados en mora (seudonimizados: sin nombre ni documento)",
+      "title": "Afiliados en mora (seudonimizados) · filtra con la variable Regional",
       "description": "",
       "datasource": {
         "type": "grafana-postgresql-datasource",
@@ -1141,7 +1681,7 @@
         "h": 9,
         "w": 12,
         "x": 0,
-        "y": 42
+        "y": 56
       },
       "targets": [
         {
@@ -1153,7 +1693,7 @@
           "rawQuery": true,
           "editorMode": "code",
           "format": "table",
-          "rawSql": "SELECT doc_seudo, municipio, regional, meses_con_aporte, meses_sin_aporte\nFROM v_mora\nORDER BY meses_sin_aporte DESC, regional"
+          "rawSql": "SELECT doc_seudo, municipio, regional, meses_con_aporte, meses_sin_aporte\nFROM v_mora\nWHERE regional IN ($regional)\nORDER BY meses_sin_aporte DESC, regional"
         }
       ],
       "fieldConfig": {
@@ -1214,7 +1754,7 @@
         "h": 9,
         "w": 12,
         "x": 12,
-        "y": 42
+        "y": 56
       },
       "targets": [
         {
@@ -1236,6 +1776,216 @@
           }
         },
         "overrides": []
+      },
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm"
+      }
+    },
+    {
+      "type": "row",
+      "id": 30,
+      "title": "Modelos · resultados guardados como tablas de la bodega",
+      "collapsed": false,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 65
+      },
+      "panels": []
+    },
+    {
+      "type": "stat",
+      "id": 31,
+      "title": "R² · pensionados esperados (datos reales)",
+      "description": "Regresión log-log: pensionados según afiliados, 1.042 municipios reales.",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "bodega"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 0,
+        "y": 66
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "grafana-postgresql-datasource",
+            "uid": "bodega"
+          },
+          "rawQuery": true,
+          "editorMode": "code",
+          "format": "table",
+          "rawSql": "SELECT valor FROM modelo_metricas WHERE modelo = 'pensionados_esperados'"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "locale",
+          "decimals": 3,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "#008542",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "textMode": "value",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        }
+      }
+    },
+    {
+      "type": "stat",
+      "id": 32,
+      "title": "Error medio del pronóstico (MAPE %)",
+      "description": "",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "bodega"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 6,
+        "x": 0,
+        "y": 70
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "grafana-postgresql-datasource",
+            "uid": "bodega"
+          },
+          "rawQuery": true,
+          "editorMode": "code",
+          "format": "table",
+          "rawSql": "SELECT valor FROM modelo_metricas WHERE modelo = 'pronostico_recaudo'"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percent",
+          "decimals": 2,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "#F2A900",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "textMode": "value",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        }
+      }
+    },
+    {
+      "type": "table",
+      "id": 33,
+      "title": "Municipios con más pensionados de lo esperado (20.000+ afiliados)",
+      "description": "",
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "bodega"
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 18,
+        "x": 6,
+        "y": 66
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "grafana-postgresql-datasource",
+            "uid": "bodega"
+          },
+          "rawQuery": true,
+          "editorMode": "code",
+          "format": "table",
+          "rawSql": "SELECT m.municipio, d.departamento, p.afiliados, p.pensionados, p.pensionados_esperados, p.desviacion_pct\nFROM modelo_pensionados p\nJOIN dim_municipio m    ON m.cod_mpio = p.cod_mpio\nJOIN dim_departamento d ON d.cod_dpto = m.cod_dpto\nWHERE p.afiliados >= 20000\nORDER BY p.desviacion_pct DESC\nLIMIT 12"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "align": "auto"
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "desviacion_pct"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "type": "color-background",
+                  "mode": "basic"
+                }
+              },
+              {
+                "id": "thresholds",
+                "value": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "#008542",
+                      "value": null
+                    },
+                    {
+                      "color": "#F2A900",
+                      "value": 30
+                    },
+                    {
+                      "color": "#B02A26",
+                      "value": 60
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
       },
       "options": {
         "showHeader": true,

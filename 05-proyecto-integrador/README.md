@@ -14,6 +14,8 @@ un tablero que se actualice solo y saber cómo está frente a los **datos reales
 - Diseñar un **modelo en estrella** con llaves primarias, llaves foráneas y restricciones `CHECK`.
 - Responder preguntas de negocio con **SQL**: `WHERE`, `GROUP BY`, `JOIN`, `HAVING`, `WITH` y funciones de ventana.
 - Publicar los indicadores como **vistas** y mostrarlos en un **tablero de Grafana**.
+- **Integrar modelos** (pronóstico del recaudo y pensionados esperados con datos reales) como tablas de la bodega.
+- Ver la **automatización completa**: llega un mes nuevo y la base, los modelos y el tablero se actualizan solos.
 
 ## Archivos
 
@@ -21,7 +23,7 @@ un tablero que se actualice solo y saber cómo está frente a los **datos reales
 |---|---|
 | `PY-EAN_S05_Proyecto_alumno.ipynb` | Notebook del laboratorio (SQLite, funciona en Colab) |
 | `pipeline_bodega.py` | Versión de producción: genera la base SQLite y la carga de PostgreSQL |
-| `tablero/` | PostgreSQL + Grafana con Docker: el tablero de la Dirección |
+| `tablero/` | PostgreSQL + Grafana con Docker: tablero, simulador de llegada de meses y extracción por SQL |
 
 ```bash
 python pipeline_bodega.py --datos ../datos --salida salidas --postgres tablero/init

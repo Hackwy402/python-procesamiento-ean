@@ -85,6 +85,14 @@ FROM dim_municipio m
 JOIN dim_departamento d ON d.cod_dpto = m.cod_dpto
 WHERE m.cod_mpio <> '00000';
 
+CREATE VIEW v_automatizacion AS
+SELECT (SELECT COUNT(*) FROM log_cargas)                       AS meses_cargados,
+       (SELECT MAX(periodo) FROM log_cargas)                   AS ultimo_periodo,
+       (SELECT MAX(llegada) FROM log_cargas)                   AS ultima_llegada,
+       (SELECT SUM(filas) FROM log_cargas)                     AS filas_recibidas,
+       (SELECT recaudo_modelo FROM pred_recaudo WHERE recaudo_real IS NULL)  AS pronostico_proximo_mes,
+       (SELECT periodo FROM pred_recaudo WHERE recaudo_real IS NULL)         AS proximo_periodo;
+
 CREATE VIEW v_comparativo_ciudades AS
 SELECT m.municipio, f.regional,
        COUNT(*)                                                                   AS afiliados_muestra_curso,

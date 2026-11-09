@@ -1,0 +1,3 @@
+modelo,tipo,metrica,valor,observaciones,entrenado
+pronostico_recaudo,Regresión lineal (tendencia),MAPE %,0.48,9,2026-11-08 23:29:50
+pensionados_esperados,Regresión log-log (datos reales),R2,0.829,1042,2026-11-08 23:29:50

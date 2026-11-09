@@ -9,3 +9,7 @@ COPY real_afiliados (cod_mpio, genero, cantidad) FROM '/docker-entrypoint-initdb
 COPY real_pensionados (cod_mpio, cantidad) FROM '/docker-entrypoint-initdb.d/csv/real_pensionados.csv' WITH (FORMAT csv, HEADER true);
 COPY real_pensionados_edad (rango_edad, rango_salarial, genero, tipo_pension, cantidad) FROM '/docker-entrypoint-initdb.d/csv/real_pensionados_edad.csv' WITH (FORMAT csv, HEADER true);
 COPY calidad_regla (n, tabla, regla, dimension, registros, incumplen, pct_cumplimiento) FROM '/docker-entrypoint-initdb.d/csv/calidad_regla.csv' WITH (FORMAT csv, HEADER true);
+COPY log_cargas (archivo, periodo, filas, llegada) FROM '/docker-entrypoint-initdb.d/csv/log_cargas.csv' WITH (FORMAT csv, HEADER true);
+COPY pred_recaudo (periodo, fecha, recaudo_real, recaudo_modelo, limite_inferior, limite_superior) FROM '/docker-entrypoint-initdb.d/csv/pred_recaudo.csv' WITH (FORMAT csv, HEADER true);
+COPY modelo_pensionados (cod_mpio, afiliados, pensionados, pensionados_esperados, desviacion_pct) FROM '/docker-entrypoint-initdb.d/csv/modelo_pensionados.csv' WITH (FORMAT csv, HEADER true);
+COPY modelo_metricas (modelo, tipo, metrica, valor, observaciones, entrenado) FROM '/docker-entrypoint-initdb.d/csv/modelo_metricas.csv' WITH (FORMAT csv, HEADER true);

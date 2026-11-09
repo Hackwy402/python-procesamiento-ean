@@ -13,3 +13,7 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 datos.zip
+
+# Demo en vivo de la Sesión 5
+05-proyecto-integrador/tablero/datos_vivo/
+05-proyecto-integrador/tablero/salidas_vivo/

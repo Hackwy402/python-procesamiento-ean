@@ -4,10 +4,10 @@ datasources:
     uid: bodega
     type: grafana-postgresql-datasource
     url: bodega:5432
-    user: analista
+    user: lector_grafana        # solo lectura: desde Grafana no se puede modificar la base
     isDefault: true
     secureJsonData:
-      password: demo-ean-2026
+      password: solo-lectura-2026
     jsonData:
       database: bodega_pensiones
       sslmode: disable

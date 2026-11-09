@@ -29,6 +29,7 @@ services:
       GF_SECURITY_ADMIN_PASSWORD: ean2026
       GF_AUTH_ANONYMOUS_ENABLED: "true"           # se ve sin iniciar sesión (solo lectura)
       GF_AUTH_ANONYMOUS_ORG_ROLE: Viewer
+      GF_USERS_VIEWERS_CAN_EDIT: "true"            # permite usar Explore (escribir SQL) sin iniciar sesión
       GF_USERS_DEFAULT_LANGUAGE: es-ES
       GF_DASHBOARDS_DEFAULT_HOME_DASHBOARD_PATH: /var/lib/grafana/dashboards/fondo_pensiones.json
     ports:
